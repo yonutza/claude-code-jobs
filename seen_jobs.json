@@ -1,4 +1,13 @@
 {
-  "seen_ids": [],
-  "last_run": null
+  "seen_ids": [
+    "greenhouse_customer_success_manager_datadog",
+    "greenhouse_customer_success_manager_enterprise_similarweb",
+    "linkedin_customer_success_manager_cybellum",
+    "linkedin_customer_success_manager_gaviti",
+    "linkedin_customer_success_manager_hebrew_speaking_mongodb",
+    "lever_strategy_operations_cloudinary",
+    "linkedin_operations_and_office_manager_xternity_games",
+    "alljobs_sales_operations_manager_unknown"
+  ],
+  "last_run": "2026-07-03T12:00:00Z"
 }

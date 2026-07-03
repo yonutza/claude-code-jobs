@@ -1,5 +1,82 @@
 {
-  "generated_at": null,
-  "cs_jobs": [],
-  "ops_jobs": []
+  "generated_at": "2026-07-03T12:00:00Z",
+  "note": "Manual run performed live in chat because the automated trigger got stuck (WebFetch on LinkedIn/Greenhouse/Lever/AllJobs job pages returns 403 Forbidden — bot blocking). Company/role details below are based on WebSearch result snippets only, not verified by fetching each job page.",
+  "cs_jobs": [
+    {
+      "id": "greenhouse_customer_success_manager_datadog",
+      "company": "Datadog",
+      "details": "חברה ציבורית (NASDAQ), ענקית תוכנה בינלאומית ל-observability, יציבה מאוד",
+      "title": "Customer Success Manager",
+      "location": "Tel Aviv",
+      "german": false,
+      "url": "https://boards.greenhouse.io/datadog/jobs/7599421"
+    },
+    {
+      "id": "greenhouse_customer_success_manager_enterprise_similarweb",
+      "company": "Similarweb",
+      "details": "חברה ציבורית (NYSE: SMWB), אנליטיקס דיגיטלי, לקוחות בינלאומיים",
+      "title": "Customer Success Manager, Enterprise",
+      "location": "Tel Aviv",
+      "german": false,
+      "url": "https://boards.greenhouse.io/similarweb/jobs/6124872"
+    },
+    {
+      "id": "linkedin_customer_success_manager_cybellum",
+      "company": "Cybellum",
+      "details": "סטארטאפ סייבר לרכב, גייס מימון, לקוחות OEM בינלאומיים (תעשייה פיזית)",
+      "title": "Customer Success Manager",
+      "location": "Tel Aviv District",
+      "german": false,
+      "url": "https://il.linkedin.com/jobs/view/customer-success-manager-at-cybellum-3404103158"
+    },
+    {
+      "id": "linkedin_customer_success_manager_gaviti",
+      "company": "Gaviti",
+      "details": "סטארטאפ פינטק (גביית חובות/AR SaaS), גייס מימון, לקוחות בינלאומיים",
+      "title": "Customer Success Manager",
+      "location": "Tel Aviv",
+      "german": false,
+      "url": "https://il.linkedin.com/jobs/view/customer-success-manager-at-gaviti-3157526044"
+    },
+    {
+      "id": "linkedin_customer_success_manager_hebrew_speaking_mongodb",
+      "company": "MongoDB",
+      "details": "חברה ציבורית ענקית, בסיסי נתונים, בינלאומית מאוד",
+      "title": "Customer Success Manager - Hebrew Speaking",
+      "location": "Tel Aviv-Yafo (Hybrid)",
+      "german": false,
+      "url": "https://il.linkedin.com/jobs/view/customer-success-manager-hebrew-speaking-at-mongodb-3802341813"
+    }
+  ],
+  "ops_jobs": [
+    {
+      "id": "lever_strategy_operations_cloudinary",
+      "company": "Cloudinary",
+      "details": "חברת SaaS ישראלית-בינלאומית מבוססת (ניהול מדיה), גייסה מימון משמעותי בעבר",
+      "title": "Strategy & Operations (משרות פתוחות בעמוד החברה)",
+      "location": "Tel Aviv",
+      "german": false,
+      "url": "https://jobs.lever.co/cloudinary",
+      "caveat": "לא הצלחתי לשלוף קישור למשרה ספציפית בגלל חסימת 403 — יש לבדוק ישירות בעמוד"
+    },
+    {
+      "id": "linkedin_operations_and_office_manager_xternity_games",
+      "company": "Xternity Games",
+      "details": "סטארטאפ גיימינג/בלוקצ'יין מוקדם, מתואר כ'hyper growth' — פחות יציב, לשיקולך",
+      "title": "Operations and Office Manager",
+      "location": "Tel Aviv",
+      "german": false,
+      "url": "https://il.linkedin.com/jobs/view/operations-and-office-manager-at-xternity-games-2965175996"
+    },
+    {
+      "id": "alljobs_sales_operations_manager_unknown",
+      "company": "לא זוהתה מהחיפוש",
+      "details": "דורשת ניסיון ב-Sales Operations בסביבה גלובלית/טכנולוגית, Salesforce",
+      "title": "Sales Operations Manager",
+      "location": "Tel Aviv",
+      "german": false,
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8219898",
+      "caveat": "שם החברה לא זוהה מתקציר החיפוש בגלל חסימת 403 בכניסה לעמוד"
+    }
+  ]
 }
