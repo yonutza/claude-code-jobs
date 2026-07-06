@@ -6,7 +6,22 @@
     "sta_ops_upsolver", "sta_cs_ops_manager", "sta_cs_biz_ops",
     "sta_sales_ops_manager", "sta_biz_ops_kaltura", "sta_sales_ops_guideline",
     "linkedin_ops_manager_ta", "glassdoor_sales_ops", "builtin_ops_israel",
-    "sta_gtm_monday"
+    "sta_gtm_monday",
+    "alljobs_customer_success_manager___europe_unknown",
+    "alljobs_customer_success_manager__w__freight_unknown",
+    "alljobs_customer_success_manager___csm_unknown",
+    "linkedin_customer_success_manager_hour_one",
+    "linkedin_customer_success_manager_gaviti",
+    "linkedin_customer_success_manager___hebrew_speakin_mongodb",
+    "salesforce_customer_success_manager_salesforce",
+    "startup_jobs_technical_customer_success_manag_connecteam",
+    "alljobs_customer_success_manager___with_a_me_unknown",
+    "startup_jobs_partnerships_success_manager_pagaya",
+    "techbiz_operations_manager_techbiz_global_gmb",
+    "linkedin_sales_operations_agora",
+    "sta_israel_operations_manager_unknown",
+    "lever_sales_operations_manager_jobgether",
+    "lever_sales_strategy_and_operations_ma_jobgether"
   ],
-  "last_run": "2026-06-30T20:55:00"
+  "last_run": "2026-07-06T09:30:00"
 }
