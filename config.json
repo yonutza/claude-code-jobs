@@ -1,0 +1,26 @@
+{
+  "search_terms": {
+    "cs": ["customer success", "customer success manager", "CSM", "לקוחות", "הצלחת לקוחות"],
+    "operations": ["operations", "ops", "operation manager", "אופרציה", "תפעול", "RevOps", "Sales Ops", "Customer Ops"]
+  },
+  "filters": {
+    "exclude_seniority": ["senior", "sr.", "lead", "head of", "director", "vp", "principal", "staff", "בכיר"],
+    "include_locations": ["תל אביב", "גוש דן", "מרכז", "רמת גן", "פתח תקווה", "הרצליה", "רעננה", "חיפה", "יקנעם", "tel aviv", "herzliya", "raanana", "haifa", "yokneam", "center"],
+    "target_count_per_type": 10
+  },
+  "german_preference": {
+    "enabled": true,
+    "search_terms": ["German speaker", "German language", "Deutsch", "Deutschkenntnisse", "דובר גרמנית", "דוברי גרמנית"],
+    "score_bonus": 2,
+    "marker": "🇩🇪",
+    "note": "Candidate speaks German — prioritize roles that list German as requirement or advantage"
+  },
+  "sources": {
+    "alljobs": true,
+    "gotfriends": true,
+    "linkedin": true,
+    "nisha": true,
+    "secret_tel_aviv": true,
+    "greenhouse_lever": true
+  }
+}

@@ -1,13 +1,12 @@
 {
   "seen_ids": [
-    "greenhouse_customer_success_manager_datadog",
-    "greenhouse_customer_success_manager_enterprise_similarweb",
-    "linkedin_customer_success_manager_cybellum",
-    "linkedin_customer_success_manager_gaviti",
-    "linkedin_customer_success_manager_hebrew_speaking_mongodb",
-    "lever_strategy_operations_cloudinary",
-    "linkedin_operations_and_office_manager_xternity_games",
-    "alljobs_sales_operations_manager_unknown"
+    "linkedin_csm_tipalti", "linkedin_csm_cynet", "linkedin_csm_cybellum",
+    "greenhouse_csm_similarweb", "sta_junior_csm", "sta_csm_6", "sta_csm_605",
+    "sta_csm_french", "sta_cyber_csm", "linkedin_csm_influ2",
+    "sta_ops_upsolver", "sta_cs_ops_manager", "sta_cs_biz_ops",
+    "sta_sales_ops_manager", "sta_biz_ops_kaltura", "sta_sales_ops_guideline",
+    "linkedin_ops_manager_ta", "glassdoor_sales_ops", "builtin_ops_israel",
+    "sta_gtm_monday"
   ],
-  "last_run": "2026-07-03T12:00:00Z"
+  "last_run": "2026-06-30T20:55:00"
 }
