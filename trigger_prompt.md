@@ -41,7 +41,7 @@ German-focused searches:
 12. WebSearch: "German speaker" OR "Deutsch" operations manager Israel jobs
 13. WebSearch: "דובר גרמנית" customer success OR operations Israel
 
-For promising individual job URLs, use WebFetch to extract title, company, location, direct apply URL, and whether German is mentioned.
+For promising individual job URLs, use WebFetch to extract title, company, location, direct apply URL, and whether German is mentioned. If WebFetch on a job page fails (403/blocked), fall back to the WebSearch result snippet instead of skipping the job entirely.
 
 ## STEP 3 — Filter & classify
 CS: customer success, CSM, account manager, client success, customer experience, CX manager
@@ -76,10 +76,12 @@ Skip IDs already in seen_ids. Skip duplicate title+company within today's result
 ---
 סה"כ: N משרות חדשות | X עם יתרון גרמנית 🇩🇪
 
-## STEP 7 — Update repo
-1. Append new job IDs to seen_jobs.json "seen_ids", set "last_run" to current ISO timestamp
+## STEP 7 — Update repo (fixed 2026-07-08: this environment has no GitHub connector, so plain `git push` fails — there's no credential behind it. Do NOT revert to bare `git push` without auth.)
+1. Append new job IDs to seen_jobs.json "seen_ids", set "last_run" to current ISO timestamp (do this even if 0 new jobs were found)
 2. Save today's full results to latest_results.json
-3. Use mcp__github__push_files to push seen_jobs.json and latest_results.json to branch claude/job-scraper-agent-adj5hh (since git push returns 403 in this environment)
+3. Authenticate: `git remote set-url origin` to a URL with a repo-scoped GitHub token embedded (the live token lives only in the trigger's own job_config, not in this file — see RemoteTrigger get on trig_012WrPEA3xhPhgo1zmvvZr9B). It's a fine-grained PAT scoped to Contents: Read/Write on this repo only, and expires ~2026-10-06 — rotate it before then.
+4. `git add seen_jobs.json latest_results.json && git commit -m "Daily job scan $(date +%Y-%m-%d)" && git push origin claude/job-scraper-agent-adj5hh`
+5. If push fails, retry once with `git pull --rebase origin claude/job-scraper-agent-adj5hh && git push origin claude/job-scraper-agent-adj5hh`
 
 ## STEP 8 — Push notification
 PushNotification message: "משרות חדשות: X CS + Y Ops (Z 🇩🇪 גרמנית) | לחץ לפרטים"

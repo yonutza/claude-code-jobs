@@ -103,7 +103,7 @@
 4. **סנן, דרג, ובחר** לפי הקריטריונים למעלה
 5. **הדפס דוח** בפורמט הנ"ל
 6. **עדכן** `seen_jobs.json` ו-`latest_results.json`
-7. **Push לריפו** דרך `mcp__github__push_files` (git push מחזיר 403 בסביבה זו)
+7. **Push לריפו**: `git remote set-url origin` עם טוקן (מוגדר בתוך job_config של הטריגר, לא בקובץ הזה), ואז `git add && git commit && git push origin claude/job-scraper-agent-adj5hh` — ראה STEP 7 המלא ב-`trigger_prompt.md`
 8. **PushNotification:** `"משרות חדשות: X CS + Y Ops (Z 🇩🇪 גרמנית)"`
 
 ---
