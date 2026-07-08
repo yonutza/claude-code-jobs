@@ -1,5 +1,133 @@
 {
-  "run_date": "2026-07-08T15:20:23.307201",
-  "cs": [],
-  "operations": []
+  "run_date": "2026-07-08T15:26:11.784266",
+  "cs": [
+    {
+      "url": "https://il.linkedin.com/jobs/view/customer-success-manager-at-manpower-israel-4401592881",
+      "company": "Manpower Israel",
+      "title": "Customer Success Manager",
+      "location": "Center District, Israel",
+      "source": "LinkedIn",
+      "description": "Responsible for driving customer satisfaction and long-term relationships with global customers.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "linkedin_749aed7f3d7b3301",
+      "score": 1
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4298176397",
+      "company": "SpareEat",
+      "title": "מנהל/ת הצלחת לקוחות ועסקים",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "LinkedIn",
+      "description": "מוביל/ת חווית לקוח.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_86e424037b6f6603",
+      "score": 0
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/3457681390?alternateChannel=search&refId=Wu6NUWCPXag2IO6kGcnprw%253D%253D&trackingId=3Fl53BHSGdF97h4W7wdOIA%253D%253D",
+      "company": "Browsi",
+      "title": "Customer Success Manager",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "LinkedIn",
+      "description": "As a Customer Success Manager at Browsi you will be responsible for growing and maintaining relationships.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_d7707c71be530167",
+      "score": 0
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4325760466",
+      "company": "Partner",
+      "title": "Strategic Account Manager – Public Sector",
+      "location": "Center District, Israel",
+      "source": "LinkedIn",
+      "description": "Key Account Manager.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_54c48a34d0f2564a",
+      "score": 0
+    }
+  ],
+  "operations": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8599223",
+      "company": "",
+      "title": "Strategy & Operations Manager",
+      "location": "",
+      "source": "AllJobs",
+      "description": "We are seeking a high-impact Strategy & Operations Manager to act as a force multiplier for our Strategy team.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_681b8bda2347afd1",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8600963",
+      "company": "",
+      "title": "Publisher Operations Manager",
+      "location": "",
+      "source": "AllJobs",
+      "description": "We are looking for a Publisher Operations Manager to oversee and support publisher partnerships.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_483aad0d3efc1a57",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8647426",
+      "company": "",
+      "title": "People Operations Coordinator",
+      "location": "",
+      "source": "AllJobs",
+      "description": "Manage the front desk on the R&D floor, ensuring a welcoming and professional atmosphere.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_9031cc7c000f0a5e",
+      "score": 0
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4427459210",
+      "company": "The5ers.com",
+      "title": "Office Operations Manager",
+      "location": "Raanana, Center District, Israel",
+      "source": "LinkedIn",
+      "description": "Get notified about new Office Operations Manager jobs.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_7ecbadb032de1cd7",
+      "score": 0
+    },
+    {
+      "url": "https://boards.greenhouse.io/clearfield/jobs/8035857",
+      "company": "CLEAR - Field",
+      "title": "Operations Manager (LAS)",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "The Operations Manager will be a part of our airport leadership team.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_ce641dd8fd556f2e",
+      "score": 0
+    }
+  ]
 }
