@@ -1,5 +1,15 @@
 # Daily Job Scraper Trigger Prompt
 
+**SUPERSEDED 2026-07-08:** this trigger's sandboxed environment blocks git
+pushes carrying an embedded credential (confirmed: a manual test run found
+10 CS + 10 Ops jobs but the push was rejected by the environment's security
+policy, so nothing was ever persisted). Daily automation now runs via
+`.github/workflows/daily-scan.yml` (GitHub Actions, using Tavily + GPT-4o
+and GitHub's own encrypted Secrets, driven by `scan.py` + `job_scraper.py` +
+`config.json`). The trigger below has been disabled, not deleted, in case
+the sandbox restriction is ever lifted. Keep this file as a record of the
+original approach.
+
 **Trigger ID:** trig_012WrPEA3xhPhgo1zmvvZr9B  
 **Schedule:** 05:03 UTC (08:03 Israel time) every day  
 **Trigger name:** Daily Job Scraper v2 - CS + Ops + German Preference

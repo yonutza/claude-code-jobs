@@ -1,5 +1,10 @@
 # Job Scraper – Daily CS & Operations Israel
 
+> **עודכן 2026-07-08:** האוטומציה היומית עברה ל-GitHub Actions
+> (`.github/workflows/daily-scan.yml` + `scan.py`) כי הסביבה המבודדת של
+> הטריגר חוסמת git push עם credential מוטמע. הטריגר `trig_012WrPEA3xhPhgo1zmvvZr9B`
+> מושבת (לא נמחק) — ראו הערה מלאה ב-`trigger_prompt.md`.
+
 ## מה הסקיל הזה עושה
 מפעיל סריקת משרות יומית ידנית, או מנהל את הטריגר האוטומטי (יצירה / עדכון / בדיקת סטטוס).
 

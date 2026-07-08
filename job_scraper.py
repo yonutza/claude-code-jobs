@@ -89,6 +89,10 @@ def score_job(job: dict) -> int:
     if any(t in text for t in GERMAN_TERMS):
         score += 2
         job["german"] = True
+    if job.get("physical_product") or job.get("europe_customers"):
+        score += 1
+    if job.get("stable_growth"):
+        score += 1
     return score
 
 
