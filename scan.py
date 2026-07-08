@@ -24,7 +24,6 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
 from urllib.parse import urlparse
 
 from tavily import TavilyClient
@@ -236,7 +235,6 @@ def main():
     js.update_seen(results)
     js.save_results(results)
     write_readme(results)
-    write_email(results)
 
     total = len(results["cs"]) + len(results["operations"])
     log(f"Done. {total} new jobs ({len(results['cs'])} CS, {len(results['operations'])} Ops).")
@@ -259,66 +257,6 @@ def write_readme(results):
     ]
     with open(js.BASE_DIR / "README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
-
-
-def _job_rows_html(jobs):
-    if not jobs:
-        return '<tr><td colspan="3" style="padding:8px;color:#666;">אין משרות חדשות</td></tr>'
-    rows = []
-    for j in jobs:
-        flag = "🇩🇪 " if j.get("german") else ""
-        company = j.get("company") or "?"
-        rows.append(
-            '<tr>'
-            f'<td style="padding:8px;border-bottom:1px solid #eee;">{company}</td>'
-            f'<td style="padding:8px;border-bottom:1px solid #eee;">'
-            f'<a href="{j.get("url", "")}">{flag}{j.get("title", "")}</a></td>'
-            f'<td style="padding:8px;border-bottom:1px solid #eee;">{j.get("location", "")}</td>'
-            '</tr>'
-        )
-    return "\n".join(rows)
-
-
-def write_email(results):
-    run_date = datetime.now().strftime("%d/%m/%Y")
-    cs_jobs = results["cs"]
-    ops_jobs = results["operations"]
-    total = len(cs_jobs) + len(ops_jobs)
-    german_count = sum(1 for j in cs_jobs + ops_jobs if j.get("german"))
-
-    subject = f"משרות חדשות: {len(cs_jobs)} CS + {len(ops_jobs)} Ops"
-    if german_count:
-        subject += f" ({german_count} 🇩🇪)"
-    if total == 0:
-        subject = "דוח משרות יומי: אין משרות חדשות היום"
-
-    html = f"""\
-<!DOCTYPE html>
-<html dir="rtl" lang="he">
-<head><meta charset="utf-8"></head>
-<body style="font-family: Arial, sans-serif; color:#222;">
-<h2>דוח משרות יומי - {run_date}</h2>
-<h3>Customer Success ({len(cs_jobs)} משרות)</h3>
-<table style="border-collapse: collapse; width:100%; text-align:right;">
-<tr style="background:#f5f5f5;"><th style="padding:8px;">חברה</th><th style="padding:8px;">תפקיד</th><th style="padding:8px;">מיקום</th></tr>
-{_job_rows_html(cs_jobs)}
-</table>
-<h3>Operations ({len(ops_jobs)} משרות)</h3>
-<table style="border-collapse: collapse; width:100%; text-align:right;">
-<tr style="background:#f5f5f5;"><th style="padding:8px;">חברה</th><th style="padding:8px;">תפקיד</th><th style="padding:8px;">מיקום</th></tr>
-{_job_rows_html(ops_jobs)}
-</table>
-<p style="color:#666;font-size:13px;">סה"כ: {total} משרות חדשות{f" | {german_count} עם יתרון גרמנית 🇩🇪" if german_count else ""}</p>
-</body>
-</html>
-"""
-    with open(js.BASE_DIR / "email_body.html", "w", encoding="utf-8") as f:
-        f.write(html)
-
-    gh_output = os.environ.get("GITHUB_OUTPUT")
-    if gh_output:
-        with open(gh_output, "a", encoding="utf-8") as f:
-            f.write(f"subject={subject}\n")
 
 
 if __name__ == "__main__":
