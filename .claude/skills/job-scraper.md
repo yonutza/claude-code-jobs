@@ -1,12 +1,12 @@
 # Job Scraper – Daily CS & Operations Israel
 
-> **עודכן 2026-07-08:** האוטומציה היומית עברה ל-GitHub Actions
-> (`.github/workflows/daily-scan.yml` + `scan.py`) כי הסביבה המבודדת של
-> הטריגר חוסמת git push עם credential מוטמע. הטריגר `trig_012WrPEA3xhPhgo1zmvvZr9B`
-> מושבת (לא נמחק) — ראו הערה מלאה ב-`trigger_prompt.md`.
+## מה זה
+סריקת משרות יומית אוטומטית ל-Customer Success ו-Operations בישראל, עם דדופ בין הרצות.
 
-## מה הסקיל הזה עושה
-מפעיל סריקת משרות יומית ידנית, או מנהל את הטריגר האוטומטי (יצירה / עדכון / בדיקת סטטוס).
+**ארכיטקטורה נוכחית (מ-2026-07-08): GitHub Actions**, לא טריגר של Claude. הסיבה: נבנה במקור
+טריגר מתוזמן של Claude (WebSearch/WebFetch) — הוא כן מצא משרות טובות, אבל הסביבה המבודדת שלו
+חוסמת `git push` עם credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סודות מסביבות אוטומטיות, לא
+באג) — כך שהתוצאות מעולם לא נשמרו. פרטים מלאים ב-`trigger_prompt.md`. הטריגר מושבת (לא נמחק).
 
 ---
 
@@ -14,54 +14,43 @@
 
 - **ניסיון:** ~2 שנים (לא SENIOR, לא LEAD, לא DIRECTOR)
 - **תחומים:** Customer Success (CS) + Operations
-- **שפות:** עברית + **גרמנית** (יתרון — מסמן 🇩🇪 ומעלה ראשון)
+- **שפות:** עברית + **גרמנית** (יתרון — מסמן 🇩🇪, +2 ניקוד)
 - **מיקום:** גוש דן / חיפה / יקנעם / Remote / Hybrid
 - **העדפת חברה:** בינונית, נציגות בינלאומית, לקוחות באירופה, צמיחה / אחרי גיוס, **מוצר פיזי** (לא ענן טכנולוגי עמוק)
 - **דוגמאות חברות מתאימות:** SolarEdge, Topgum
+- **יעד:** 10 CS + 10 Ops = 20 משרות, קישור ישיר + שם חברה + מיקום
+
+כל הקריטריונים האלה מוגדרים במרכז אחד: **`config.json`**. אם צריך לשנות משהו (מיקומים, מונחי
+חיפוש, הפעלת/כיבוי גרמנית) — שנו שם, לא בקוד.
 
 ---
 
-## יעד
+## איך זה רץ בפועל
 
-| קטגוריה | כמות |
-|---|---|
-| Customer Success | 10 |
-| Operations | 10 |
-| **סה"כ** | **20** |
-
-פורמט פלט: קישור ישיר למשרה + שם חברה + מיקום + מקור + 🇩🇪 אם רלוונטי
-
----
-
-## אתרים לסריקה
-
-1. LinkedIn (`il.linkedin.com/jobs`)
-2. AllJobs (`alljobs.co.il`)
-3. Gotfriends (`gotfriends.co.il`)
-4. Nisha (`nisha.co.il`)
-5. Secret Tel Aviv (`jobs.secrettelaviv.com`)
-6. Greenhouse (`boards.greenhouse.io`)
-7. Lever (`jobs.lever.co`)
+1. **`.github/workflows/daily-scan.yml`** — GitHub Actions, cron `0 5 * * *` (05:00 UTC ≈ 08:00
+   ישראל בקיץ, 07:00 בחורף — cron לא עוקב אחרי שעון קיץ), וגם `workflow_dispatch` להרצה ידנית.
+   יש `concurrency` group ו-retry אחד עם `git pull --rebase` אם הענף זז בזמן ה-push.
+2. **`scan.py`** — הסקריפט שרץ:
+   - בונה שאילתות Tavily מ-`config.json` (`sources` + `search_terms`), עם `include_domains`
+     לכל אתר (**לא** `site:` בטקסט השאילתה — Tavily הוא חיפוש סמנטי ולא מפרש את זה כאופרטור).
+   - מסנן החוצה עמודי רשימה/חיפוש (URL patterns כמו `SearchResultsGuest.aspx`, `?page=`) לפני
+     שהם מגיעים ל-GPT — אחרת רוב מה שחוזר הן דפי קטגוריה, לא משרות בודדות.
+   - GPT-4o מחלץ שדות נקיים + שיפוט איכותי (מוצר פיזי / לקוחות אירופה / חברה יציבה / גרמנית)
+     לכל פריט. **חשוב:** לא מבקשים מ-GPT לסנן גם לפי seniority באותו prompt — זה גורם לו להיות
+     שמרן מדי ולהחזיר כמעט כלום. הסינון לפי seniority נעשה דטרמיניסטית בשלב הבא.
+   - **`job_scraper.py`** עושה את הסינון הדטרמיניסטי: `is_senior()`, `is_valid_location()`,
+     `classify_job()` (CS/Ops לפי מילות מפתח), דדופ מול `seen_jobs.json`, ניקוד, וחיתוך ל-10
+     הכי גבוהים בכל קטגוריה. שומר את `latest_results.json` ומעדכן README.
+3. **Routine של Claude** (`verify-daily-job-scan`, ~08:19 ישראל) — קורא את `latest_results.json`
+   ושולח Push Notification עם מספר המשרות. זה מחליף את מנגנון האימייל/פוש שהיה לטריגר הישן.
 
 ---
 
-## פילטרים
-
-**להוציא** (seniority): `senior, sr, lead, head of, director, vp, principal, staff, בכיר, team lead`
-
-**מיקומים מותרים:** תל אביב, גוש דן, רמת גן, הרצליה, רעננה, פתח תקווה, ראשון לציון, נתניה, חיפה, יקנעם, remote, hybrid
-
-**מונחי CS:** customer success, CSM, account manager, client success, customer experience, CX manager, הצלחת לקוחות
-
-**מונחי Ops:** operations manager, ops manager, RevOps, sales ops, customer operations, business ops, biz ops, תפעול, אופרציה
-
----
-
-## ניקוד עדיפות (מיון בתוך כל קטגוריה)
+## ניקוד עדיפות (מיון בתוך כל קטגוריה, ב-`job_scraper.score_job`)
 
 | תנאי | נקודות |
 |---|---|
-| גרמנית מוזכרת (German speaker / Deutsch / דובר גרמנית) | +2 → 🇩🇪 ראשון |
+| גרמנית מוזכרת | +2 |
 | מוצר פיזי / לקוחות אירופה | +1 |
 | חברה בצמיחה / אחרי גיוס | +1 |
 
@@ -69,72 +58,16 @@
 
 ## מניעת כפילויות
 
-- קובץ `seen_jobs.json` בריפו שומר את ה-IDs של כל משרה שדווחה
-- פורמט ID: `{source}_{title[:40]}_{company[:20]}` (lowercase, non-alphanumeric → `_`)
-- כל הרצה: קורא seen_ids → מדלג על ישנות → מוסיף חדשות → שומר
+- `seen_jobs.json` שומר את ה-IDs של כל משרה שדווחה, מוגבל ל-1000 האחרונים
+- ID: hash של ה-URL (`stable_id()` ב-`scan.py`) — לא של הכותרת/חברה, כי GPT עלול לנסח את שם
+  החברה קצת אחרת בכל הרצה, מה שהיה שובר דדופ מבוסס-כותרת
 
 ---
 
-## פורמט דוח
+## תקלות ידועות ומקובלות (לא לרדוף אחריהן בלי בקשה מפורשת)
 
-```
-# דוח משרות יומי - DD/MM/YYYY
-
-## Customer Success (N משרות)
-1. 🇩🇪 **[Company](url)** – Title
-   _Location | Source_
-2. **[Company](url)** – Title
-   _Location | Source_
-...
-
-## Operations (N משרות)
-1. **[Company](url)** – Title
-   _Location | Source_
-...
-
----
-סה"כ: N משרות חדשות | X עם יתרון גרמנית 🇩🇪
-```
-
----
-
-## הרצה ידנית (כשרוצים עכשיו ולא לחכות לבוקר)
-
-כשמפעילים `/job-scraper`, בצע:
-
-1. **קרא** `seen_jobs.json` → טען את `seen_ids`
-2. **חפש** בכל הפלטפורמות דרך WebSearch (13 חיפושים — ראה רשימה בטריגר)
-3. **WebFetch** על URLs בודדים להוצאת פרטים
-4. **סנן, דרג, ובחר** לפי הקריטריונים למעלה
-5. **הדפס דוח** בפורמט הנ"ל
-6. **עדכן** `seen_jobs.json` ו-`latest_results.json`
-7. **Push לריפו**: `git remote set-url origin` עם טוקן (מוגדר בתוך job_config של הטריגר, לא בקובץ הזה), ואז `git add && git commit && git push origin claude/job-scraper-agent-adj5hh` — ראה STEP 7 המלא ב-`trigger_prompt.md`
-8. **PushNotification:** `"משרות חדשות: X CS + Y Ops (Z 🇩🇪 גרמנית)"`
-
----
-
-## ניהול הטריגר האוטומטי
-
-### בדיקת סטטוס
-```
-list triggers → בדוק שיש טריגר פעיל בשם "Daily Job Scraper"
-```
-
-### יצירת טריגר חדש (אם אין או נמחק)
-```
-create_trigger:
-  name: "Daily Job Scraper - CS + Ops + German"
-  cron: "3 5 * * *"  (08:03 ישראל = 05:03 UTC)
-  environment_id: env_014CNg8FsZwTr5U93c8tBH4x
-  create_new_session_on_fire: true
-  notifications: {push: true, email: true}
-  prompt: [השתמש בתוכן trigger_prompt.md מהריפו]
-```
-
-### מחיקת טריגר ישן
-```
-delete_trigger: trig_012WrPEA3xhPhgo1zmvvZr9B
-```
+- **AllJobs** — הרבה משרות שם אנונימיות (שם חברה ריק), זו תכונה של האתר לא כשל בחילוץ
+- **Greenhouse** — לוח משרות גלובלי; משרה שאינה בישראל יכולה להיכנס לפעמים כש-location ריק
 
 ---
 
@@ -142,18 +75,24 @@ delete_trigger: trig_012WrPEA3xhPhgo1zmvvZr9B
 
 | קובץ | תפקיד |
 |---|---|
-| `seen_jobs.json` | זיכרון — IDs של משרות שדווחו |
+| `scan.py` | האורקסטרטור — Tavily + GPT-4o, רץ ע"י GitHub Actions |
+| `job_scraper.py` | לוגיקת פילטר / דדופ / ניקוד / שמירה (משותף, לא תלוי במקור הסריקה) |
+| `config.json` | קריטריונים: מונחי חיפוש, seniority, מיקומים, גרמנית |
+| `requirements.txt` | תלויות Python (`openai`, `tavily-python`) |
+| `.github/workflows/daily-scan.yml` | ה-workflow היומי |
+| `seen_jobs.json` | זיכרון דדופ |
 | `latest_results.json` | תוצאות ההרצה האחרונה |
-| `job_scraper.py` | לוגיקת פילטר / ניקוד / פורמט |
-| `config.json` | הגדרות (גרמנית, מיקומים, seniority) |
-| `trigger_prompt.md` | הפרומפט המלא לטריגר היומי |
-| `scrapers/` | מודולי סריקה לכל אתר |
+| `trigger_prompt.md` | תיעוד היסטורי של הטריגר המושבת + הסיבה המדויקת שהוא לא עובד |
 
 ---
 
-## ריפו ומידע טכני
+## הטריגר הישן (מושבת, לא נמחק)
+
+- **Trigger ID:** `trig_012WrPEA3xhPhgo1zmvvZr9B`, **Environment:** `env_014CNg8FsZwTr5U93c8tBH4x`
+- אל תפעילו אותו מחדש בלי לפתור קודם את חסימת ה-git push בסביבה שלו (ראו `trigger_prompt.md`) —
+  אחרת זה יחזור בדיוק לאותה "תקיעה" שבגללה נבנה מחדש כל המנגנון.
+
+## ריפו
 
 - **Repo:** `yonutza/claude-code-jobs`
-- **Branch:** `claude/job-scraper-agent-adj5hh`
-- **Environment:** `env_014CNg8FsZwTr5U93c8tBH4x`
-- **Trigger ID הנוכחי:** `trig_012WrPEA3xhPhgo1zmvvZr9B`
+- **Branch:** `claude/job-scraper-agent-adj5hh` (זהו למעשה הענף הראשי היחיד בשימוש)
