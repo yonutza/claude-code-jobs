@@ -1,11 +1,24 @@
 {
   "seen_ids": [
-    "linkedin_csm_tipalti", "linkedin_csm_cynet", "linkedin_csm_cybellum",
-    "greenhouse_csm_similarweb", "sta_junior_csm", "sta_csm_6", "sta_csm_605",
-    "sta_csm_french", "sta_cyber_csm", "linkedin_csm_influ2",
-    "sta_ops_upsolver", "sta_cs_ops_manager", "sta_cs_biz_ops",
-    "sta_sales_ops_manager", "sta_biz_ops_kaltura", "sta_sales_ops_guideline",
-    "linkedin_ops_manager_ta", "glassdoor_sales_ops", "builtin_ops_israel",
+    "linkedin_csm_tipalti",
+    "linkedin_csm_cynet",
+    "linkedin_csm_cybellum",
+    "greenhouse_csm_similarweb",
+    "sta_junior_csm",
+    "sta_csm_6",
+    "sta_csm_605",
+    "sta_csm_french",
+    "sta_cyber_csm",
+    "linkedin_csm_influ2",
+    "sta_ops_upsolver",
+    "sta_cs_ops_manager",
+    "sta_cs_biz_ops",
+    "sta_sales_ops_manager",
+    "sta_biz_ops_kaltura",
+    "sta_sales_ops_guideline",
+    "linkedin_ops_manager_ta",
+    "glassdoor_sales_ops",
+    "builtin_ops_israel",
     "sta_gtm_monday",
     "alljobs_customer_success_manager___europe_unknown",
     "alljobs_customer_success_manager__w__freight_unknown",
@@ -21,7 +34,8 @@
     "linkedin_sales_operations_agora",
     "sta_israel_operations_manager_unknown",
     "lever_sales_operations_manager_jobgether",
-    "lever_sales_strategy_and_operations_ma_jobgether"
+    "lever_sales_strategy_and_operations_ma_jobgether",
+    "linkedin_82b0d247d2688f4c"
   ],
-  "last_run": "2026-07-08T12:00:00Z"
+  "last_run": "2026-07-08T12:45:17.252041"
 }

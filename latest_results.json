@@ -1,22 +1,20 @@
 {
-  "run_date": "2026-07-06T09:30:00",
+  "run_date": "2026-07-08T12:45:17.252252",
   "cs": [
-    {"id": "alljobs_customer_success_manager___europe_unknown", "title": "Customer Success Manager - European Market", "company": "Unknown", "location": "תל אביב", "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8388285", "source": "AllJobs", "score": 1},
-    {"id": "alljobs_customer_success_manager__w__freight_unknown", "title": "Customer Success Manager (w/ Freight Forwarding background)", "company": "Unknown", "location": "תל אביב", "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8441143", "source": "AllJobs", "score": 1},
-    {"id": "alljobs_customer_success_manager___csm_unknown", "title": "Customer Success Manager - CSM", "company": "Unknown", "location": "תל אביב", "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8467500", "source": "AllJobs", "score": 0},
-    {"id": "linkedin_customer_success_manager_hour_one", "title": "Customer Success Manager", "company": "Hour One", "location": "Tel Aviv", "url": "https://il.linkedin.com/jobs/view/customer-success-manager-at-hour-one-3107732086", "source": "LinkedIn", "score": 0},
-    {"id": "linkedin_customer_success_manager_gaviti", "title": "Customer Success Manager", "company": "Gaviti", "location": "Tel Aviv", "url": "https://il.linkedin.com/jobs/view/customer-success-manager-at-gaviti-3157526044", "source": "LinkedIn", "score": 0},
-    {"id": "linkedin_customer_success_manager___hebrew_speakin_mongodb", "title": "Customer Success Manager - Hebrew Speaking", "company": "MongoDB", "location": "Tel Aviv Hybrid", "url": "https://il.linkedin.com/jobs/view/customer-success-manager-hebrew-speaking-at-mongodb-3802341813", "source": "LinkedIn", "score": 0},
-    {"id": "salesforce_customer_success_manager_salesforce", "title": "Customer Success Manager, Core/Marketing Cloud Solutions", "company": "Salesforce", "location": "Tel Aviv", "url": "https://careers.salesforce.com/en/jobs/jr329764/customer-success-manager-core-marketing-cloud-solutions/", "source": "Salesforce Careers", "score": 0},
-    {"id": "startup_jobs_technical_customer_success_manag_connecteam", "title": "Technical Customer Success Manager", "company": "Connecteam", "location": "Tel Aviv", "url": "https://startup.jobs/locations/tel-aviv-yafo/customer-success-manager", "source": "startup.jobs", "score": 0},
-    {"id": "alljobs_customer_success_manager___with_a_me_unknown", "title": "Customer Success Manager - with a Media/Marketing Edge", "company": "Unknown", "location": "תל אביב", "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8439382", "source": "AllJobs", "score": 0},
-    {"id": "startup_jobs_partnerships_success_manager_pagaya", "title": "Partnerships Success Manager", "company": "Pagaya", "location": "Israel", "url": "https://startup.jobs/partnerships-success-manager-pagaya-israel-4608195", "source": "startup.jobs", "score": 0}
+    {
+      "url": "https://il.linkedin.com/jobs/view/4298176397",
+      "company": "SpareEat",
+      "title": "מנהל/ת הצלחת לקוחות ועסקים",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "LinkedIn",
+      "description": "הצטרפו לסטארטאפ קטן עם שליחות גדולה בתחום הצלחת לקוחות ועסקים.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_82b0d247d2688f4c",
+      "score": 0
+    }
   ],
-  "operations": [
-    {"id": "techbiz_operations_manager_techbiz_global_gmb", "title": "Operations Manager", "company": "TechBiz Global GmbH", "location": "Tel Aviv", "url": "https://jobs.techbiz.global/o/operations-manager", "source": "TechBiz Global", "score": 2, "german": true, "notes": "German language is a plus"},
-    {"id": "linkedin_sales_operations_agora", "title": "Sales Operations", "company": "Agora", "location": "Tel Aviv District", "url": "https://il.linkedin.com/jobs/view/sales-operations-at-agora-4236819180", "source": "LinkedIn", "score": 0},
-    {"id": "sta_israel_operations_manager_unknown", "title": "Israel Operations Manager", "company": "Unknown", "location": "Tel Aviv", "url": "https://jobs.secrettelaviv.com/job/israel-operations-manager-3/", "source": "Secret Tel Aviv", "score": 0},
-    {"id": "lever_sales_operations_manager_jobgether", "title": "Sales Operations Manager", "company": "Jobgether", "location": "Remote from Israel", "url": "https://jobs.lever.co/jobgether/0c4ab47f-d18d-45c2-857e-e564c36bf37a", "source": "Lever", "score": 0},
-    {"id": "lever_sales_strategy_and_operations_ma_jobgether", "title": "Sales Strategy and Operations Manager", "company": "Jobgether", "location": "Remote from Israel", "url": "https://jobs.lever.co/jobgether/9f177f10-c25b-4c87-9738-9cf34bc9ce06", "source": "Lever", "score": 0}
-  ]
+  "operations": []
 }
