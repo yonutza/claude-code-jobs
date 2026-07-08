@@ -52,30 +52,39 @@ def load_config():
 
 
 def build_queries(config):
+    # Tavily is a semantic search API, not a literal search-operator engine -
+    # domain scoping must go through include_domains, not a "site:" token in
+    # the query text (which Tavily would just treat as ordinary words).
     queries = []
     sources = config.get("sources", {})
     search_terms = config.get("search_terms", {})
     for source, enabled in sources.items():
         if not enabled or source not in SOURCE_DOMAINS:
             continue
-        for domain in SOURCE_DOMAINS[source]:
-            for category, terms in search_terms.items():
-                term_clause = " OR ".join(f'"{t}"' for t in terms[:4])
-                queries.append((category, f"site:{domain} ({term_clause}) Israel"))
+        domains = SOURCE_DOMAINS[source]
+        for category, terms in search_terms.items():
+            term_clause = " OR ".join(f'"{t}"' for t in terms[:4])
+            queries.append((category, f"{term_clause} job Israel", domains))
 
     german_cfg = config.get("german_preference", {})
     if german_cfg.get("enabled"):
+        all_domains = sorted({d for domains in SOURCE_DOMAINS.values() for d in domains})
         for term in german_cfg.get("search_terms", [])[:4]:
-            queries.append(("cs", f'"{term}" customer success OR operations Israel jobs'))
+            queries.append(("cs", f'"{term}" customer success OR operations Israel jobs', all_domains))
 
     return queries
 
 
 def search_jobs(tavily, queries):
     raw_hits = {}
-    for category, query in queries:
+    for category, query, domains in queries:
         try:
-            resp = tavily.search(query=query, max_results=8, search_depth="advanced")
+            resp = tavily.search(
+                query=query,
+                include_domains=domains,
+                max_results=8,
+                search_depth="advanced",
+            )
         except Exception as e:
             log(f"Tavily search failed for query {query!r}: {e}")
             continue
