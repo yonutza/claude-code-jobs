@@ -143,6 +143,10 @@ def extract_with_gpt(openai_client, hits):
     if not hits:
         return []
 
+    log("Sample of raw hits fed to GPT-4o:")
+    for h in hits[:8]:
+        log(f"  {h['url']}  |  {h['title']}")
+
     lines = [
         f'- url: {h["url"]} | title: {h["title"]} | snippet: {h["content"]}'
         for h in hits
@@ -155,8 +159,12 @@ def extract_with_gpt(openai_client, hits):
         response_format={"type": "json_object"},
         temperature=0.2,
     )
-    data = json.loads(resp.choices[0].message.content)
-    return data.get("jobs", [])
+    raw = resp.choices[0].message.content
+    data = json.loads(raw)
+    jobs = data.get("jobs", [])
+    if not jobs:
+        log(f"GPT-4o returned 0 jobs. Raw response (first 1500 chars): {raw[:1500]}")
+    return jobs
 
 
 def stable_id(source, url):
