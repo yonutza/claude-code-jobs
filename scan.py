@@ -133,40 +133,37 @@ def search_jobs(tavily, queries):
 
 
 EXTRACTION_PROMPT = """\
-You are extracting structured job postings from raw search results for a
-candidate in Israel with ~2 years of experience, looking for Customer
-Success (CS) and Operations roles.
+Below is a JSON array of search results, each already confirmed to be an
+individual job posting page (not a listing/search page) from a job board in
+Israel. Extract structured data for EVERY item — do not filter by
+seniority or role relevance, that is handled separately downstream. Only
+skip an item if it's clearly not a job at all (e.g. a login wall, an error
+page, a generic homepage with no job title visible).
 
-For each item below, decide if it is a genuine, currently-open individual
-job posting (not a company careers overview page, a blog post, or a list of
-multiple unrelated jobs). Skip anything that isn't a real single job
-posting.
-
-For each genuine job posting, extract:
-- "url": the exact url of the posting, copied verbatim from the input
-- "company": best-guess company name from the title/content
-- "title": the job title
+For each item, output:
+- "url": the exact url, copied verbatim from the input
+- "company": best-guess company name from the title/snippet ("" if you
+  really can't tell)
+- "title": the job title, cleaned up (strip site-name suffixes like
+  "| AllJobs" or "- LinkedIn")
 - "location": city/area if mentioned, else ""
-- "source": one short label for where this came from (e.g. "LinkedIn",
-  "AllJobs", "Greenhouse", "Lever", "Gotfriends", "Nisha", "Secret Tel Aviv")
-- "description": one sentence (in Hebrew) summarizing what the role/company
-  is, for internal notes
-- "german": true if the posting mentions German as a requirement or
-  advantage (German speaker, Deutsch, דובר גרמנית), else false
+- "source": one short label (e.g. "LinkedIn", "AllJobs", "Greenhouse",
+  "Lever", "Gotfriends", "Nisha", "Secret Tel Aviv")
+- "description": one short sentence (in Hebrew) about the role/company
+- "german": true only if the posting explicitly mentions German as a
+  requirement or advantage (German speaker, Deutsch, דובר גרמנית), else false
 - "physical_product": true if the company's core product is physical/
-  tangible (hardware, energy, medtech, consumer goods, fintech with a
-  physical footprint) rather than deep cloud/dev-tools infrastructure
-- "europe_customers": true if the company appears to have a meaningful
-  international footprint with European clients/offices
-- "stable_growth": true if there are positive signals of growth or recent
-  funding and no signs of instability/layoffs
+  tangible (hardware, energy, medtech, consumer goods) rather than deep
+  cloud/dev-tools infrastructure; false if unclear
+- "europe_customers": true if there's a signal of European clients/offices;
+  false if unclear
+- "stable_growth": true if there's a positive growth/funding signal; false
+  if unclear
 
-Only include items where the role is clearly Junior or Mid-level (exclude
-Senior, Lead, Head of, Director, VP, Principal, Staff, בכיר).
+Return a JSON object: {{"jobs": [...]}}. One entry per input item (unless
+skipped per the rule above).
 
-Return a JSON object: {{"jobs": [...]}}.
-
-Items:
+Items (JSON array):
 {items}
 """
 
@@ -179,17 +176,18 @@ def extract_with_gpt(openai_client, hits):
     for h in hits[:8]:
         log(f"  {h['url']}  |  {h['title']}")
 
-    lines = [
-        f'- url: {h["url"]} | title: {h["title"]} | snippet: {h["content"]}'
-        for h in hits
-    ]
-    prompt = EXTRACTION_PROMPT.format(items="\n".join(lines))
+    items_json = json.dumps(
+        [{"url": h["url"], "title": h["title"], "snippet": h["content"]} for h in hits],
+        ensure_ascii=False,
+    )
+    prompt = EXTRACTION_PROMPT.format(items=items_json)
 
     resp = openai_client.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
         response_format={"type": "json_object"},
         temperature=0.2,
+        max_tokens=8000,
     )
     raw = resp.choices[0].message.content
     data = json.loads(raw)
