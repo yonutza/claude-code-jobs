@@ -10,13 +10,10 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 # דוח משרות יומי - 08/07/2026
 
-## Customer Success (1 משרות)
-
-1. **[SpareEat](https://il.linkedin.com/jobs/view/4298176397)** – מנהל/ת הצלחת לקוחות ועסקים
-   _Tel Aviv-Yafo, Tel Aviv District, Israel | LinkedIn_
+## Customer Success (0 משרות)
 
 ## Operations (0 משרות)
 
 ---
-סה"כ: 1 משרות חדשות
+סה"כ: 0 משרות חדשות
 
