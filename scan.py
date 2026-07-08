@@ -22,7 +22,9 @@ Requires TAVILY_API_KEY and OPENAI_API_KEY in the environment.
 import hashlib
 import json
 import os
+import re
 import sys
+from urllib.parse import urlparse
 
 from tavily import TavilyClient
 from openai import OpenAI
@@ -75,8 +77,27 @@ def build_queries(config):
     return queries
 
 
+# Job boards rank listing/search/category pages highly for generic queries,
+# but those aren't linkable to a single job — filter them out before they
+# ever reach GPT so extraction isn't wasted judging pages with no real URL
+# to give the candidate.
+LISTING_PAGE_PATTERNS = [
+    re.compile(r"SearchResults(Guest)?\.aspx", re.I),
+    re.compile(r"SalaryCompound", re.I),
+    re.compile(r"[?&]page=\d+"),
+    re.compile(r"/jobs/search", re.I),
+    re.compile(r"/jobs/collections", re.I),
+    re.compile(r"linkedin\.com/jobs/?(\?.*)?$", re.I),
+]
+
+
+def looks_like_listing_page(url: str) -> bool:
+    return any(p.search(url) for p in LISTING_PAGE_PATTERNS)
+
+
 def search_jobs(tavily, queries):
     raw_hits = {}
+    skipped_listing = 0
     for category, query, domains in queries:
         try:
             resp = tavily.search(
@@ -92,12 +113,23 @@ def search_jobs(tavily, queries):
             url = r.get("url")
             if not url or url in raw_hits:
                 continue
+            if looks_like_listing_page(url):
+                skipped_listing += 1
+                continue
             raw_hits[url] = {
                 "url": url,
                 "title": r.get("title", ""),
                 "content": (r.get("content") or "")[:600],
             }
-    return list(raw_hits.values())
+
+    hits = list(raw_hits.values())
+    domain_counts = {}
+    for h in hits:
+        domain = urlparse(h["url"]).netloc
+        domain_counts[domain] = domain_counts.get(domain, 0) + 1
+    log(f"Skipped {skipped_listing} listing/search-result pages.")
+    log(f"Remaining hits by domain: {domain_counts}")
+    return hits
 
 
 EXTRACTION_PROMPT = """\
