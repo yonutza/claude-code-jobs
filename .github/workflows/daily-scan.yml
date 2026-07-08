@@ -28,6 +28,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run job scan
+        id: scan
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -44,4 +45,17 @@ jobs:
             git commit -m "Daily job scan: $(date -u +%Y-%m-%d)"
             git push || (git pull --rebase && git push)
           fi
+
+      - name: Send email report
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: nimrodbaum@gmail.com
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: ${{ steps.scan.outputs.subject }}
+          to: nimrodbaum@gmail.com
+          from: Daily Job Scraper <nimrodbaum@gmail.com>
+          html_body: file://email_body.html
           
