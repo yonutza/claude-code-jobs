@@ -1,62 +1,19 @@
 {
-  "run_date": "2026-07-09T12:48:55.564941",
-  "cs": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-escalation-manager",
-      "company": "",
-      "title": "Customer Success Escalation Manager",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "מנהל הסלמת הצלחת לקוח.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_0b8875fc646de621",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-07-10T08:43:31.506246",
+  "cs": [],
   "operations": [
     {
-      "url": "https://www.linkedin.com/jobs/view/4426664259",
-      "company": "UR Tech Jobs",
-      "title": "Operations Manager | Cyber Startup",
-      "location": "Tel Aviv-Yafo",
-      "source": "LinkedIn",
-      "description": "מנהל תפעול בסטארטאפ בתחום הסייבר.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "linkedin_8b502c7cb6108ef7",
-      "score": 0
-    },
-    {
-      "url": "https://www.linkedin.com/jobs/view/4431259631",
-      "company": "Thing or Two",
-      "title": "Data Operations Manager",
-      "location": "Tel Aviv District",
-      "source": "LinkedIn",
-      "description": "מנהל תפעול נתונים.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "linkedin_988ebd041111b9a2",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/israel-operations-manager-3",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8601708",
       "company": "",
-      "title": "Israel Operations Manager",
+      "title": "Partner Operations Manager",
       "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "מנהל תפעול בישראל.",
+      "source": "AllJobs",
+      "description": "Partner Operations Manager | לוח דרושים בנייד - הצעות עבודה | משרה 8601708 | משרות דרושים במובייל סוכן משרות למייל חינם בלוח דרושים לנייד של AllJobs.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_0641f71a895ae830",
+      "id": "alljobs_d4208c97f841d4e4",
       "score": 0
     }
   ]
