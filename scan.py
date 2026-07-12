@@ -105,6 +105,7 @@ def search_jobs(tavily, queries):
                 include_domains=domains,
                 max_results=8,
                 search_depth="advanced",
+                include_raw_content=True,
             )
         except Exception as e:
             log(f"Tavily search failed for query {query!r}: {e}")
@@ -116,10 +117,14 @@ def search_jobs(tavily, queries):
             if looks_like_listing_page(url):
                 skipped_listing += 1
                 continue
+            # Prefer the full scraped page (raw_content) over the short AI
+            # summary (content) - AllJobs in particular buries the company
+            # name further down the page than the summary snippet reaches.
+            text = r.get("raw_content") or r.get("content") or ""
             raw_hits[url] = {
                 "url": url,
                 "title": r.get("title", ""),
-                "content": (r.get("content") or "")[:600],
+                "content": text[:2500],
             }
 
     hits = list(raw_hits.values())
@@ -240,8 +245,12 @@ def main():
     log(f"Done. {total} new jobs ({len(results['cs'])} CS, {len(results['operations'])} Ops).")
 
 
+REPORT_MARKER = "# דוח משרות יומי - "
+MAX_README_DAYS = 14
+
+
 def write_readme(results):
-    lines = [
+    header = [
         "# claude-code-jobs",
         "",
         "Daily job scanner for Customer Success and Operations roles in Israel.",
@@ -251,12 +260,27 @@ def write_readme(results):
         "- `seen_jobs.json` - IDs of jobs already reported (used for deduplication).",
         "- `latest_results.json` - results from the most recent scan.",
         "- `config.json` - search terms, filters, and the German-language preference.",
-        "",
-        js.format_report(results),
+        f"- Keeps the last {MAX_README_DAYS} days of reports below, so a missed day is still visible.",
         "",
     ]
-    with open(js.BASE_DIR / "README.md", "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
+
+    readme_path = js.BASE_DIR / "README.md"
+    previous_reports = []
+    if readme_path.exists():
+        existing = readme_path.read_text(encoding="utf-8")
+        idx = existing.find(REPORT_MARKER)
+        if idx != -1:
+            previous_reports = [
+                REPORT_MARKER + chunk.strip()
+                for chunk in existing[idx:].split(REPORT_MARKER)
+                if chunk.strip()
+            ]
+
+    today_report = js.format_report(results)
+    all_reports = ([today_report] + previous_reports)[:MAX_README_DAYS]
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(header) + "\n" + "\n\n".join(all_reports) + "\n")
 
 
 if __name__ == "__main__":
