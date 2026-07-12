@@ -1,90 +1,19 @@
 {
-  "run_date": "2026-07-11T07:21:31.626518",
-  "cs": [
-    {
-      "url": "https://www.alljobs.co.il/m/p/jobs/8712780",
-      "company": "",
-      "title": "Customer Success Manager",
-      "location": "Tel Aviv-Yafo",
-      "source": "AllJobs",
-      "description": "Were looking for a Customer Success Manager (CSM) to own the strategic ...",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_1157b5477cbaebc4",
-      "score": 0
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8658292",
-      "company": "Growing Digital Company",
-      "title": "Customer Success Manager (Junior)",
-      "location": "Rehovot, Ness Ziona, Rishon Letsiyon, Tel Aviv-Yafo, Ramat Gan",
-      "source": "AllJobs",
-      "description": "... work; Location Rehovot, Ness Ziona, Rishon Letsiyon, Tel Aviv-Yafo, Ramat Gan · עוד על קונקט השמה.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_d1bd0861027d8798",
-      "score": 0
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8679310",
-      "company": "",
-      "title": "Customer Success Operations Intern",
-      "location": "",
-      "source": "AllJobs",
-      "description": "We are seeking a detail-oriented and technically curious Customer Success Intern to support our Customer Success Operations team.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_bce1eaddafaafbf1",
-      "score": 0
-    },
-    {
-      "url": "https://www.nisha.co.il/positions/customer-success-manager",
-      "company": "",
-      "title": "דרושים Customer Success Manager",
-      "location": "",
-      "source": "Nisha",
-      "description": "דרושים Customer Success Manager למגוון משרות - נישה השמה להייטק",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "nisha_164e95323d986d37",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-07-12T07:39:04.881090",
+  "cs": [],
   "operations": [
     {
-      "url": "https://www.linkedin.com/jobs/view/4380799379?trackingId=0Dh9Lpa3SDiSWUtQvzaWGg%3D%3D",
-      "company": "Faddom",
-      "title": "Office Operations Manager",
-      "location": "Ramat Gan, Tel Aviv District, Israel",
-      "source": "LinkedIn",
-      "description": "Join a fast-growing startup and gain real business exposure!",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": true,
-      "id": "linkedin_19029ed475056036",
-      "score": 1
-    },
-    {
-      "url": "https://jobs.lever.co/infraservices/3fd03f05-d151-446f-acb4-fe980171e903",
-      "company": "InfraServices",
-      "title": "Data Center Operations Manager",
+      "url": "https://jobs.lever.co/honkforhelp/ca5f9b65-f667-4a00-8f07-1e7462aaddeb",
+      "company": "HONK",
+      "title": "Customer Service Operations Manager",
       "location": "",
       "source": "Lever",
-      "description": "The Data Center Operations Manager is responsible for planning, executing, and optimizing field and project operations related to data center deployment services across multiple project sites and customers.",
+      "description": "Lead a team delivering exceptional roadside assistance experiences.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "lever_fcebb1ea9fd9f427",
+      "id": "lever_369600a83ddb3577",
       "score": 0
     }
   ]
