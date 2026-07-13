@@ -1,7 +1,19 @@
-# Job Scraper – Daily CS & Operations Israel
+# Job Scraper – Daily CS & Account Executive/Manager, Israel
+
+## ⚠️ כלל עבודה קבוע — לקרוא לפני כל שינוי
+
+**אחרי כל עדכון או שינוי בקוד/בהגדרות של המערכת הזו (`scan.py`, `job_scraper.py`,
+`config.json`, `.github/workflows/daily-scan.yml`), יש להריץ בדיקת ניסיון אמיתית לפני שממשיכים
+הלאה** — לבקש מהמשתמש ללחוץ "Run workflow" ידנית (או אם יש הרשאה מתאימה, להריץ ישירות), ולוודא
+בפועל (לא רק לפי הקוד) שהתוצאות תקינות ושה-workflow הסתיים בהצלחה (`conclusion: success`). זה
+הדבר היחיד שבאמת מוכיח שההרצה האוטומטית של המחר תעבוד. אל תסתפקו ב"זה אמור לעבוד לפי הקוד" —
+כבר קרה שקוד שנראה תקין נכשל בפועל (חריגת מכסת OpenAI, שאילתות Tavily לא מדויקות, שלב אימייל
+ישן שנשאר בטעות) ורק בדיקה אמיתית חשפה את זה.
 
 ## מה זה
-סריקת משרות יומית אוטומטית ל-Customer Success ו-Operations בישראל, עם דדופ בין הרצות.
+סריקת משרות יומית אוטומטית ל-Customer Success ו-Account Executive/Account Manager בישראל, עם
+דדופ בין הרצות. **(עודכן 2026-07-13: הקטגוריה השנייה הייתה Operations ועברה ל-Account
+Executive/Manager לבקשת המשתמש — ראו "היסטוריית שינויי קריטריונים" למטה.)**
 
 **ארכיטקטורה נוכחית (מ-2026-07-08, עודכן 2026-07-12): GitHub Actions + התראת RemoteTrigger**,
 לא טריגר-כתיבה של Claude. הסיבה: נבנה במקור טריגר מתוזמן של Claude (WebSearch/WebFetch) שכולל
@@ -14,7 +26,7 @@ credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סוד
 ## פרופיל המחפש
 
 - **ניסיון:** ~2 שנים (לא SENIOR, לא LEAD, לא DIRECTOR)
-- **תחומים:** Customer Success (CS) + Operations
+- **תחומים:** Customer Success (CS) + Account Executive/Account Manager (ראו הערה על שינוי קריטריונים למטה)
 - **שפות:** עברית + **גרמנית** (יתרון — מסמן 🇩🇪, +2 ניקוד)
 - **מיקום:** גוש דן / חיפה / יקנעם / Remote / Hybrid
 - **העדפת חברה:** בינונית, נציגות בינלאומית, לקוחות באירופה, צמיחה / אחרי גיוס, **מוצר פיזי** (לא ענן טכנולוגי עמוק)
@@ -117,6 +129,18 @@ credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סוד
 | RemoteTrigger `trig_01GRQ7L3kudkQ4nXksRRG8ZB` | התראה (אימייל+פוש) | **פעיל** |
 | RemoteTrigger `trig_012WrPEA3xhPhgo1zmvvZr9B` ("v2") | סריקה+כתיבה ישנה | מושבת — אל תפעילו בלי לפתור את חסימת ה-git push |
 | `mcp__scheduled-tasks` `verify-daily-job-scan` | התראה מקומית ישנה | מושבת — הוחלף ע"י ה-RemoteTrigger |
+
+---
+
+## היסטוריית שינויי קריטריונים
+
+- **2026-07-13:** הקטגוריה השנייה (מפתח JSON `"operations"`, בכל הקבצים: `config.json`,
+  `seen_jobs.json`, `latest_results.json`, ה-prompt של ה-RemoteTrigger) הייתה Operations
+  (operations manager, RevOps וכו') ועברה ל-**Account Executive / Account Manager**. שם המפתח
+  `operations` נשאר בקוד ובסכמה כדי לא לגעת בכל מקום שמשתמש בו — רק מונחי החיפוש
+  (`config.json` → `search_terms.operations`), מילות המפתח לסיווג (`job_scraper.OPS_TERMS`),
+  וכותרת הדוח למשתמש (`format_report`) השתנו. אם מבקשים שינוי קריטריונים דומה בעתיד — זו הדוגמה
+  לעקוב אחריה.
 
 ## ריפו
 
