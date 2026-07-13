@@ -105,7 +105,6 @@ def search_jobs(tavily, queries):
                 include_domains=domains,
                 max_results=8,
                 search_depth="advanced",
-                include_raw_content=True,
             )
         except Exception as e:
             log(f"Tavily search failed for query {query!r}: {e}")
@@ -117,14 +116,10 @@ def search_jobs(tavily, queries):
             if looks_like_listing_page(url):
                 skipped_listing += 1
                 continue
-            # Prefer the full scraped page (raw_content) over the short AI
-            # summary (content) - AllJobs in particular buries the company
-            # name further down the page than the summary snippet reaches.
-            text = r.get("raw_content") or r.get("content") or ""
             raw_hits[url] = {
                 "url": url,
                 "title": r.get("title", ""),
-                "content": text[:2500],
+                "content": (r.get("content") or "")[:600],
             }
 
     hits = list(raw_hits.values())
