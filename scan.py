@@ -72,7 +72,7 @@ def build_queries(config):
     if german_cfg.get("enabled"):
         all_domains = sorted({d for domains in SOURCE_DOMAINS.values() for d in domains})
         for term in german_cfg.get("search_terms", [])[:4]:
-            queries.append(("cs", f'"{term}" customer success OR operations Israel jobs', all_domains))
+            queries.append(("cs", f'"{term}" customer success OR account executive OR account manager Israel jobs', all_domains))
 
     return queries
 
@@ -248,7 +248,7 @@ def write_readme(results):
     header = [
         "# claude-code-jobs",
         "",
-        "Daily job scanner for Customer Success and Operations roles in Israel.",
+        "Daily job scanner for Customer Success and Account Executive/Manager roles in Israel.",
         "Runs via GitHub Actions: searches via the Tavily Search API, extracted and",
         "scored by GPT-4o, filtered/deduplicated by job_scraper.py.",
         "",

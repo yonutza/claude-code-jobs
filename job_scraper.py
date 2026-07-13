@@ -51,16 +51,19 @@ INCLUDE_LOCATIONS = [
 
 CS_TERMS = [
     "customer success", "csm", "customer success manager", "customer success specialist",
-    "account manager", "client success", "הצלחת לקוחות", "לקוחות",
+    "client success", "הצלחת לקוחות", "לקוחות",
     "customer experience", "cx manager", "client manager", "customer advocate",
 ]
 
+# Repurposed 2026-07-13: was Operations (operations manager, RevOps, etc.) - the
+# candidate asked to stop searching Operations roles and search Account
+# Executive/Account Manager roles instead. Kept the "operations" key name
+# throughout the code/JSON schema to avoid touching every reference; only the
+# search terms and the human-facing report heading changed.
 OPS_TERMS = [
-    "operations manager", "operations specialist", "ops manager",
-    "revenue operations", "revops", "sales operations", "sales ops",
-    "customer operations", "business operations", "biz ops",
-    "operations analyst", "operations coordinator",
-    "אופרציה", "תפעול", "מנהל תפעול",
+    "account executive", "account manager", "sales account manager",
+    "key account manager", "strategic account manager", "senior account executive",
+    "מנהל לקוחות", "מנהל תיקי לקוחות", "אקאונט",
 ]
 
 
@@ -201,7 +204,7 @@ def format_report(results: dict[str, list[dict]]) -> str:
             lines.append(f"   _{meta}_")
         lines.append("")
 
-    lines += [f"## Operations ({len(results['operations'])} משרות)", ""]
+    lines += [f"## Account Executive / Account Manager ({len(results['operations'])} משרות)", ""]
     for i, job in enumerate(results["operations"], 1):
         url = job.get("url", "")
         company = job.get("company", "?")

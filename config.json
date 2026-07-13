@@ -1,7 +1,7 @@
 {
   "search_terms": {
     "cs": ["customer success", "customer success manager", "CSM", "לקוחות", "הצלחת לקוחות"],
-    "operations": ["operations", "ops", "operation manager", "אופרציה", "תפעול", "RevOps", "Sales Ops", "Customer Ops"]
+    "operations": ["account executive", "account manager", "sales account manager", "key account manager", "strategic account manager", "מנהל לקוחות", "מנהל תיקי לקוחות"]
   },
   "filters": {
     "exclude_seniority": ["senior", "sr.", "lead", "head of", "director", "vp", "principal", "staff", "בכיר"],
