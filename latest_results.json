@@ -1,20 +1,77 @@
 {
-  "run_date": "2026-07-12T07:39:04.881090",
-  "cs": [],
-  "operations": [
+  "run_date": "2026-07-13T14:09:36.158766",
+  "cs": [
     {
-      "url": "https://jobs.lever.co/honkforhelp/ca5f9b65-f667-4a00-8f07-1e7462aaddeb",
-      "company": "HONK",
-      "title": "Customer Service Operations Manager",
+      "url": "https://il.linkedin.com/jobs/view/customer-success-manager-german-speaker-at-monday.com-3798429240",
+      "company": "monday.com",
+      "title": "Customer Success Manager - German Speaker",
+      "location": "Tel Aviv-Yafo",
+      "source": "LinkedIn",
+      "description": "Program Manager - German Speaker",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_7c650c8a32d00e3c",
+      "score": 2
+    },
+    {
+      "url": "https://jobs.lever.co/controlup/7824a46c-6523-47cf-9618-7ec62d9ec9d4",
+      "company": "ControlUp",
+      "title": "DACH Enterprise Customer Success Manager",
       "location": "",
       "source": "Lever",
-      "description": "Lead a team delivering exceptional roadside assistance experiences.",
+      "description": "Global, Not Isolated: You’ll work with a diverse team spanning the US, EMEA, and Israel.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "lever_8d486b695058f78a",
+      "score": 1
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8641272",
+      "company": "",
+      "title": "Customer Experience Representative - English & Mandarin Speaking",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "האקדמית ת\"א-יפו מגייסת רכז /ת מנהל סטודנטים",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "lever_369600a83ddb3577",
+      "id": "alljobs_8d77b1914f2e78ca",
       "score": 0
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/customer-success-manager-hiredscore-at-workday-4230599783",
+      "company": "Workday",
+      "title": "Customer Success Manager - HiredScore",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "LinkedIn",
+      "description": "Customer Success Manager",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_0ec0bca5ba5603af",
+      "score": 0
+    }
+  ],
+  "operations": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8703473",
+      "company": "SAP Israel",
+      "title": "Cloud Sales Operations Specialist",
+      "location": "",
+      "source": "AllJobs",
+      "description": "דרושים » מכירות » Cloud Sales Operations Specialist",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "alljobs_f34a7947ad43c5c9",
+      "score": 1
     }
   ]
 }
