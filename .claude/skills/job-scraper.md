@@ -3,10 +3,11 @@
 ## מה זה
 סריקת משרות יומית אוטומטית ל-Customer Success ו-Operations בישראל, עם דדופ בין הרצות.
 
-**ארכיטקטורה נוכחית (מ-2026-07-08): GitHub Actions**, לא טריגר של Claude. הסיבה: נבנה במקור
-טריגר מתוזמן של Claude (WebSearch/WebFetch) — הוא כן מצא משרות טובות, אבל הסביבה המבודדת שלו
-חוסמת `git push` עם credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סודות מסביבות אוטומטיות, לא
-באג) — כך שהתוצאות מעולם לא נשמרו. פרטים מלאים ב-`trigger_prompt.md`. הטריגר מושבת (לא נמחק).
+**ארכיטקטורה נוכחית (מ-2026-07-08, עודכן 2026-07-12): GitHub Actions + התראת RemoteTrigger**,
+לא טריגר-כתיבה של Claude. הסיבה: נבנה במקור טריגר מתוזמן של Claude (WebSearch/WebFetch) שכולל
+גם סריקה וגם שמירה — הוא כן מצא משרות טובות, אבל הסביבה המבודדת שלו חוסמת `git push` עם
+credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סודות מסביבות אוטומטיות, לא באג) — כך שהתוצאות
+מעולם לא נשמרו. פרטים מלאים ב-`trigger_prompt.md`. הטריגר ההוא מושבת (לא נמחק).
 
 ---
 
@@ -27,10 +28,17 @@
 
 ## איך זה רץ בפועל
 
-1. **`.github/workflows/daily-scan.yml`** — GitHub Actions, cron `0 5 * * *` (05:00 UTC ≈ 08:00
-   ישראל בקיץ, 07:00 בחורף — cron לא עוקב אחרי שעון קיץ), וגם `workflow_dispatch` להרצה ידנית.
-   יש `concurrency` group ו-retry אחד עם `git pull --rebase` אם הענף זז בזמן ה-push.
-2. **`scan.py`** — הסקריפט שרץ:
+1. **`.github/workflows/daily-scan.yml`** (GitHub Actions) — cron `13 5 * * *` (05:13 UTC ≈ 08:13
+   ישראל בקיץ, 07:13 בחורף — cron לא עוקב אחרי שעון קיץ). הדקה **13** ולא **0** בכוונה: GitHub
+   מציינים בעצמם שריצות מתוזמנות בדיוק בשעה עגולה נוטות יותר להידחות בעומס. יש גם
+   `workflow_dispatch` להרצה ידנית, `concurrency` group, ו-retry אחד עם `git pull --rebase` אם
+   הענף זז בזמן ה-push.
+
+   **⚠️ ידוע:** ל-GitHub אין התחייבות לזמן מדויק — נצפו גם דיליי של כמה שעות וגם דילוג מלא על יום
+   שלם (בלי שום שגיאה גלויה). אין דרך אמינה לתקן את זה מהצד שלנו; הדרך היחידה לגלות זה לבדוק
+   בפועל (או לחכות להתראה).
+
+2. **`scan.py`** — הסקריפט שרץ בתוך ה-workflow:
    - בונה שאילתות Tavily מ-`config.json` (`sources` + `search_terms`), עם `include_domains`
      לכל אתר (**לא** `site:` בטקסט השאילתה — Tavily הוא חיפוש סמנטי ולא מפרש את זה כאופרטור).
    - מסנן החוצה עמודי רשימה/חיפוש (URL patterns כמו `SearchResultsGuest.aspx`, `?page=`) לפני
@@ -40,9 +48,20 @@
      שמרן מדי ולהחזיר כמעט כלום. הסינון לפי seniority נעשה דטרמיניסטית בשלב הבא.
    - **`job_scraper.py`** עושה את הסינון הדטרמיניסטי: `is_senior()`, `is_valid_location()`,
      `classify_job()` (CS/Ops לפי מילות מפתח), דדופ מול `seen_jobs.json`, ניקוד, וחיתוך ל-10
-     הכי גבוהים בכל קטגוריה. שומר את `latest_results.json` ומעדכן README.
-3. **Routine של Claude** (`verify-daily-job-scan`, ~08:19 ישראל) — קורא את `latest_results.json`
-   ושולח Push Notification עם מספר המשרות. זה מחליף את מנגנון האימייל/פוש שהיה לטריגר הישן.
+     הכי גבוהים בכל קטגוריה. שומר את `latest_results.json`.
+   - **`write_readme()`** מעדכן את ה-README עם הדוח של היום, ושומר את **14 הדוחות האחרונים**
+     (לא רק את האחרון) — כך שאם מפספסים יום, עדיין רואים אותו כשחוזרים לבדוק.
+
+3. **התראה — RemoteTrigger בענן** (`trig_01GRQ7L3kudkQ4nXksRRG8ZB`, "Daily Job Scan
+   Notification", cron `35 5 * * *`, סביב 08:35 ישראל): קורא את `latest_results.json` דרך
+   WebFetch ומדווח. מוגדר עם `notifications.channel: {email: true, push: true}` — **שולח אימייל
+   אמיתי באופן טבעי** (`no-reply-claude@mail.anthropic.com`), **בלי שום הגדרת Gmail/SMTP**. זה
+   רץ בשרתי Claude, לא תלוי שהמחשב של המשתמש פתוח.
+
+   **⚠️ לא להשתמש** ב-`mcp__scheduled-tasks` (המנגנון המקומי, "Routines" באפליקציה) להתראות
+   שחייבות להגיע באמינות — הוא רץ רק כשהאפליקציה פתוחה, וזה גרם לפספוס/איחור התראות בעבר. יש
+   task מקומי בשם `verify-daily-job-scan` מהניסיון הראשון — הוא מושבת (`enabled: false`), לא
+   נמחק. ה-RemoteTrigger הוא המנגנון הנכון.
 
 ---
 
@@ -66,8 +85,11 @@
 
 ## תקלות ידועות ומקובלות (לא לרדוף אחריהן בלי בקשה מפורשת)
 
-- **AllJobs** — הרבה משרות שם אנונימיות (שם חברה ריק), זו תכונה של האתר לא כשל בחילוץ
+- **AllJobs** — הרבה משרות שם אנונימיות (שם חברה ריק) כי Tavily מחזיר רק תקציר קצר של העמוד
+  ושם החברה מופיע רק בהמשך. אפשר לתקן עם `include_raw_content=True` ב-Tavily (הצענו, המשתמש
+  ביקש לוותר על זה בינתיים — לא לרדוף אחרי זה בלי בקשה מפורשת)
 - **Greenhouse** — לוח משרות גלובלי; משרה שאינה בישראל יכולה להיכנס לפעמים כש-location ריק
+- **GitHub Actions cron** — לא אמין ב-100%, ראו הערה למעלה
 
 ---
 
@@ -81,18 +103,23 @@
 | `requirements.txt` | תלויות Python (`openai`, `tavily-python`) |
 | `.github/workflows/daily-scan.yml` | ה-workflow היומי |
 | `seen_jobs.json` | זיכרון דדופ |
-| `latest_results.json` | תוצאות ההרצה האחרונה |
-| `trigger_prompt.md` | תיעוד היסטורי של הטריגר המושבת + הסיבה המדויקת שהוא לא עובד |
+| `latest_results.json` | תוצאות ההרצה האחרונה בלבד |
+| `README.md` | היסטוריית 14 הדוחות האחרונים — כאן המשתמש בפועל בודק משרות |
+| `trigger_prompt.md` | תיעוד היסטורי של הטריגר-הכתיבה המושבת + הסיבה המדויקת שהוא לא עובד |
 
 ---
 
-## הטריגר הישן (מושבת, לא נמחק)
+## מנגנוני אוטומציה — מי מושבת ומי פעיל
 
-- **Trigger ID:** `trig_012WrPEA3xhPhgo1zmvvZr9B`, **Environment:** `env_014CNg8FsZwTr5U93c8tBH4x`
-- אל תפעילו אותו מחדש בלי לפתור קודם את חסימת ה-git push בסביבה שלו (ראו `trigger_prompt.md`) —
-  אחרת זה יחזור בדיוק לאותה "תקיעה" שבגללה נבנה מחדש כל המנגנון.
+| מנגנון | תפקיד | סטטוס |
+|---|---|---|
+| GitHub Actions (`daily-scan.yml`) | סריקה + שמירה | **פעיל** |
+| RemoteTrigger `trig_01GRQ7L3kudkQ4nXksRRG8ZB` | התראה (אימייל+פוש) | **פעיל** |
+| RemoteTrigger `trig_012WrPEA3xhPhgo1zmvvZr9B` ("v2") | סריקה+כתיבה ישנה | מושבת — אל תפעילו בלי לפתור את חסימת ה-git push |
+| `mcp__scheduled-tasks` `verify-daily-job-scan` | התראה מקומית ישנה | מושבת — הוחלף ע"י ה-RemoteTrigger |
 
 ## ריפו
 
 - **Repo:** `yonutza/claude-code-jobs`
 - **Branch:** `claude/job-scraper-agent-adj5hh` (זהו למעשה הענף הראשי היחיד בשימוש)
+- **Environment:** `env_014CNg8FsZwTr5U93c8tBH4x`
