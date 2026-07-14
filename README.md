@@ -9,6 +9,30 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 - `config.json` - search terms, filters, and the German-language preference.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 14/07/2026
+
+## Customer Success (1 משרות)
+
+1. **[](https://www.gotfriends.co.il/jobslobby/projects/vp-product/group-product-manager-%D7%9C%D7%97%D7%91%D7%A8%D7%94-%D7%94%D7%9E%D7%A4%D7%AA%D7%97%D7%AA-%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA-%D7%9C%D7%A0%D7%99%D7%94%D7%95%D7%9C-%D7%A7%D7%A9%D7%A8%D7%99-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%A2%D7%91%D7%95%D7%A8-%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D)** – Group Product Manager לחברה המפתחת מערכת לניהול קשרי לקוחות עבור עסקים קטנים
+   _תל אביב | GotFriends_
+
+## Account Executive / Account Manager (4 משרות)
+
+1. 🇩🇪 **[Moon Active](https://www.linkedin.com/jobs/view/3927172276)** – Account Manager - German Market
+   _Tel Aviv-Yafo | LinkedIn_
+
+2. **[](https://www.alljobs.co.il/m/p/jobs/8712880)** – Account Executive SMB- Israel
+   _AllJobs_
+
+3. **[](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8638028)** – Sales Account Manager
+   _AllJobs_
+
+4. **[Bootstrap](https://www.gotfriends.co.il/jobslobby/system/support-engineer/153210)** – Technical Account Manager בחברת Bootstrap בתחום הסייבר
+   _GotFriends_
+
+---
+סה"כ: 5 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
+
 # דוח משרות יומי - 13/07/2026
 
 ## Customer Success (1 משרות)
