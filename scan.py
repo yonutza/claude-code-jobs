@@ -24,6 +24,7 @@ import json
 import os
 import re
 import sys
+from datetime import datetime, timezone
 from urllib.parse import urlparse
 
 from tavily import TavilyClient
@@ -202,7 +203,22 @@ def stable_id(source, url):
     return f"{(source or 'unknown').lower().replace(' ', '_')}_{h}"
 
 
+def already_scanned_today() -> bool:
+    """The workflow fires several times a day as retry attempts (GitHub's
+    schedule trigger is unreliable - see .claude/skills/job-scraper.md). Once
+    any attempt succeeds, later attempts the same day should no-op instead of
+    re-searching and potentially double-reporting."""
+    results = js.load_json(js.RESULTS_FILE)
+    run_date = results.get("run_date", "")
+    today = datetime.now(timezone.utc).date().isoformat()
+    return run_date[:10] == today
+
+
 def main():
+    if already_scanned_today():
+        log("Already scanned successfully today - skipping this retry attempt.")
+        return
+
     tavily_key = os.environ.get("TAVILY_API_KEY")
     openai_key = os.environ.get("OPENAI_API_KEY")
     if not tavily_key or not openai_key:
