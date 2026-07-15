@@ -9,6 +9,27 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 - `config.json` - search terms, filters, and the German-language preference.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 15/07/2026
+
+## Customer Success (1 משרות)
+
+1. **[Canditech](https://www.linkedin.com/jobs/view/4341172686)** – Customer Success Manager
+   _Tel Aviv District | LinkedIn_
+
+## Account Executive / Account Manager (3 משרות)
+
+1. **[Base44](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8693532)** – Mobile Growth Account Manager
+   _תל אביב יפו | AllJobs_
+
+2. **[](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8679910)** – Key & Strategic Account Manager
+   _AllJobs_
+
+3. **[](https://www.linkedin.com/jobs/view/4158212749?alternateChannel=search&refId=%2FanrNdGnAqheOwTW7CYXiw%3D%3D&trackingId=xikEeP2zBY20AVgDSZ3S4g%3D%3D)** – Account Manager
+   _LinkedIn_
+
+---
+סה"כ: 4 משרות חדשות
+
 # דוח משרות יומי - 14/07/2026
 
 ## Customer Success (1 משרות)
