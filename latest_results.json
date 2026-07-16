@@ -1,62 +1,34 @@
 {
-  "run_date": "2026-07-15T07:33:13.490182",
+  "run_date": "2026-07-16T07:39:48.497702",
   "cs": [
     {
-      "url": "https://www.linkedin.com/jobs/view/4341172686",
-      "company": "Canditech",
-      "title": "Customer Success Manager",
-      "location": "Tel Aviv District",
-      "source": "LinkedIn",
-      "description": "We are seeking a highly motivated and experienced CSM",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=269240",
+      "company": "Renishaw (Israel) Ltd",
+      "title": "מנהל /ת תיקי לקוחות",
+      "location": "יקנעם עילית",
+      "source": "AllJobs",
+      "description": "לחברה מובילה דרוש/ה מנהל /ת תיקי לקוחות!",
       "german": false,
-      "physical_product": false,
+      "physical_product": true,
       "europe_customers": false,
-      "stable_growth": true,
-      "id": "linkedin_a5f7ec895fbb03d5",
+      "stable_growth": false,
+      "id": "alljobs_5b0b5667bc34c661",
       "score": 1
     }
   ],
   "operations": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8693532",
-      "company": "Base44",
-      "title": "Mobile Growth Account Manager",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "Account Executive (Israeli Market)",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_5d775008ba27f403",
-      "score": 0
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8679910",
-      "company": "",
-      "title": "Key & Strategic Account Manager",
-      "location": "",
-      "source": "AllJobs",
-      "description": "דרושים » מכירות » Key & Strategic Account Manager",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_f47b550bc16433d4",
-      "score": 0
-    },
-    {
-      "url": "https://www.linkedin.com/jobs/view/4158212749?alternateChannel=search&refId=%2FanrNdGnAqheOwTW7CYXiw%3D%3D&trackingId=xikEeP2zBY20AVgDSZ3S4g%3D%3D",
+      "url": "https://jobs.secrettelaviv.com/job/account-manager-143",
       "company": "",
       "title": "Account Manager",
       "location": "",
-      "source": "LinkedIn",
-      "description": "אנחנו מחפשים Account Manager עם רקע בגיוס טכנולוגי",
+      "source": "Secret Tel Aviv",
+      "description": "We're looking for a passionate Account Manager to manage strategic customer accounts, 4+ years in SaaS Account Management or Customer Success",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "linkedin_0534dbede13af7b3",
+      "id": "secret_tel_aviv_ec2981e76af3b04d",
       "score": 0
     }
   ]
