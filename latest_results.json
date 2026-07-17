@@ -1,35 +1,20 @@
 {
-  "run_date": "2026-07-16T07:39:48.497702",
+  "run_date": "2026-07-17T07:37:19.326060",
   "cs": [
     {
-      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=269240",
-      "company": "Renishaw (Israel) Ltd",
-      "title": "מנהל /ת תיקי לקוחות",
-      "location": "יקנעם עילית",
-      "source": "AllJobs",
-      "description": "לחברה מובילה דרוש/ה מנהל /ת תיקי לקוחות!",
-      "german": false,
-      "physical_product": true,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_5b0b5667bc34c661",
-      "score": 1
-    }
-  ],
-  "operations": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/account-manager-143",
+      "url": "https://www.linkedin.com/jobs/view/378482687",
       "company": "",
-      "title": "Account Manager",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "We're looking for a passionate Account Manager to manage strategic customer accounts, 4+ years in SaaS Account Management or Customer Success",
+      "title": "Customer Success Manager - Russian Speaker",
+      "location": "Tel Aviv District",
+      "source": "LinkedIn",
+      "description": "Customer Success Manager",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_ec2981e76af3b04d",
+      "id": "linkedin_3eb7635deca8d4d7",
       "score": 0
     }
-  ]
+  ],
+  "operations": []
 }
