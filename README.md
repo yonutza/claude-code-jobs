@@ -9,6 +9,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 - `config.json` - search terms, filters, and the German-language preference.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 18/07/2026
+
+## Customer Success (1 משרות)
+
+1. **[](https://www.alljobs.co.il/m/p/jobs/8721132)** – Customer Success Manager EMEA
+   _AllJobs_
+
+## Account Executive / Account Manager (2 משרות)
+
+1. **[](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8631540)** – Technical Account Manager
+   _תל אביב | AllJobs_
+
+2. **[AWS](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8603310)** – Public Sector Account Manager (Temporary Position)
+   _AllJobs_
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 17/07/2026
 
 ## Customer Success (1 משרות)
