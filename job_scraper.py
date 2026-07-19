@@ -180,6 +180,29 @@ def save_results(results: dict[str, list[dict]]) -> None:
     })
 
 
+def _format_job_line(i: int, job: dict) -> list[str]:
+    url = job.get("url", "")
+    # company can come back as "" (GPT couldn't tell) rather than missing -
+    # `.get("company", "?")` doesn't catch that, so it must be checked
+    # explicitly. The link wraps the title (always present) rather than the
+    # company, so the link stays visible/clickable even when company is
+    # unknown - a blank "**[]​(url)**" renders with no visible link text at all.
+    company = job.get("company") or "חברה לא ידועה"
+    title = job.get("title", "")
+    location = job.get("location", "")
+    source = job.get("source", "")
+    flag = "🇩🇪 " if job.get("german") else ""
+    if url:
+        lines = [f"{i}. {flag}**{company}** – [{title}]({url})"]
+    else:
+        lines = [f"{i}. {flag}**{company}** – {title}"]
+    meta = " | ".join(filter(None, [location, source]))
+    if meta:
+        lines.append(f"   _{meta}_")
+    lines.append("")
+    return lines
+
+
 def format_report(results: dict[str, list[dict]]) -> str:
     run_date = datetime.now().strftime("%d/%m/%Y")
     lines = [
@@ -189,37 +212,11 @@ def format_report(results: dict[str, list[dict]]) -> str:
         "",
     ]
     for i, job in enumerate(results["cs"], 1):
-        url = job.get("url", "")
-        company = job.get("company", "?")
-        title = job.get("title", "")
-        location = job.get("location", "")
-        source = job.get("source", "")
-        flag = "🇩🇪 " if job.get("german") else ""
-        if url:
-            lines.append(f"{i}. {flag}**[{company}]({url})** – {title}")
-        else:
-            lines.append(f"{i}. {flag}**{company}** – {title}")
-        meta = " | ".join(filter(None, [location, source]))
-        if meta:
-            lines.append(f"   _{meta}_")
-        lines.append("")
+        lines += _format_job_line(i, job)
 
     lines += [f"## Account Executive / Account Manager ({len(results['operations'])} משרות)", ""]
     for i, job in enumerate(results["operations"], 1):
-        url = job.get("url", "")
-        company = job.get("company", "?")
-        title = job.get("title", "")
-        location = job.get("location", "")
-        source = job.get("source", "")
-        flag = "🇩🇪 " if job.get("german") else ""
-        if url:
-            lines.append(f"{i}. {flag}**[{company}]({url})** – {title}")
-        else:
-            lines.append(f"{i}. {flag}**{company}** – {title}")
-        meta = " | ".join(filter(None, [location, source]))
-        if meta:
-            lines.append(f"   _{meta}_")
-        lines.append("")
+        lines += _format_job_line(i, job)
 
     total = len(results["cs"]) + len(results["operations"])
     german_count = sum(1 for j in results["cs"] + results["operations"] if j.get("german"))
