@@ -9,6 +9,27 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 - `config.json` - search terms, filters, and the German-language preference.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 20/07/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (4 משרות)
+
+1. 🇩🇪 **monday.com** – [CRM Account Executive - German Fluency](https://www.linkedin.com/jobs/view/finance-director-at-monday-com-4172857680)
+   _Tel Aviv-Yafo, Tel Aviv District | LinkedIn_
+
+2. **Archem** – [Account Manager לתחום הפארמה](https://linkedin.com/jobs/view/4407709635)
+   _Bnei Brak, Tel Aviv District | LinkedIn_
+
+3. **חברה לא ידועה** – [Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8643612)
+   _תל אביב יפו | AllJobs_
+
+4. **Avraham ADV** – [Account Manager](https://www.linkedin.com/jobs/view/4350528687)
+   _Tel Aviv District | LinkedIn_
+
+---
+סה"כ: 4 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
+
 # דוח משרות יומי - 19/07/2026
 
 ## Customer Success (5 משרות)
