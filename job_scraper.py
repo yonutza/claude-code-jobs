@@ -160,10 +160,13 @@ def process_jobs(raw_jobs: list[dict], seen_ids: set) -> dict[str, list[dict]]:
     }
 
 
-def update_seen(results: dict[str, list[dict]]) -> None:
+def update_seen(results: dict[str, list[dict]], extra_ids: list[str] | None = None) -> None:
+    # extra_ids lets callers mark jobs as seen without them being in the
+    # reported results - e.g. a job dropped for being closed shouldn't be
+    # re-fetched and re-checked every day just because it was never "seen".
     seen_data = load_json(SEEN_JOBS_FILE)
     seen_ids = list(seen_data.get("seen_ids", []))
-    new_ids = [j["id"] for j in results["cs"] + results["operations"]]
+    new_ids = [j["id"] for j in results["cs"] + results["operations"]] + list(extra_ids or [])
     all_ids = seen_ids + new_ids
     if len(all_ids) > MAX_SEEN_IDS:
         all_ids = all_ids[-MAX_SEEN_IDS:]

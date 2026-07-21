@@ -9,7 +9,9 @@ judge the qualitative fit signals (physical product, Europe customers,
 growth stage, German language), then hands off to job_scraper.py for the
 deterministic filtering/dedup/scoring/persistence logic already used by the
 repo's Claude trigger (senior exclusion, location allow-list, CS/Ops
-classification, seen_jobs.json bookkeeping).
+classification, seen_jobs.json bookkeeping). A final liveness check
+(is_job_closed) then drops any of the shortlisted jobs that are no longer
+accepting applications, via a direct HTTP GET (not a paid API call).
 
 This runs on GitHub Actions rather than the Claude scheduled trigger because
 the trigger's sandboxed environment blocks git pushes carrying an embedded
@@ -27,6 +29,7 @@ import sys
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
+import requests
 from tavily import TavilyClient
 from openai import OpenAI
 
@@ -96,6 +99,16 @@ def looks_like_listing_page(url: str) -> bool:
     return any(p.search(url) for p in LISTING_PAGE_PATTERNS)
 
 
+def source_for_url(url: str) -> str:
+    # Derived from the URL's own domain rather than left to GPT to guess -
+    # a source label is now part of the dedup ID (see stable_id), so it must
+    # be deterministic across runs regardless of how GPT phrases things.
+    for source, domains in SOURCE_DOMAINS.items():
+        if any(d in url for d in domains):
+            return source
+    return "unknown"
+
+
 def search_jobs(tavily, queries):
     raw_hits = {}
     skipped_listing = 0
@@ -121,6 +134,7 @@ def search_jobs(tavily, queries):
                 "url": url,
                 "title": r.get("title", ""),
                 "content": (r.get("content") or "")[:600],
+                "source_key": source_for_url(url),
             }
 
     hits = list(raw_hits.values())
@@ -198,6 +212,58 @@ def extract_with_gpt(openai_client, hits):
     return jobs
 
 
+# Verified 2026-07-21 against real listings the candidate flagged as closed:
+# LinkedIn still returns 200 for a closed posting but marks it with this exact
+# class name; AllJobs instead returns a plain HTTP 410 for closed postings.
+# Other sites aren't verified yet, so only the universal status-code check
+# applies to them for now - no unverified keyword guessing.
+CLOSED_TEXT_SIGNALS = {
+    "linkedin.com": ["closed-job__flavor--closed"],
+}
+CLOSED_STATUS_CODES = {404, 410}
+LIVENESS_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
+
+
+def is_job_closed(url: str) -> bool:
+    # Runs only on the final ~10-20 candidates per category, not the raw
+    # search hits - a plain HTTP GET, no paid API involved. Fails open (keeps
+    # the job) on network errors or unrecognized-site responses, since wrongly
+    # dropping an open job is worse than occasionally missing a closed one.
+    try:
+        resp = requests.get(url, headers={"User-Agent": LIVENESS_USER_AGENT}, timeout=8)
+    except requests.RequestException as e:
+        log(f"Liveness check failed for {url}: {e} - keeping job.")
+        return False
+
+    if resp.status_code in CLOSED_STATUS_CODES:
+        return True
+    if resp.status_code >= 400:
+        return False  # probably bot-blocked, not necessarily closed
+
+    domain = urlparse(url).netloc
+    html_lower = resp.text.lower()
+    for site, signals in CLOSED_TEXT_SIGNALS.items():
+        if site in domain:
+            return any(s in html_lower for s in signals)
+    return False
+
+
+def filter_closed_jobs(jobs: list) -> tuple:
+    open_jobs = []
+    closed_ids = []
+    for job in jobs:
+        url = job.get("url", "")
+        if url and is_job_closed(url):
+            log(f"Dropping closed job: {job.get('title', '')} ({url})")
+            closed_ids.append(job["id"])
+            continue
+        open_jobs.append(job)
+    return open_jobs, closed_ids
+
+
 def stable_id(source, url):
     h = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
     return f"{(source or 'unknown').lower().replace(' ', '_')}_{h}"
@@ -234,21 +300,42 @@ def main():
     hits = search_jobs(tavily, queries)
     log(f"Found {len(hits)} raw search hits.")
 
-    extracted = extract_with_gpt(openai_client, hits)
+    # Dedup against already-reported URLs BEFORE spending GPT tokens on them -
+    # the dedup ID only depends on the URL (via source_for_url + hash), so
+    # this check doesn't need to wait for extraction/classification.
+    seen_ids = js.get_seen_ids()
+    id_by_url = {}
+    new_hits = []
+    skipped_seen = 0
+    for h in hits:
+        job_id = stable_id(h["source_key"], h["url"])
+        id_by_url[h["url"]] = job_id
+        if job_id in seen_ids:
+            skipped_seen += 1
+            continue
+        new_hits.append(h)
+    log(f"Skipped {skipped_seen} already-seen URLs before extraction.")
+
+    extracted = extract_with_gpt(openai_client, new_hits)
     log(f"GPT-4o extracted {len(extracted)} candidate job postings.")
 
     raw_jobs = []
     for job in extracted:
         url = job.get("url", "")
-        if not url:
+        if not url or url not in id_by_url:
             continue
-        job["id"] = stable_id(job.get("source"), url)
+        job["id"] = id_by_url[url]
         raw_jobs.append(job)
 
-    seen_ids = js.get_seen_ids()
     results = js.process_jobs(raw_jobs, seen_ids)
 
-    js.update_seen(results)
+    results["cs"], cs_closed_ids = filter_closed_jobs(results["cs"])
+    results["operations"], ops_closed_ids = filter_closed_jobs(results["operations"])
+    closed_ids = cs_closed_ids + ops_closed_ids
+    if closed_ids:
+        log(f"Dropped {len(closed_ids)} closed jobs after liveness check.")
+
+    js.update_seen(results, extra_ids=closed_ids)
     js.save_results(results)
     write_readme(results)
 
@@ -271,6 +358,8 @@ def write_readme(results):
         "- `seen_jobs.json` - IDs of jobs already reported (used for deduplication).",
         "- `latest_results.json` - results from the most recent scan.",
         "- `config.json` - search terms, filters, and the German-language preference.",
+        "- Shortlisted jobs get a final liveness check; postings no longer accepting",
+        "  applications are dropped before the report is written.",
         f"- Keeps the last {MAX_README_DAYS} days of reports below, so a missed day is still visible.",
         "",
     ]
