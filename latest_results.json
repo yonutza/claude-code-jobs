@@ -1,48 +1,34 @@
 {
-  "run_date": "2026-07-21T07:58:47.975245",
+  "run_date": "2026-07-22T07:58:38.624568",
   "cs": [
     {
-      "url": "https://www.linkedin.com/jobs/view/4320509886",
-      "company": "KPMG Israel",
-      "title": "Enterprise Customer Success Manager",
-      "location": "Tel Aviv-Yafo, Tel Aviv District",
+      "url": "https://www.linkedin.com/jobs/view/4426084106",
+      "company": "Guidde",
+      "title": "Founding Scale Customer Success Manager",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
       "source": "LinkedIn",
-      "description": "Senior Technical Customer Success Manager (Israel).",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "linkedin_253711bc1081811d",
-      "score": 1
-    },
-    {
-      "url": "https://www.linkedin.com/jobs/view/4318555057",
-      "company": "Confluent",
-      "title": "Customer Success Manager - Israel",
-      "location": "",
-      "source": "LinkedIn",
-      "description": "Customer Success Manager - Marketing & Advertisement.",
+      "description": "מנהל הצלחת לקוחות להובלת קשרי לקוחות אסטרטגיים.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "linkedin_9e5e467aca6dce03",
+      "id": "linkedin_afa0c3e4d5631e74",
       "score": 0
     }
   ],
   "operations": [
     {
-      "url": "https://www.linkedin.com/jobs/view/4375197751",
-      "company": "Niko Technologies",
-      "title": "Account Manager (FinTech)",
-      "location": "Tel Aviv District",
-      "source": "LinkedIn",
-      "description": "Account Manager (FinTech) in Tel Aviv District.",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8737456",
+      "company": "",
+      "title": "Account Executive Associate",
+      "location": "פתח תקווה",
+      "source": "AllJobs",
+      "description": "מנהל חשבונות לתפקיד הכולל ניהול ותיאום מכירות ותמיכה מול לקוחות אסטרטגיים.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "linkedin_f598acac0fc9f38c",
+      "id": "alljobs_52f26003cc456de6",
       "score": 0
     }
   ]
