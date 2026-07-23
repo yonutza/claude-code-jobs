@@ -1,35 +1,5 @@
 {
-  "run_date": "2026-07-22T07:58:38.624568",
-  "cs": [
-    {
-      "url": "https://www.linkedin.com/jobs/view/4426084106",
-      "company": "Guidde",
-      "title": "Founding Scale Customer Success Manager",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "LinkedIn",
-      "description": "מנהל הצלחת לקוחות להובלת קשרי לקוחות אסטרטגיים.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "linkedin_afa0c3e4d5631e74",
-      "score": 0
-    }
-  ],
-  "operations": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8737456",
-      "company": "",
-      "title": "Account Executive Associate",
-      "location": "פתח תקווה",
-      "source": "AllJobs",
-      "description": "מנהל חשבונות לתפקיד הכולל ניהול ותיאום מכירות ותמיכה מול לקוחות אסטרטגיים.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_52f26003cc456de6",
-      "score": 0
-    }
-  ]
+  "run_date": "2026-07-23T08:00:51.621073",
+  "cs": [],
+  "operations": []
 }
