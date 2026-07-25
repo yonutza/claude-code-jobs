@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 25/07/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 24/07/2026
 
 ## Customer Success (0 משרות)
@@ -268,15 +277,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 5 משרות חדשות | 2 עם יתרון גרמנית 🇩🇪
-
-# דוח משרות יומי - 12/07/2026
-
-## Customer Success (0 משרות)
-
-## Operations (1 משרות)
-
-1. **[HONK](https://jobs.lever.co/honkforhelp/ca5f9b65-f667-4a00-8f07-1e7462aaddeb)** – Customer Service Operations Manager
-   _Lever_
-
----
-סה"כ: 1 משרות חדשות
