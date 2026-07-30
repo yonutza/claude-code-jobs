@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 30/07/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 29/07/2026
 
 ## Customer Success (0 משרות)
@@ -190,18 +199,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 1 משרות חדשות
-
-# דוח משרות יומי - 16/07/2026
-
-## Customer Success (1 משרות)
-
-1. **[Renishaw (Israel) Ltd](https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=269240)** – מנהל /ת תיקי לקוחות
-   _יקנעם עילית | AllJobs_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **[](https://jobs.secrettelaviv.com/job/account-manager-143)** – Account Manager
-   _Secret Tel Aviv_
-
----
-סה"כ: 2 משרות חדשות
