@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 31/07/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 30/07/2026
 
 ## Customer Success (0 משרות)
@@ -187,15 +196,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 3 משרות חדשות
-
-# דוח משרות יומי - 17/07/2026
-
-## Customer Success (1 משרות)
-
-1. **[](https://www.linkedin.com/jobs/view/378482687)** – Customer Success Manager - Russian Speaker
-   _Tel Aviv District | LinkedIn_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 1 משרות חדשות
