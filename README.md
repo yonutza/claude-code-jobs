@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 02/08/2026
+
+## Customer Success (1 משרות)
+
+1. **MAX** – [Customer Success Manager](https://jobs.secrettelaviv.com/job/customer-success-manager-651)
+   _Tel Aviv | Secret Tel Aviv_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 01/08/2026
 
 ## Customer Success (0 משרות)
@@ -154,36 +166,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 4 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
-
-# דוח משרות יומי - 19/07/2026
-
-## Customer Success (5 משרות)
-
-1. **[Spotify](https://jobs.lever.co/spotify/5ce98fa0-1474-4e27-99f5-bdbeb0c4372c/apply)** – Customer Success Manager, Ad Sales (Milan)
-   _Lever_
-
-2. **[](https://jobs.secrettelaviv.com/job/customer-success-manager-csm-10)** – Customer Success Manager (CSM)
-   _Secret Tel Aviv_
-
-3. **[](https://jobs.secrettelaviv.com/job/technical-customer-success-manager-23)** – Technical Customer Success Manager
-   _Secret Tel Aviv_
-
-4. **[Connecteam](https://boards.greenhouse.io/connecteam/jobs/6114294004)** – Technical Customer Success
-   _Greenhouse_
-
-5. **[](https://jobs.lever.co/leverdemo-8/08ecfd0d-5445-45d8-b5a3-ba7ad50cea61/apply)** – Customer Success Manager (Remote)
-   _Lever_
-
-## Account Executive / Account Manager (3 משרות)
-
-1. **[](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8608623)** – Commercial Account Executive
-   _AllJobs_
-
-2. **[MAX](https://jobs.secrettelaviv.com/job/b2b-account-manager-2)** – B2B Account Manager
-   _Secret Tel Aviv_
-
-3. **[](https://jobs.secrettelaviv.com/job/account-manager-commercial-builder)** – Account Manager | Commercial Builder
-   _Secret Tel Aviv_
-
----
-סה"כ: 8 משרות חדשות
