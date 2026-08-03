@@ -1,20 +1,63 @@
 {
-  "run_date": "2026-08-02T07:53:14.966011",
+  "run_date": "2026-08-03T08:51:39.310212",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-651",
-      "company": "MAX",
-      "title": "Customer Success Manager",
-      "location": "Tel Aviv",
+      "url": "https://jobs.secrettelaviv.com/job/smb-customer-success-manager-emea",
+      "company": "Riverside",
+      "title": "Mid – Market Customer Success Manager – EMEA",
+      "location": "",
       "source": "Secret Tel Aviv",
-      "description": "Join our team as a Customer Success Manager in Tel Aviv, Israel!",
+      "description": "Our Customer Success team is customer-obsessed and commercially minded.",
       "german": false,
       "physical_product": false,
       "europe_customers": true,
       "stable_growth": false,
-      "id": "secret_tel_aviv_12a666bff0cbe14c",
+      "id": "secret_tel_aviv_f3e19dbb6687036d",
       "score": 1
+    },
+    {
+      "url": "https://jobs.lever.co/controlup/7824a46c-6523-47cf-9618-7ec62d9ec9d4",
+      "company": "ControlUp",
+      "title": "DACH Enterprise Customer Success Manager",
+      "location": "",
+      "source": "Lever",
+      "description": "We’re looking for a strong communicator and natural leader who takes initiative.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "greenhouse_lever_8d486b695058f78a",
+      "score": 1
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-647",
+      "company": "",
+      "title": "Customer Success Manager",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Customer Success Manager. Subscribe to Job Alerts.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_f927d1a6a1803b51",
+      "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/technical-account-manager-144",
+      "company": "Zesty",
+      "title": "Technical Account Manager",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "This is the first TAM role in Israel and part of Zesty’s Account Management organization.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_4518c192a614343c",
+      "score": 1
+    }
+  ]
 }
