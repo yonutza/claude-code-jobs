@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 04/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 03/08/2026
 
 ## Customer Success (3 משרות)
@@ -148,21 +157,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 21/07/2026
-
-## Customer Success (2 משרות)
-
-1. **KPMG Israel** – [Enterprise Customer Success Manager](https://www.linkedin.com/jobs/view/4320509886)
-   _Tel Aviv-Yafo, Tel Aviv District | LinkedIn_
-
-2. **Confluent** – [Customer Success Manager - Israel](https://www.linkedin.com/jobs/view/4318555057)
-   _LinkedIn_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **Niko Technologies** – [Account Manager (FinTech)](https://www.linkedin.com/jobs/view/4375197751)
-   _Tel Aviv District | LinkedIn_
-
----
-סה"כ: 3 משרות חדשות
