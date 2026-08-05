@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 05/08/2026
+
+## Customer Success (2 משרות)
+
+1. **חברה לא ידועה** – [Customer Success Manager](https://jobs.secrettelaviv.com?p=90744)
+   _Secret Tel Aviv_
+
+2. **חברה לא ידועה** – [Celery- Customer Success Manager (Mid-Level)](https://jobs.secrettelaviv.com/job/celery-customer-success-manager-mid-level)
+   _Secret Tel Aviv_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **Connecteam** – [Account Executive SMB- Israel](https://jobs.secrettelaviv.com/job/ae-smb-israel)
+   _Secret Tel Aviv_
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 04/08/2026
 
 ## Customer Success (0 משרות)
@@ -142,18 +160,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 22/07/2026
-
-## Customer Success (1 משרות)
-
-1. **Guidde** – [Founding Scale Customer Success Manager](https://www.linkedin.com/jobs/view/4426084106)
-   _Tel Aviv-Yafo, Tel Aviv District, Israel | LinkedIn_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **חברה לא ידועה** – [Account Executive Associate](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8737456)
-   _פתח תקווה | AllJobs_
-
----
-סה"כ: 2 משרות חדשות

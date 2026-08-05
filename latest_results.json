@@ -1,5 +1,49 @@
 {
-  "run_date": "2026-08-04T08:07:33.525880",
-  "cs": [],
-  "operations": []
+  "run_date": "2026-08-05T08:08:10.658423",
+  "cs": [
+    {
+      "url": "https://jobs.secrettelaviv.com?p=90744",
+      "company": "",
+      "title": "Customer Success Manager",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Secret Tel Aviv Jobs Community Ninjas Fe Melo Design Interblog",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_8858fdfc69c10cb9",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/celery-customer-success-manager-mid-level",
+      "company": "",
+      "title": "Celery- Customer Success Manager (Mid-Level)",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Secret Tel Aviv Jobs Community Ninjas Fe Melo Design Interblog",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_b3725485fd376b62",
+      "score": 0
+    }
+  ],
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/ae-smb-israel",
+      "company": "Connecteam",
+      "title": "Account Executive SMB- Israel",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Become a product expert and an expert in consulting businesses from a wide variety of industries!",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_1085c19522d44542",
+      "score": 0
+    }
+  ]
 }
