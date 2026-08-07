@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 07/08/2026
+
+## Customer Success (1 משרות)
+
+1. **חברה לא ידועה** – [Cyber Security Customer Success Manager](https://jobs.secrettelaviv.com/job/online-theat-hunter?form=apply)
+   _Secret Tel Aviv_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 06/08/2026
 
 ## Customer Success (2 משרות)
@@ -150,15 +162,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 25/07/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 24/07/2026
 
 ## Customer Success (0 משרות)
 

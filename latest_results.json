@@ -1,33 +1,19 @@
 {
-  "run_date": "2026-08-06T08:06:05.249557",
+  "run_date": "2026-08-07T06:52:58.963829",
   "cs": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8767807",
+      "url": "https://jobs.secrettelaviv.com/job/online-theat-hunter?form=apply",
       "company": "",
-      "title": "CX Manager - ERP Integration Solution",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "דרושים CX Manager - ERP Integration Solution בתל אביב יפו.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_ccf5e3723c896295",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-649",
-      "company": "Guideline Group",
-      "title": "Customer Success Manager",
+      "title": "Cyber Security Customer Success Manager",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "Guideline Group is a leading, well-established company in Israel, providing technological solutions in FinTech.",
+      "description": "- Recognize and research online attacks, analyzing attack patterns to fortify defense strategies.",
       "german": false,
       "physical_product": false,
-      "europe_customers": false,
+      "europe_customers": true,
       "stable_growth": false,
-      "id": "secret_tel_aviv_9ed914be3e1781f2",
-      "score": 0
+      "id": "secret_tel_aviv_71fb32801871fc3d",
+      "score": 1
     }
   ],
   "operations": []
