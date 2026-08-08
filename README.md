@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 08/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 07/08/2026
 
 ## Customer Success (1 משרות)
@@ -153,15 +162,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 26/07/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 25/07/2026
 
 ## Customer Success (0 משרות)
 
