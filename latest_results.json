@@ -1,5 +1,20 @@
 {
-  "run_date": "2026-08-08T06:24:36.087446",
-  "cs": [],
+  "run_date": "2026-08-09T06:27:32.264324",
+  "cs": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-german-speaker-5",
+      "company": "",
+      "title": "Customer Success Manager – German Speaker",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Customer Success Manager position requiring German language skills.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_07a7a271a6ae97ce",
+      "score": 2
+    }
+  ],
   "operations": []
 }
