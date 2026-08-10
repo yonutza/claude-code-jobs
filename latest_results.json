@@ -1,20 +1,20 @@
 {
-  "run_date": "2026-08-09T06:27:32.264324",
-  "cs": [
+  "run_date": "2026-08-10T06:54:53.419648",
+  "cs": [],
+  "operations": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-german-speaker-5",
+      "url": "https://www.nisha.co.il/job/10703",
       "company": "",
-      "title": "Customer Success Manager – German Speaker",
+      "title": "Field Engineer/Account Manager",
       "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "Customer Success Manager position requiring German language skills.",
-      "german": true,
+      "source": "Nisha",
+      "description": "ניהול ותיאום מכירות ותמיכה מול לקוחות אסטרטגיים.",
+      "german": false,
       "physical_product": false,
-      "europe_customers": false,
+      "europe_customers": true,
       "stable_growth": false,
-      "id": "secret_tel_aviv_07a7a271a6ae97ce",
-      "score": 2
+      "id": "nisha_f9f1337d2d9fe8be",
+      "score": 1
     }
-  ],
-  "operations": []
+  ]
 }

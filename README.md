@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 10/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **חברה לא ידועה** – [Field Engineer/Account Manager](https://www.nisha.co.il/job/10703)
+   _Nisha_
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 09/08/2026
 
 ## Customer Success (1 משרות)
@@ -156,15 +168,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 28/07/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 27/07/2026
 
 ## Customer Success (0 משרות)
 
