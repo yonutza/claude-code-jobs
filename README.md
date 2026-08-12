@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 12/08/2026
+
+## Customer Success (1 משרות)
+
+1. **חברה לא ידועה** – [Customer Success Engineer לחברת סטארטאפ בעולם ה](/goto?url=CAESigIB7keqTeuzR7EotjCNah6zSP72CF0NPce97Kz2h6k0FzwWmMFDIFRpz4ptNu_2xQJJO8am8up_7wWBUqhHsIm5GR2po40V1qK-V1UhPJ60MUK7zHpy49nIo6VYR3ZzfYd5iF1nbgadnGy4SaXBOoL62jHOAHJ6WvlJBIbHvMdNs0PQwJ7s7WX7CdZZlUUdavU_kJlNNaXeje6Rz1mLngEPcVg1YHQYJoObu-C3aE0W9nQseqLdY6PY4U5lHrXL5rdinnyPeCfNlxDbaSWKmlsWzl7sXiCMB0dy6gIKmvHdX5zW8w0ogxshr4bwrDwC4ccSmZVjvN22sgWLwLtppwBmOQE8pRbveg0uyQ%3D%3D)
+   _Unknown_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 11/08/2026
 
 ## Customer Success (0 משרות)
@@ -165,15 +177,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 30/07/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 29/07/2026
 
 ## Customer Success (0 משרות)
 

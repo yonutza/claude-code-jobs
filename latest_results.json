@@ -1,34 +1,20 @@
 {
-  "run_date": "2026-08-11T06:33:35.914390",
-  "cs": [],
-  "operations": [
+  "run_date": "2026-08-12T06:58:28.982144",
+  "cs": [
     {
-      "url": "https://www.linkedin.com/jobs/view/4425572386",
-      "company": "UR Tech Jobs",
-      "title": "Account Manager",
-      "location": "Herzliya, Tel Aviv District, Israel",
-      "source": "LinkedIn",
-      "description": "Strategic Account Manager at PCB Technologies Ltd.",
+      "url": "/goto?url=CAESigIB7keqTeuzR7EotjCNah6zSP72CF0NPce97Kz2h6k0FzwWmMFDIFRpz4ptNu_2xQJJO8am8up_7wWBUqhHsIm5GR2po40V1qK-V1UhPJ60MUK7zHpy49nIo6VYR3ZzfYd5iF1nbgadnGy4SaXBOoL62jHOAHJ6WvlJBIbHvMdNs0PQwJ7s7WX7CdZZlUUdavU_kJlNNaXeje6Rz1mLngEPcVg1YHQYJoObu-C3aE0W9nQseqLdY6PY4U5lHrXL5rdinnyPeCfNlxDbaSWKmlsWzl7sXiCMB0dy6gIKmvHdX5zW8w0ogxshr4bwrDwC4ccSmZVjvN22sgWLwLtppwBmOQE8pRbveg0uyQ%3D%3D",
+      "company": "",
+      "title": "Customer Success Engineer לחברת סטארטאפ בעולם ה",
+      "location": "",
+      "source": "Unknown",
+      "description": "חברת סטארטאפ שמפתחת מוצר בתחום ה- Storage מגייסת Customer Success.",
       "german": false,
-      "physical_product": false,
+      "physical_product": true,
       "europe_customers": false,
-      "stable_growth": false,
-      "id": "linkedin_e4394a5773e517cb",
-      "score": 0
-    },
-    {
-      "url": "https://www.linkedin.com/jobs/view/4423358683",
-      "company": "Woobi",
-      "title": "Account Manager - Publishers",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "LinkedIn",
-      "description": "Account Manager – Affiliate & Mobile Advertising | AdTech",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "linkedin_0e2fe1748dad44af",
-      "score": 0
+      "stable_growth": true,
+      "id": "unknown_c1445565aedaf8fd",
+      "score": 2
     }
-  ]
+  ],
+  "operations": []
 }
