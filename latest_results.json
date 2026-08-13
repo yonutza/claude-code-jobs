@@ -1,20 +1,20 @@
 {
-  "run_date": "2026-08-12T06:58:28.982144",
-  "cs": [
+  "run_date": "2026-08-13T07:02:49.690158",
+  "cs": [],
+  "operations": [
     {
-      "url": "/goto?url=CAESigIB7keqTeuzR7EotjCNah6zSP72CF0NPce97Kz2h6k0FzwWmMFDIFRpz4ptNu_2xQJJO8am8up_7wWBUqhHsIm5GR2po40V1qK-V1UhPJ60MUK7zHpy49nIo6VYR3ZzfYd5iF1nbgadnGy4SaXBOoL62jHOAHJ6WvlJBIbHvMdNs0PQwJ7s7WX7CdZZlUUdavU_kJlNNaXeje6Rz1mLngEPcVg1YHQYJoObu-C3aE0W9nQseqLdY6PY4U5lHrXL5rdinnyPeCfNlxDbaSWKmlsWzl7sXiCMB0dy6gIKmvHdX5zW8w0ogxshr4bwrDwC4ccSmZVjvN22sgWLwLtppwBmOQE8pRbveg0uyQ%3D%3D",
+      "url": "https://www.alljobs.co.il/m/p/jobs/8723927",
       "company": "",
-      "title": "Customer Success Engineer לחברת סטארטאפ בעולם ה",
-      "location": "",
-      "source": "Unknown",
-      "description": "חברת סטארטאפ שמפתחת מוצר בתחום ה- Storage מגייסת Customer Success.",
+      "title": "Account Manager",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "מנהל חשבונות",
       "german": false,
-      "physical_product": true,
+      "physical_product": false,
       "europe_customers": false,
-      "stable_growth": true,
-      "id": "unknown_c1445565aedaf8fd",
-      "score": 2
+      "stable_growth": false,
+      "id": "alljobs_47b357b2be3cded7",
+      "score": 0
     }
-  ],
-  "operations": []
+  ]
 }
