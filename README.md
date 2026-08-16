@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 16/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 15/08/2026
 
 ## Customer Success (0 משרות)
@@ -190,15 +199,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 4 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
-
-# דוח משרות יומי - 02/08/2026
-
-## Customer Success (1 משרות)
-
-1. **MAX** – [Customer Success Manager](https://jobs.secrettelaviv.com/job/customer-success-manager-651)
-   _Tel Aviv | Secret Tel Aviv_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 1 משרות חדשות
