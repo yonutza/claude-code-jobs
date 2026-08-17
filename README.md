@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 17/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 16/08/2026
 
 ## Customer Success (0 משרות)
@@ -178,24 +187,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 03/08/2026
-
-## Customer Success (3 משרות)
-
-1. **Riverside** – [Mid – Market Customer Success Manager – EMEA](https://jobs.secrettelaviv.com/job/smb-customer-success-manager-emea)
-   _Secret Tel Aviv_
-
-2. 🇩🇪 **ControlUp** – [DACH Enterprise Customer Success Manager](https://jobs.lever.co/controlup/7824a46c-6523-47cf-9618-7ec62d9ec9d4)
-   _Lever_
-
-3. **חברה לא ידועה** – [Customer Success Manager](https://jobs.secrettelaviv.com/job/customer-success-manager-647)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **Zesty** – [Technical Account Manager](https://jobs.secrettelaviv.com/job/technical-account-manager-144)
-   _Secret Tel Aviv_
-
----
-סה"כ: 4 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
