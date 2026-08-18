@@ -1,5 +1,20 @@
 {
-  "run_date": "2026-08-17T06:04:53.307083",
-  "cs": [],
+  "run_date": "2026-08-18T06:00:04.309933",
+  "cs": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/technical-customer-success-manager-24",
+      "company": "",
+      "title": "Technical Customer Success Manager",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Technical Customer Success Manager to own our customer base outside the United States",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_c0e0e3f48803a471",
+      "score": 1
+    }
+  ],
   "operations": []
 }
