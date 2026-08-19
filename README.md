@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 19/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (2 משרות)
+
+1. **חברה לא ידועה** – [דרושים Account Manager למגוון משרות](https://www.nisha.co.il/positions/account-manager)
+   _Nisha_
+
+2. **Taboola** – [Advertiser Account Manager (Domestic Market)- Maternity leave replacement](https://jobs.secrettelaviv.com/job/advertiser-account-manager-domestic-market-maternity-leave-replacement)
+   _Secret Tel Aviv_
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 18/08/2026
 
 ## Customer Success (1 משרות)
@@ -172,21 +187,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 05/08/2026
-
-## Customer Success (2 משרות)
-
-1. **חברה לא ידועה** – [Customer Success Manager](https://jobs.secrettelaviv.com?p=90744)
-   _Secret Tel Aviv_
-
-2. **חברה לא ידועה** – [Celery- Customer Success Manager (Mid-Level)](https://jobs.secrettelaviv.com/job/celery-customer-success-manager-mid-level)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **Connecteam** – [Account Executive SMB- Israel](https://jobs.secrettelaviv.com/job/ae-smb-israel)
-   _Secret Tel Aviv_
-
----
-סה"כ: 3 משרות חדשות
