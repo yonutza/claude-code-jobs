@@ -1,33 +1,19 @@
 {
-  "run_date": "2026-08-19T06:02:38.210393",
+  "run_date": "2026-08-20T06:02:08.421910",
   "cs": [],
   "operations": [
     {
-      "url": "https://www.nisha.co.il/positions/account-manager",
-      "company": "",
-      "title": "דרושים Account Manager למגוון משרות",
-      "location": "",
-      "source": "Nisha",
-      "description": "דרושים Account Manager למגוון משרות.",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8707593",
+      "company": "Base44",
+      "title": "Account Manager",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "דרושים מנהל חשבונות ב-Base44.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "nisha_d77b668d176c24f0",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/advertiser-account-manager-domestic-market-maternity-leave-replacement",
-      "company": "Taboola",
-      "title": "Advertiser Account Manager (Domestic Market)- Maternity leave replacement",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "מנהל חשבונות מפרסמים להחלפת חופשת לידה ב-Taboola.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_16dcb756cf1ad328",
+      "id": "alljobs_3d80284c05c78f7c",
       "score": 0
     }
   ]
