@@ -1,20 +1,5 @@
 {
-  "run_date": "2026-08-20T06:02:08.421910",
+  "run_date": "2026-08-21T06:03:39.301449",
   "cs": [],
-  "operations": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8707593",
-      "company": "Base44",
-      "title": "Account Manager",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "דרושים מנהל חשבונות ב-Base44.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_3d80284c05c78f7c",
-      "score": 0
-    }
-  ]
+  "operations": []
 }
