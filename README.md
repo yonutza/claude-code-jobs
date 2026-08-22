@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 22/08/2026
+
+## Customer Success (3 משרות)
+
+1. 🇩🇪 **חברה לא ידועה** – [Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8605284)
+   _תל אביב יפו | AllJobs_
+
+2. **חברה לא ידועה** – [Junior Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8570235)
+   _הרצליה | AllJobs_
+
+3. **חברה לא ידועה** – [Customer Success Manager (CSM)](https://www.nisha.co.il/job/3069)
+   _Nisha_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 3 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
+
 # דוח משרות יומי - 21/08/2026
 
 ## Customer Success (0 משרות)
@@ -172,12 +190,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 1 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
-
-# דוח משרות יומי - 08/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות

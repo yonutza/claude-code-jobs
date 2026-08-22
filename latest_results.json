@@ -1,5 +1,48 @@
 {
-  "run_date": "2026-08-21T06:03:39.301449",
-  "cs": [],
+  "run_date": "2026-08-22T05:59:50.342017",
+  "cs": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8605284",
+      "company": "",
+      "title": "Customer Success Manager",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "משרה בתחום שירות לקוחות בתל אביב יפו.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_9813a0a84d2facb7",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8570235",
+      "company": "",
+      "title": "Junior Customer Success Manager",
+      "location": "הרצליה",
+      "source": "AllJobs",
+      "description": "משרה בתחום שירות לקוחות בהרצליה.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_93d3925f2f6899af",
+      "score": 0
+    },
+    {
+      "url": "https://www.nisha.co.il/job/3069",
+      "company": "",
+      "title": "Customer Success Manager (CSM)",
+      "location": "",
+      "source": "Nisha",
+      "description": "משרה בתחום Customer Success Manager.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "nisha_79c3c1b4f597c2ef",
+      "score": 0
+    }
+  ],
   "operations": []
 }
