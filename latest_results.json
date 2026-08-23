@@ -1,48 +1,49 @@
 {
-  "run_date": "2026-08-22T05:59:50.342017",
+  "run_date": "2026-08-23T06:00:26.131533",
   "cs": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8605284",
-      "company": "",
-      "title": "Customer Success Manager",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "משרה בתחום שירות לקוחות בתל אביב יפו.",
+      "url": "https://jobs.lever.co/controlup/7824a46c-6523-47cf-9618-7ec62d9ec9d4?lever-source%5B%5D=",
+      "company": "ControlUp",
+      "title": "DACH Enterprise Customer Success Manager",
+      "location": "",
+      "source": "Lever",
+      "description": "The best CSMs here are motivated by the genuine success of the customers they serve.",
       "german": true,
       "physical_product": false,
-      "europe_customers": false,
+      "europe_customers": true,
       "stable_growth": false,
-      "id": "alljobs_9813a0a84d2facb7",
-      "score": 0
+      "id": "greenhouse_lever_bec747d43a0416cf",
+      "score": 1
     },
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8570235",
-      "company": "",
-      "title": "Junior Customer Success Manager",
-      "location": "הרצליה",
-      "source": "AllJobs",
-      "description": "משרה בתחום שירות לקוחות בהרצליה.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_93d3925f2f6899af",
-      "score": 0
-    },
-    {
-      "url": "https://www.nisha.co.il/job/3069",
-      "company": "",
-      "title": "Customer Success Manager (CSM)",
+      "url": "https://jobs.lever.co/upguard/9d95f30b-c180-4ce4-b2b9-ac9711ca00e9/apply?source=LinkedIn",
+      "company": "UpGuard",
+      "title": "Customer Success Manager",
       "location": "",
-      "source": "Nisha",
-      "description": "משרה בתחום Customer Success Manager.",
+      "source": "Lever",
+      "description": "At UpGuard, we're committed to building a diverse team that reflects the diversity of our communities.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "nisha_79c3c1b4f597c2ef",
+      "id": "greenhouse_lever_b6cda1edc9d6d902",
       "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-executive-enterprise-emea",
+      "company": "riverside.fm",
+      "title": "Account Executive – EMEA",
+      "location": "Tel Aviv/ Ramat Gan",
+      "source": "Secret Tel Aviv",
+      "description": "Account Executive – EMEA.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_0351b8668be6e000",
+      "score": 1
+    }
+  ]
 }
