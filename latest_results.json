@@ -1,49 +1,5 @@
 {
-  "run_date": "2026-08-23T06:00:26.131533",
-  "cs": [
-    {
-      "url": "https://jobs.lever.co/controlup/7824a46c-6523-47cf-9618-7ec62d9ec9d4?lever-source%5B%5D=",
-      "company": "ControlUp",
-      "title": "DACH Enterprise Customer Success Manager",
-      "location": "",
-      "source": "Lever",
-      "description": "The best CSMs here are motivated by the genuine success of the customers they serve.",
-      "german": true,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "greenhouse_lever_bec747d43a0416cf",
-      "score": 1
-    },
-    {
-      "url": "https://jobs.lever.co/upguard/9d95f30b-c180-4ce4-b2b9-ac9711ca00e9/apply?source=LinkedIn",
-      "company": "UpGuard",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "Lever",
-      "description": "At UpGuard, we're committed to building a diverse team that reflects the diversity of our communities.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_b6cda1edc9d6d902",
-      "score": 0
-    }
-  ],
-  "operations": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/account-executive-enterprise-emea",
-      "company": "riverside.fm",
-      "title": "Account Executive – EMEA",
-      "location": "Tel Aviv/ Ramat Gan",
-      "source": "Secret Tel Aviv",
-      "description": "Account Executive – EMEA.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_0351b8668be6e000",
-      "score": 1
-    }
-  ]
+  "run_date": "2026-08-24T06:06:55.454285",
+  "cs": [],
+  "operations": []
 }
