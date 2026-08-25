@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 25/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 24/08/2026
 
 ## Customer Success (0 משרות)
@@ -178,18 +187,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 1 משרות חדשות
-
-# דוח משרות יומי - 11/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (2 משרות)
-
-1. **UR Tech Jobs** – [Account Manager](https://www.linkedin.com/jobs/view/4425572386)
-   _Herzliya, Tel Aviv District, Israel | LinkedIn_
-
-2. **Woobi** – [Account Manager - Publishers](https://www.linkedin.com/jobs/view/4423358683)
-   _Tel Aviv-Yafo, Tel Aviv District, Israel | LinkedIn_
-
----
-סה"כ: 2 משרות חדשות
