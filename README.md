@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 28/08/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 27/08/2026
 
 ## Customer Success (0 משרות)
@@ -157,27 +166,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 14/08/2026
-
-## Customer Success (2 משרות)
-
-1. **חברה לא ידועה** – [Customer Success Manager- French speakers](https://jobs.secrettelaviv.com/job/customer-success-manager-french-speakers)
-   _Secret Tel Aviv_
-
-2. **Monogoto** – [Junior CSM](https://jobs.secrettelaviv.com/job/monogoto-junior-csm)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (3 משרות)
-
-1. **OPSWAT** – [Sales Account Manager](https://boards.greenhouse.io/opswat/jobs/4502531005)
-   _Greenhouse_
-
-2. **Verifone** – [Sales Account Manager for Strategic Customers](https://boards.greenhouse.io/verifone/jobs/7643273003)
-   _Tel Aviv-Yafo, Tel Aviv District, Israel | Greenhouse_
-
-3. **חברה לא ידועה** – [Account Manager Mid-Market – Israel Market](https://jobs.secrettelaviv.com/job/account-manager-mid-market-israel)
-   _Secret Tel Aviv_
-
----
-סה"כ: 5 משרות חדשות
