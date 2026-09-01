@@ -2,16 +2,23 @@ name: Daily Job Scan
 
 on:
   schedule:
-    # GitHub's schedule trigger is unreliable (has silently skipped entire
-    # days, and drifted by 3+ hours) - so this retries several times through
-    # the morning/early afternoon instead of relying on one fixed time.
-    # scan.py exits immediately once any attempt succeeds that day, so later
-    # firings are no-ops. Times are Israel local + 3h (IDT/summer) in UTC;
-    # deliberately non-round minutes.
+    # GitHub's schedule trigger is unreliable - confirmed (2026-08-27, -28,
+    # -31) to skip an entire morning/midday block of firings some days, only
+    # actually running that evening. So this window now spans the whole day,
+    # 08:37-22:41 Israel, instead of stopping at early afternoon. scan.py
+    # exits immediately once any attempt succeeds that day, so later firings
+    # are cheap no-ops. The notification (RemoteTrigger, separate from this
+    # file) checks the *next* morning at 07:00 rather than same-day, so it
+    # reports on results that have had this whole window to land. Times are
+    # Israel local + 3h (IDT/summer) in UTC; deliberately non-round minutes.
     - cron: '37 5 * * *'   # ~08:37 Israel
     - cron: '41 7 * * *'   # ~10:41 Israel
     - cron: '43 9 * * *'   # ~12:43 Israel
-    - cron: '47 10 * * *'  # ~13:47 Israel
+    - cron: '47 11 * * *'  # ~14:47 Israel
+    - cron: '53 13 * * *'  # ~16:53 Israel
+    - cron: '59 15 * * *'  # ~18:59 Israel
+    - cron: '11 18 * * *'  # ~21:11 Israel
+    - cron: '41 19 * * *'  # ~22:41 Israel
   workflow_dispatch: {}
 
 permissions:
