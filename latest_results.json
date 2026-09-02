@@ -1,48 +1,47 @@
 {
-  "run_date": "2026-09-01T10:26:55.518111",
-  "cs": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/enterprise-customer-success-manager-40",
-      "company": "StoreNext",
-      "title": "Enterprise Customer Success Manager",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "We're growing rapidly and expanding our CS capabilities at StoreNext by establishing an Enterprise Customer Success Manager (CSM) role.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": true,
-      "id": "secret_tel_aviv_cde5961b3eaabf26",
-      "score": 1
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8794602",
-      "company": "",
-      "title": "Customer Success Operations Specialist",
-      "location": "",
-      "source": "AllJobs",
-      "description": "Responsible for managing the execution of clients rejects and customer success mechanism in Israel.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_51ef21e8eb8d133e",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-09-02T09:54:42.196992",
+  "cs": [],
   "operations": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8794676",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8804093",
       "company": "",
-      "title": "Founding Enterprise Account Executive (US market)",
-      "location": "",
+      "title": "דרושים SMB Account Manager בנתניה",
+      "location": "נתניה",
       "source": "AllJobs",
-      "description": "Requirements: 5+ years closing B2B enterprise software deals into the US market.",
+      "description": "ניהול חשבונות SMB בנתניה.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "alljobs_3bf4e140c10531d3",
+      "id": "alljobs_b846f3bf3522a8a9",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/m/p/jobs/8753613",
+      "company": "",
+      "title": "Account Manager - New & Existing Business",
+      "location": "",
+      "source": "AllJobs",
+      "description": "ניהול חשבונות חדשים וקיימים עם סקרנות אמיתית.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_24f3d6cafc3c318c",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8747464",
+      "company": "",
+      "title": "SDR & Account Manager",
+      "location": "",
+      "source": "AllJobs",
+      "description": "ניהול וגידול חשבונות לקוחות קיימים.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_4e5b7d8977925644",
       "score": 0
     }
   ]

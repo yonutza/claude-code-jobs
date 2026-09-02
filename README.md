@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 02/09/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (3 משרות)
+
+1. **חברה לא ידועה** – [דרושים SMB Account Manager בנתניה](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8804093)
+   _נתניה | AllJobs_
+
+2. **חברה לא ידועה** – [Account Manager - New & Existing Business](https://www.alljobs.co.il/m/p/jobs/8753613)
+   _AllJobs_
+
+3. **חברה לא ידועה** – [SDR & Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8747464)
+   _AllJobs_
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 01/09/2026
 
 ## Customer Success (2 משרות)
@@ -157,18 +175,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 1 משרות חדשות
-
-# דוח משרות יומי - 19/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (2 משרות)
-
-1. **חברה לא ידועה** – [דרושים Account Manager למגוון משרות](https://www.nisha.co.il/positions/account-manager)
-   _Nisha_
-
-2. **Taboola** – [Advertiser Account Manager (Domestic Market)- Maternity leave replacement](https://jobs.secrettelaviv.com/job/advertiser-account-manager-domestic-market-maternity-leave-replacement)
-   _Secret Tel Aviv_
-
----
-סה"כ: 2 משרות חדשות
