@@ -1,48 +1,34 @@
 {
-  "run_date": "2026-09-02T09:54:42.196992",
-  "cs": [],
-  "operations": [
+  "run_date": "2026-09-03T12:17:00.180046",
+  "cs": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8804093",
-      "company": "",
-      "title": "דרושים SMB Account Manager בנתניה",
-      "location": "נתניה",
-      "source": "AllJobs",
-      "description": "ניהול חשבונות SMB בנתניה.",
+      "url": "https://jobs.secrettelaviv.com/job/enterprise-customer-success",
+      "company": "Justt",
+      "title": "Enterprise Customer Success Manager",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "We are looking for an Enterprise Customer Success Manager to join our team.",
       "german": false,
       "physical_product": false,
-      "europe_customers": false,
+      "europe_customers": true,
       "stable_growth": false,
-      "id": "alljobs_b846f3bf3522a8a9",
-      "score": 0
+      "id": "secret_tel_aviv_5a358872eadc9c03",
+      "score": 1
     },
     {
-      "url": "https://www.alljobs.co.il/m/p/jobs/8753613",
-      "company": "",
-      "title": "Account Manager - New & Existing Business",
+      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-649?form=apply",
+      "company": "Guideline Group",
+      "title": "Customer Success Manager",
       "location": "",
-      "source": "AllJobs",
-      "description": "ניהול חשבונות חדשים וקיימים עם סקרנות אמיתית.",
+      "source": "Secret Tel Aviv",
+      "description": "Guideline Group is a leading, well-established company in Israel, providing technological solutions in FinTech, Invest Tech, Legal Tech, and Business Tech.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "alljobs_24f3d6cafc3c318c",
-      "score": 0
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8747464",
-      "company": "",
-      "title": "SDR & Account Manager",
-      "location": "",
-      "source": "AllJobs",
-      "description": "ניהול וגידול חשבונות לקוחות קיימים.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_4e5b7d8977925644",
+      "id": "secret_tel_aviv_55e0094781e50b54",
       "score": 0
     }
-  ]
+  ],
+  "operations": []
 }
