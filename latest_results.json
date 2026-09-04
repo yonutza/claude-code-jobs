@@ -1,34 +1,91 @@
 {
-  "run_date": "2026-09-03T12:17:00.180046",
+  "run_date": "2026-09-04T12:17:20.380621",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/enterprise-customer-success",
-      "company": "Justt",
-      "title": "Enterprise Customer Success Manager",
+      "url": "https://jobs.secrettelaviv.com?p=90470",
+      "company": "Celery",
+      "title": "Customer Success Manager (Mid-Level)",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "We are looking for an Enterprise Customer Success Manager to join our team.",
+      "description": "We're looking for a CSM to join our team at Celery, a top VC-backed fintech startup (B2B).",
       "german": false,
       "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_5a358872eadc9c03",
+      "europe_customers": false,
+      "stable_growth": true,
+      "id": "secret_tel_aviv_548fe1eacd605a35",
       "score": 1
     },
     {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-649?form=apply",
-      "company": "Guideline Group",
-      "title": "Customer Success Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8786760",
+      "company": "",
+      "title": "Customer Success Manager, Security, Cloud (English, Hebrew)",
       "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "Guideline Group is a leading, well-established company in Israel, providing technological solutions in FinTech, Invest Tech, Legal Tech, and Business Tech.",
+      "source": "AllJobs",
+      "description": "As a Customer Success Manager (CSM), you will complement the industry leading expertise, innovation and capabilities delivered through our Customer Solutions",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_55e0094781e50b54",
+      "id": "alljobs_904ed51ca67808ca",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8746439",
+      "company": "",
+      "title": "Customer Success Manager",
+      "location": "Tel Aviv",
+      "source": "AllJobs",
+      "description": "Our Customer Success team is the linchpin of the post-sales customer relationship.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_871b74d3d6e7f756",
       "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-manager-139",
+      "company": "Aqua Digital s.r.o.",
+      "title": "Account Manager",
+      "location": "Tel Aviv",
+      "source": "Secret Tel Aviv",
+      "description": "Our company Aqua Digital operates in the field of digital marketing.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_7cedaa05d8c8c6bb",
+      "score": 1
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/vip-account-manager-italian-market",
+      "company": "",
+      "title": "Account Manager – Italian Market",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Sales Account Management Marketing Product.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_595178dca098bbcd",
+      "score": 1
+    },
+    {
+      "url": "https://www.alljobs.co.il/m/p/jobs/8803648",
+      "company": "",
+      "title": "Account Executive - New Business",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "Account Executive (AE) | Tel-Aviv, Israel (Hybrid)",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_56d818e2a49be22e",
+      "score": 0
+    }
+  ]
 }

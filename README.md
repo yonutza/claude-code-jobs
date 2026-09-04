@@ -11,6 +11,33 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 04/09/2026
+
+## Customer Success (3 משרות)
+
+1. **Celery** – [Customer Success Manager (Mid-Level)](https://jobs.secrettelaviv.com?p=90470)
+   _Secret Tel Aviv_
+
+2. **חברה לא ידועה** – [Customer Success Manager, Security, Cloud (English, Hebrew)](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8786760)
+   _AllJobs_
+
+3. **חברה לא ידועה** – [Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8746439)
+   _Tel Aviv | AllJobs_
+
+## Account Executive / Account Manager (3 משרות)
+
+1. **Aqua Digital s.r.o.** – [Account Manager](https://jobs.secrettelaviv.com/job/account-manager-139)
+   _Tel Aviv | Secret Tel Aviv_
+
+2. **חברה לא ידועה** – [Account Manager – Italian Market](https://jobs.secrettelaviv.com/job/vip-account-manager-italian-market)
+   _Secret Tel Aviv_
+
+3. **חברה לא ידועה** – [Account Executive - New Business](https://www.alljobs.co.il/m/p/jobs/8803648)
+   _תל אביב יפו | AllJobs_
+
+---
+סה"כ: 6 משרות חדשות
+
 # דוח משרות יומי - 03/09/2026
 
 ## Customer Success (2 משרות)
@@ -169,12 +196,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 3 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
-
-# דוח משרות יומי - 21/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
