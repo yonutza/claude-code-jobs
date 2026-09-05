@@ -1,91 +1,20 @@
 {
-  "run_date": "2026-09-04T12:17:20.380621",
+  "run_date": "2026-09-05T11:24:39.095412",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com?p=90470",
-      "company": "Celery",
-      "title": "Customer Success Manager (Mid-Level)",
+      "url": "https://jobs.secrettelaviv.com/job/junior-customer-success-manager-18",
+      "company": "Mars Media Group",
+      "title": "Junior Customer Success Manager",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "We're looking for a CSM to join our team at Celery, a top VC-backed fintech startup (B2B).",
+      "description": "Mars Media Group is looking for a motivated and detail-oriented Junior Customer Success Manager.",
       "german": false,
       "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": true,
-      "id": "secret_tel_aviv_548fe1eacd605a35",
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_055b319bc35511ae",
       "score": 1
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8786760",
-      "company": "",
-      "title": "Customer Success Manager, Security, Cloud (English, Hebrew)",
-      "location": "",
-      "source": "AllJobs",
-      "description": "As a Customer Success Manager (CSM), you will complement the industry leading expertise, innovation and capabilities delivered through our Customer Solutions",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_904ed51ca67808ca",
-      "score": 0
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8746439",
-      "company": "",
-      "title": "Customer Success Manager",
-      "location": "Tel Aviv",
-      "source": "AllJobs",
-      "description": "Our Customer Success team is the linchpin of the post-sales customer relationship.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_871b74d3d6e7f756",
-      "score": 0
     }
   ],
-  "operations": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/account-manager-139",
-      "company": "Aqua Digital s.r.o.",
-      "title": "Account Manager",
-      "location": "Tel Aviv",
-      "source": "Secret Tel Aviv",
-      "description": "Our company Aqua Digital operates in the field of digital marketing.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_7cedaa05d8c8c6bb",
-      "score": 1
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/vip-account-manager-italian-market",
-      "company": "",
-      "title": "Account Manager – Italian Market",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "Sales Account Management Marketing Product.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_595178dca098bbcd",
-      "score": 1
-    },
-    {
-      "url": "https://www.alljobs.co.il/m/p/jobs/8803648",
-      "company": "",
-      "title": "Account Executive - New Business",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "Account Executive (AE) | Tel-Aviv, Israel (Hybrid)",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_56d818e2a49be22e",
-      "score": 0
-    }
-  ]
+  "operations": []
 }

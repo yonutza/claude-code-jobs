@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 05/09/2026
+
+## Customer Success (1 משרות)
+
+1. **Mars Media Group** – [Junior Customer Success Manager](https://jobs.secrettelaviv.com/job/junior-customer-success-manager-18)
+   _Secret Tel Aviv_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 04/09/2026
 
 ## Customer Success (3 משרות)
@@ -175,24 +187,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 1. **riverside.fm** – [Account Executive – EMEA](https://jobs.secrettelaviv.com/job/account-executive-enterprise-emea)
    _Tel Aviv/ Ramat Gan | Secret Tel Aviv_
-
----
-סה"כ: 3 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
-
-# דוח משרות יומי - 22/08/2026
-
-## Customer Success (3 משרות)
-
-1. 🇩🇪 **חברה לא ידועה** – [Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8605284)
-   _תל אביב יפו | AllJobs_
-
-2. **חברה לא ידועה** – [Junior Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8570235)
-   _הרצליה | AllJobs_
-
-3. **חברה לא ידועה** – [Customer Success Manager (CSM)](https://www.nisha.co.il/job/3069)
-   _Nisha_
-
-## Account Executive / Account Manager (0 משרות)
 
 ---
 סה"כ: 3 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
