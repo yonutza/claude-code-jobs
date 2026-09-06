@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 06/09/2026
+
+## Customer Success (1 משרות)
+
+1. **חברה לא ידועה** – [Customer Success Manager - Scale Team](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8788808)
+   _Tel Aviv | AllJobs_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **חברה לא ידועה** – [Technical Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8787473)
+   _Tel Aviv | AllJobs_
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 05/09/2026
 
 ## Customer Success (1 משרות)
@@ -172,21 +187,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 23/08/2026
-
-## Customer Success (2 משרות)
-
-1. 🇩🇪 **ControlUp** – [DACH Enterprise Customer Success Manager](https://jobs.lever.co/controlup/7824a46c-6523-47cf-9618-7ec62d9ec9d4?lever-source%5B%5D=)
-   _Lever_
-
-2. **UpGuard** – [Customer Success Manager](https://jobs.lever.co/upguard/9d95f30b-c180-4ce4-b2b9-ac9711ca00e9/apply?source=LinkedIn)
-   _Lever_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **riverside.fm** – [Account Executive – EMEA](https://jobs.secrettelaviv.com/job/account-executive-enterprise-emea)
-   _Tel Aviv/ Ramat Gan | Secret Tel Aviv_
-
----
-סה"כ: 3 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪

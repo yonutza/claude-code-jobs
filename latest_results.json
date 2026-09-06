@@ -1,20 +1,35 @@
 {
-  "run_date": "2026-09-05T11:24:39.095412",
+  "run_date": "2026-09-06T09:40:16.785008",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/junior-customer-success-manager-18",
-      "company": "Mars Media Group",
-      "title": "Junior Customer Success Manager",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "Mars Media Group is looking for a motivated and detail-oriented Junior Customer Success Manager.",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8788808",
+      "company": "",
+      "title": "Customer Success Manager - Scale Team",
+      "location": "Tel Aviv",
+      "source": "AllJobs",
+      "description": "Customer Success Manager בתל אביב יפו",
       "german": false,
       "physical_product": false,
-      "europe_customers": true,
+      "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_055b319bc35511ae",
-      "score": 1
+      "id": "alljobs_3b2377082162fbd6",
+      "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8787473",
+      "company": "",
+      "title": "Technical Account Manager",
+      "location": "Tel Aviv",
+      "source": "AllJobs",
+      "description": "Technical Account Manager בתל אביב יפו",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_ef90f7728a898fcd",
+      "score": 0
+    }
+  ]
 }
