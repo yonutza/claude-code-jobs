@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 07/09/2026
+
+## Customer Success (2 משרות)
+
+1. **חברה לא ידועה** – [B2B Customer Success Manager](https://jobs.secrettelaviv.com/job/b2b-customer-success-manager)
+   _Secret Tel Aviv_
+
+2. **חברה לא ידועה** – [Customer Success Manager- TLV](https://jobs.secrettelaviv.com/job/customer-success-manager-tlv-7)
+   _Tel Aviv | Secret Tel Aviv_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **Bootstrap** – [Technical Account Manager](https://www.gotfriends.co.il/jobslobby/system/support-engineer/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%AA-%D7%AA%D7%9E%D7%99%D7%9B%D7%94-%D7%9C%D7%97%D7%91%D7%A8%D7%AA-%D7%A1%D7%98%D7%90%D7%A8%D7%98-%D7%90%D7%A4-%D7%91%D7%A2%D7%95%D7%9C%D7%9D-%D7%94-data-beaming)
+   _ת"א והמרכז | Gotfriends_
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 06/09/2026
 
 ## Customer Success (1 משרות)
@@ -171,15 +189,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 25/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 24/08/2026
 
 ## Customer Success (0 משרות)
 
