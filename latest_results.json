@@ -1,49 +1,20 @@
 {
-  "run_date": "2026-09-07T10:43:19.561795",
+  "run_date": "2026-09-08T10:05:31.311686",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/b2b-customer-success-manager",
-      "company": "",
-      "title": "B2B Customer Success Manager",
+      "url": "https://jobs.secrettelaviv.com/job/celery-customer-success-manager-mid-level?form=apply",
+      "company": "Celery",
+      "title": "Customer Success Manager (Mid-Level)",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "מנהל הצלחת לקוחות B2B להצטרף לצוות הגדל שלנו.",
+      "description": "We're looking for a CSM to join our team at Celery, a top VC-backed fintech startup (B2B).",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_38f2d68df146eca6",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-tlv-7",
-      "company": "",
-      "title": "Customer Success Manager- TLV",
-      "location": "Tel Aviv",
-      "source": "Secret Tel Aviv",
-      "description": "מנהל הצלחת לקוחות עם ניסיון בעבודה בחברת Ad-Tech.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_b076600d45b6b799",
-      "score": 0
+      "stable_growth": true,
+      "id": "secret_tel_aviv_75dbb9eda7cd83d4",
+      "score": 1
     }
   ],
-  "operations": [
-    {
-      "url": "https://www.gotfriends.co.il/jobslobby/system/support-engineer/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%D7%AA-%D7%AA%D7%9E%D7%99%D7%9B%D7%94-%D7%9C%D7%97%D7%91%D7%A8%D7%AA-%D7%A1%D7%98%D7%90%D7%A8%D7%98-%D7%90%D7%A4-%D7%91%D7%A2%D7%95%D7%9C%D7%9D-%D7%94-data-beaming",
-      "company": "Bootstrap",
-      "title": "Technical Account Manager",
-      "location": "ת\"א והמרכז",
-      "source": "Gotfriends",
-      "description": "מנהל חשבונות טכני בחברת Bootstrap בתחום הסייבר.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "gotfriends_8dfa40c8677304fc",
-      "score": 0
-    }
-  ]
+  "operations": []
 }
