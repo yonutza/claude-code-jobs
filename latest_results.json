@@ -1,20 +1,63 @@
 {
-  "run_date": "2026-09-08T10:05:31.311686",
+  "run_date": "2026-09-09T10:07:01.318369",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/celery-customer-success-manager-mid-level?form=apply",
-      "company": "Celery",
-      "title": "Customer Success Manager (Mid-Level)",
+      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-ai-security",
+      "company": "Cato Networks",
+      "title": "Customer Success Manager, AI Security",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "We're looking for a CSM to join our team at Celery, a top VC-backed fintech startup (B2B).",
+      "description": "Cato Networks is the first company to converge enterprise networking and security into one centralized and global service.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": true,
+      "id": "secret_tel_aviv_b89900184ecb2d93",
+      "score": 2
+    }
+  ],
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-executive-associate-2",
+      "company": "",
+      "title": "Account Executive Associate",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "We are looking for a motivated and ambitious Account Executive Associate to join our growing team.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
-      "stable_growth": true,
-      "id": "secret_tel_aviv_75dbb9eda7cd83d4",
-      "score": 1
+      "stable_growth": false,
+      "id": "secret_tel_aviv_572095c1e1ee4fe5",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/enterprise-account-manager-wolt-benefits",
+      "company": "Wolt",
+      "title": "Enterprise Account Manager – Wolt Benefits",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Enterprise Account Manager – Wolt Benefits | Secret Tel Aviv Jobs.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_6699ef7d15c9f51e",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/sales-operations-account-manager-5",
+      "company": "",
+      "title": "Sales Operations Account Manager",
+      "location": "Herzliya",
+      "source": "Secret Tel Aviv",
+      "description": "BSc in Industrial Engineering, Economics, or Accounting from a recognized university.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_35877855e2150a59",
+      "score": 0
     }
-  ],
-  "operations": []
+  ]
 }

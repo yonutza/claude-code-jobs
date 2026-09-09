@@ -11,6 +11,27 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 09/09/2026
+
+## Customer Success (1 משרות)
+
+1. **Cato Networks** – [Customer Success Manager, AI Security](https://jobs.secrettelaviv.com/job/customer-success-manager-ai-security)
+   _Secret Tel Aviv_
+
+## Account Executive / Account Manager (3 משרות)
+
+1. **חברה לא ידועה** – [Account Executive Associate](https://jobs.secrettelaviv.com/job/account-executive-associate-2)
+   _Secret Tel Aviv_
+
+2. **Wolt** – [Enterprise Account Manager – Wolt Benefits](https://jobs.secrettelaviv.com/job/enterprise-account-manager-wolt-benefits)
+   _Secret Tel Aviv_
+
+3. 🇩🇪 **חברה לא ידועה** – [Sales Operations Account Manager](https://jobs.secrettelaviv.com/job/sales-operations-account-manager-5)
+   _Herzliya | Secret Tel Aviv_
+
+---
+סה"כ: 4 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
+
 # דוח משרות יומי - 08/09/2026
 
 ## Customer Success (1 משרות)
@@ -183,15 +204,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 27/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 26/08/2026
 
 ## Customer Success (0 משרות)
 
