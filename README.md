@@ -11,6 +11,27 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 10/09/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (4 משרות)
+
+1. **Aqua Digital** – [Account Manager](https://jobs.secrettelaviv.com/job/account-manager-139?form=apply)
+   _Tel Aviv | Secret Tel Aviv_
+
+2. **Riskified** – [Technical Account Manager](https://jobs.secrettelaviv.com/job/technical-account-manager-139?form=apply)
+   _Secret Tel Aviv_
+
+3. **חברה לא ידועה** – [Account Executive – Israel](https://jobs.secrettelaviv.com/job/account-executive-israel-12)
+   _Secret Tel Aviv_
+
+4. **חברה לא ידועה** – [Account Manager](https://jobs.secrettelaviv.com/job/account-manager-140)
+   _Secret Tel Aviv_
+
+---
+סה"כ: 4 משרות חדשות
+
 # דוח משרות יומי - 09/09/2026
 
 ## Customer Success (1 משרות)
@@ -195,15 +216,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 28/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 27/08/2026
 
 ## Customer Success (0 משרות)
 

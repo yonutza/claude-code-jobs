@@ -1,62 +1,61 @@
 {
-  "run_date": "2026-09-09T10:07:01.318369",
-  "cs": [
+  "run_date": "2026-09-10T10:03:05.371027",
+  "cs": [],
+  "operations": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-ai-security",
-      "company": "Cato Networks",
-      "title": "Customer Success Manager, AI Security",
-      "location": "",
+      "url": "https://jobs.secrettelaviv.com/job/account-manager-139?form=apply",
+      "company": "Aqua Digital",
+      "title": "Account Manager",
+      "location": "Tel Aviv",
       "source": "Secret Tel Aviv",
-      "description": "Cato Networks is the first company to converge enterprise networking and security into one centralized and global service.",
+      "description": "Our company Aqua Digital operates in the field of digital marketing.",
       "german": false,
       "physical_product": false,
       "europe_customers": true,
-      "stable_growth": true,
-      "id": "secret_tel_aviv_b89900184ecb2d93",
-      "score": 2
-    }
-  ],
-  "operations": [
+      "stable_growth": false,
+      "id": "secret_tel_aviv_1101c354594f8731",
+      "score": 1
+    },
     {
-      "url": "https://jobs.secrettelaviv.com/job/account-executive-associate-2",
-      "company": "",
-      "title": "Account Executive Associate",
+      "url": "https://jobs.secrettelaviv.com/job/technical-account-manager-139?form=apply",
+      "company": "Riskified",
+      "title": "Technical Account Manager",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "We are looking for a motivated and ambitious Account Executive Associate to join our growing team.",
+      "description": "Many of the world's biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_d9f4770910228be4",
+      "score": 1
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-executive-israel-12",
+      "company": "",
+      "title": "Account Executive – Israel",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Account Executive – Israel.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_572095c1e1ee4fe5",
+      "id": "secret_tel_aviv_e11dc479fbc67f25",
       "score": 0
     },
     {
-      "url": "https://jobs.secrettelaviv.com/job/enterprise-account-manager-wolt-benefits",
-      "company": "Wolt",
-      "title": "Enterprise Account Manager – Wolt Benefits",
+      "url": "https://jobs.secrettelaviv.com/job/account-manager-140",
+      "company": "",
+      "title": "Account Manager",
       "location": "",
       "source": "Secret Tel Aviv",
-      "description": "Enterprise Account Manager – Wolt Benefits | Secret Tel Aviv Jobs.",
+      "description": "Account Manager.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_6699ef7d15c9f51e",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/sales-operations-account-manager-5",
-      "company": "",
-      "title": "Sales Operations Account Manager",
-      "location": "Herzliya",
-      "source": "Secret Tel Aviv",
-      "description": "BSc in Industrial Engineering, Economics, or Accounting from a recognized university.",
-      "german": true,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_35877855e2150a59",
+      "id": "secret_tel_aviv_7a7d215b0def7bae",
       "score": 0
     }
   ]
