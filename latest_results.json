@@ -1,91 +1,34 @@
 {
-  "run_date": "2026-09-13T10:37:34.150255",
+  "run_date": "2026-09-14T10:59:09.217664",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-scale-team",
-      "company": "Atera",
-      "title": "Customer Success Manager – Scale Team",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "As a Customer Success Manager (CSM) for our Scale team, you will be expected to deliver value and ROI.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_f577fad8ff8f08c4",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-652",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8467500",
       "company": "",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "As a Customer Success Manager, you will serve as the trusted point of contact for our customers.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_d6e98c55307d1620",
-      "score": 0
-    }
-  ],
-  "operations": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8763311",
-      "company": "",
-      "title": "Strategic Account Manager",
-      "location": "",
+      "title": "דרושים Customer Success Manager - CSM בתל אביב יפו",
+      "location": "תל אביב יפו",
       "source": "AllJobs",
-      "description": "We are seeking a Strategic Account Manager to lead complex commercial engagements.",
+      "description": "Own a portfolio of 2535 enterprise (large) accounts (both Israel & global clients) and deliver a high-touch, strategic customer success approach.",
       "german": false,
       "physical_product": false,
       "europe_customers": true,
       "stable_growth": false,
-      "id": "alljobs_9265fd3130b47b49",
+      "id": "alljobs_a6c7796c465f016a",
       "score": 1
     },
     {
-      "url": "https://www.alljobs.co.il/m/p/jobs/8773520",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8439382",
       "company": "",
-      "title": "Account Executive SMB- Israel",
-      "location": "",
+      "title": "דרושים Customer Success Manager - with a Media/Marketing Edge בתל אביב יפו",
+      "location": "תל אביב יפו",
       "source": "AllJobs",
-      "description": "Requirements: 1-2 years of experience in Sales or other client-facing roles.",
+      "description": "This is a full-time position, Monday through Friday, based on Israel Standard Time (IST).",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "alljobs_d8aed55588e1ce5a",
-      "score": 0
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8818293",
-      "company": "",
-      "title": "Channel Sales Account Manager - Israel",
-      "location": "",
-      "source": "AllJobs",
-      "description": "5+ years of direct channel sales, territory management, or partner business development experience.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_bc81b819386e7bde",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/account-executive-393",
-      "company": "Atera",
-      "title": "Account Executive",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "We're looking for a driven, target-oriented Account Executive to join Atera's growing sales team.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_fbee8af11f30352c",
+      "id": "alljobs_8dff5e41816280f2",
       "score": 0
     }
-  ]
+  ],
+  "operations": []
 }

@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 14/09/2026
+
+## Customer Success (2 משרות)
+
+1. **חברה לא ידועה** – [דרושים Customer Success Manager - CSM בתל אביב יפו](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8467500)
+   _תל אביב יפו | AllJobs_
+
+2. **חברה לא ידועה** – [דרושים Customer Success Manager - with a Media/Marketing Edge בתל אביב יפו](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8439382)
+   _תל אביב יפו | AllJobs_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 13/09/2026
 
 ## Customer Success (2 משרות)
@@ -232,12 +247,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 3 משרות חדשות
-
-# דוח משרות יומי - 31/08/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
