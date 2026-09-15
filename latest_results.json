@@ -1,34 +1,5 @@
 {
-  "run_date": "2026-09-14T10:59:09.217664",
-  "cs": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8467500",
-      "company": "",
-      "title": "דרושים Customer Success Manager - CSM בתל אביב יפו",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "Own a portfolio of 2535 enterprise (large) accounts (both Israel & global clients) and deliver a high-touch, strategic customer success approach.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "alljobs_a6c7796c465f016a",
-      "score": 1
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8439382",
-      "company": "",
-      "title": "דרושים Customer Success Manager - with a Media/Marketing Edge בתל אביב יפו",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "This is a full-time position, Monday through Friday, based on Israel Standard Time (IST).",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_8dff5e41816280f2",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-09-15T10:26:35.851724",
+  "cs": [],
   "operations": []
 }

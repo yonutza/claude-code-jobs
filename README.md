@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 15/09/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 14/09/2026
 
 ## Customer Success (2 משרות)
@@ -225,24 +234,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
    _AllJobs_
 
 3. **חברה לא ידועה** – [SDR & Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8747464)
-   _AllJobs_
-
----
-סה"כ: 3 משרות חדשות
-
-# דוח משרות יומי - 01/09/2026
-
-## Customer Success (2 משרות)
-
-1. **StoreNext** – [Enterprise Customer Success Manager](https://jobs.secrettelaviv.com/job/enterprise-customer-success-manager-40)
-   _Secret Tel Aviv_
-
-2. **חברה לא ידועה** – [Customer Success Operations Specialist](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8794602)
-   _AllJobs_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **חברה לא ידועה** – [Founding Enterprise Account Executive (US market)](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8794676)
    _AllJobs_
 
 ---
