@@ -1,5 +1,20 @@
 {
-  "run_date": "2026-09-15T10:26:35.851724",
+  "run_date": "2026-09-16T10:18:10.504431",
   "cs": [],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8798827",
+      "company": "",
+      "title": "דרושים Account Executive - Israel & Europe",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "דרושים Account Executive - Israel & Europe בתל אביב יפו.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "alljobs_317feea32de3fc25",
+      "score": 1
+    }
+  ]
 }
