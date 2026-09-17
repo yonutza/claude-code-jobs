@@ -1,19 +1,48 @@
 {
-  "run_date": "2026-09-16T10:18:10.504431",
-  "cs": [],
+  "run_date": "2026-09-17T10:25:49.613051",
+  "cs": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-csm-11",
+      "company": "Cymbio",
+      "title": "Customer Success Manager (CSM)",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "ניהול הצלחת לקוחות בפלטפורמת אורקסטרציה מובילה.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": true,
+      "id": "secret_tel_aviv_207b54389d0cf1c3",
+      "score": 2
+    },
+    {
+      "url": "https://boards.greenhouse.io/nintex/jobs/7778751",
+      "company": "Nintex",
+      "title": "Customer Success Manager",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "ניהול הצלחת לקוחות והובלת ערך מוצר.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_88084df50e1318d0",
+      "score": 0
+    }
+  ],
   "operations": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8798827",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8756267",
       "company": "",
-      "title": "דרושים Account Executive - Israel & Europe",
+      "title": "Mobile Growth Account Manager",
       "location": "תל אביב יפו",
       "source": "AllJobs",
-      "description": "דרושים Account Executive - Israel & Europe בתל אביב יפו.",
+      "description": "ניהול חשבונות בתחום הצמיחה הניידת.",
       "german": false,
       "physical_product": false,
       "europe_customers": true,
       "stable_growth": false,
-      "id": "alljobs_317feea32de3fc25",
+      "id": "alljobs_652f721adff6ed30",
       "score": 1
     }
   ]

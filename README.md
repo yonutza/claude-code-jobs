@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 17/09/2026
+
+## Customer Success (2 משרות)
+
+1. **Cymbio** – [Customer Success Manager (CSM)](https://jobs.secrettelaviv.com/job/customer-success-manager-csm-11)
+   _Secret Tel Aviv_
+
+2. **Nintex** – [Customer Success Manager](https://boards.greenhouse.io/nintex/jobs/7778751)
+   _Greenhouse_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **חברה לא ידועה** – [Mobile Growth Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8756267)
+   _תל אביב יפו | AllJobs_
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 16/09/2026
 
 ## Customer Success (0 משרות)
@@ -217,18 +235,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 6 משרות חדשות
-
-# דוח משרות יומי - 03/09/2026
-
-## Customer Success (2 משרות)
-
-1. **Justt** – [Enterprise Customer Success Manager](https://jobs.secrettelaviv.com/job/enterprise-customer-success)
-   _Secret Tel Aviv_
-
-2. **Guideline Group** – [Customer Success Manager](https://jobs.secrettelaviv.com/job/customer-success-manager-649?form=apply)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 2 משרות חדשות
