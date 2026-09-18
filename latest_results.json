@@ -1,49 +1,34 @@
 {
-  "run_date": "2026-09-17T10:25:49.613051",
+  "run_date": "2026-09-18T10:03:04.194097",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-csm-11",
-      "company": "Cymbio",
-      "title": "Customer Success Manager (CSM)",
+      "url": "https://www.nisha.co.il/job/10648",
+      "company": "",
+      "title": "FinOps & Customer Success Manager",
       "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "ניהול הצלחת לקוחות בפלטפורמת אורקסטרציה מובילה.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": true,
-      "id": "secret_tel_aviv_207b54389d0cf1c3",
-      "score": 2
-    },
-    {
-      "url": "https://boards.greenhouse.io/nintex/jobs/7778751",
-      "company": "Nintex",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "Greenhouse",
-      "description": "ניהול הצלחת לקוחות והובלת ערך מוצר.",
+      "source": "Nisha",
+      "description": "ניהול תוכניות FinOps והצלחת לקוחות בענן Azure.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "greenhouse_lever_88084df50e1318d0",
+      "id": "nisha_0edd4b3212171e68",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-csm-6",
+      "company": "",
+      "title": "Customer Success Manager (CSM)",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "ניהול הצלחת לקוחות בחברה.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_d13f37c5b42b09db",
       "score": 0
     }
   ],
-  "operations": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8756267",
-      "company": "",
-      "title": "Mobile Growth Account Manager",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "ניהול חשבונות בתחום הצמיחה הניידת.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "alljobs_652f721adff6ed30",
-      "score": 1
-    }
-  ]
+  "operations": []
 }
