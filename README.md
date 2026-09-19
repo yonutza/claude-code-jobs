@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 19/09/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 18/09/2026
 
 ## Customer Success (2 משרות)
@@ -211,15 +220,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 05/09/2026
-
-## Customer Success (1 משרות)
-
-1. **Mars Media Group** – [Junior Customer Success Manager](https://jobs.secrettelaviv.com/job/junior-customer-success-manager-18)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 1 משרות חדשות

@@ -1,34 +1,5 @@
 {
-  "run_date": "2026-09-18T10:03:04.194097",
-  "cs": [
-    {
-      "url": "https://www.nisha.co.il/job/10648",
-      "company": "",
-      "title": "FinOps & Customer Success Manager",
-      "location": "",
-      "source": "Nisha",
-      "description": "ניהול תוכניות FinOps והצלחת לקוחות בענן Azure.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "nisha_0edd4b3212171e68",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-csm-6",
-      "company": "",
-      "title": "Customer Success Manager (CSM)",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "ניהול הצלחת לקוחות בחברה.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_d13f37c5b42b09db",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-09-19T09:43:38.608367",
+  "cs": [],
   "operations": []
 }
