@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 20/09/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **חברה לא ידועה** – [Sales Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8777862)
+   _AllJobs_
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 19/09/2026
 
 ## Customer Success (0 משרות)
@@ -205,18 +217,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 3 משרות חדשות
-
-# דוח משרות יומי - 06/09/2026
-
-## Customer Success (1 משרות)
-
-1. **חברה לא ידועה** – [Customer Success Manager - Scale Team](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8788808)
-   _Tel Aviv | AllJobs_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **חברה לא ידועה** – [Technical Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8787473)
-   _Tel Aviv | AllJobs_
-
----
-סה"כ: 2 משרות חדשות
