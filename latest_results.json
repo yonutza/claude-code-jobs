@@ -1,20 +1,5 @@
 {
-  "run_date": "2026-09-20T10:05:38.072977",
+  "run_date": "2026-09-21T11:04:48.368390",
   "cs": [],
-  "operations": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8777862",
-      "company": "",
-      "title": "Sales Account Manager",
-      "location": "",
-      "source": "AllJobs",
-      "description": "As Strategic Account Executive for Defense, you will lead our business relationship with a portfolio of Israel's most strategic defense customers.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_94e1574adfbc4b91",
-      "score": 0
-    }
-  ]
+  "operations": []
 }
