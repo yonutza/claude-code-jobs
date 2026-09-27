@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 27/09/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 26/09/2026
 
 ## Customer Success (0 משרות)
@@ -154,30 +163,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 13/09/2026
-
-## Customer Success (2 משרות)
-
-1. **Atera** – [Customer Success Manager – Scale Team](https://jobs.secrettelaviv.com/job/customer-success-manager-scale-team)
-   _Secret Tel Aviv_
-
-2. **חברה לא ידועה** – [Customer Success Manager](https://jobs.secrettelaviv.com/job/customer-success-manager-652)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (4 משרות)
-
-1. **חברה לא ידועה** – [Strategic Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8763311)
-   _AllJobs_
-
-2. **חברה לא ידועה** – [Account Executive SMB- Israel](https://www.alljobs.co.il/m/p/jobs/8773520)
-   _AllJobs_
-
-3. **חברה לא ידועה** – [Channel Sales Account Manager - Israel](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8818293)
-   _AllJobs_
-
-4. **Atera** – [Account Executive](https://jobs.secrettelaviv.com/job/account-executive-393)
-   _Secret Tel Aviv_
-
----
-סה"כ: 6 משרות חדשות
