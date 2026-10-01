@@ -1,5 +1,34 @@
 {
-  "run_date": "2026-09-30T11:20:32.777662",
+  "run_date": "2026-10-01T11:49:28.467976",
   "cs": [],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8828092",
+      "company": "",
+      "title": "Account Manager & Operations Specialist (IL Market)",
+      "location": "",
+      "source": "AllJobs",
+      "description": "Support the account opening process, from collecting employer documentation to preparing client onboarding packages.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_e4f0b4b41d69c9fb",
+      "score": 0
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833249",
+      "company": "",
+      "title": "Account Executive",
+      "location": "",
+      "source": "AllJobs",
+      "description": "Responsible for managing a broad and dynamic sales pipeline of SMB clients.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_0e61f77cfdcd026e",
+      "score": 0
+    }
+  ]
 }

@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 01/10/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (2 משרות)
+
+1. **חברה לא ידועה** – [Account Manager & Operations Specialist (IL Market)](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8828092)
+   _AllJobs_
+
+2. **חברה לא ידועה** – [Account Executive](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833249)
+   _AllJobs_
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 30/09/2026
 
 ## Customer Success (0 משרות)
@@ -136,21 +151,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 17/09/2026
-
-## Customer Success (2 משרות)
-
-1. **Cymbio** – [Customer Success Manager (CSM)](https://jobs.secrettelaviv.com/job/customer-success-manager-csm-11)
-   _Secret Tel Aviv_
-
-2. **Nintex** – [Customer Success Manager](https://boards.greenhouse.io/nintex/jobs/7778751)
-   _Greenhouse_
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **חברה לא ידועה** – [Mobile Growth Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8756267)
-   _תל אביב יפו | AllJobs_
-
----
-סה"כ: 3 משרות חדשות
