@@ -1,33 +1,48 @@
 {
-  "run_date": "2026-10-01T11:49:28.467976",
-  "cs": [],
+  "run_date": "2026-10-02T11:20:59.846381",
+  "cs": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8835996",
+      "company": "",
+      "title": "Customer Success Manager",
+      "location": "",
+      "source": "AllJobs",
+      "description": "מחפשים Customer Success Manager להצטרף לצוות בישראל.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_afcc8a0077d51a18",
+      "score": 0
+    }
+  ],
   "operations": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8828092",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833918",
       "company": "",
-      "title": "Account Manager & Operations Specialist (IL Market)",
-      "location": "",
+      "title": "Account Manager - EDA - Israel",
+      "location": "תל אביב יפו",
       "source": "AllJobs",
-      "description": "Support the account opening process, from collecting employer documentation to preparing client onboarding packages.",
+      "description": "דרוש/ה Account Manager בתחום ה-EDA בישראל.",
       "german": false,
       "physical_product": false,
-      "europe_customers": false,
+      "europe_customers": true,
       "stable_growth": false,
-      "id": "alljobs_e4f0b4b41d69c9fb",
-      "score": 0
+      "id": "alljobs_9cfe51f00cc1d53d",
+      "score": 1
     },
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833249",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8830372",
       "company": "",
-      "title": "Account Executive",
-      "location": "",
+      "title": "Major Account Manager Public Sector & Defense",
+      "location": "תל אביב יפו",
       "source": "AllJobs",
-      "description": "Responsible for managing a broad and dynamic sales pipeline of SMB clients.",
+      "description": "דרוש/ה Major Account Manager למגזר הציבורי והביטחוני.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "alljobs_0e61f77cfdcd026e",
+      "id": "alljobs_986b42c701701ebe",
       "score": 0
     }
   ]
