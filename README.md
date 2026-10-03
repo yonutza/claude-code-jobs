@@ -11,6 +11,18 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 03/10/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **חברה לא ידועה** – [Sales Account Manager - Europe](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8820619)
+   _AllJobs_
+
+---
+סה"כ: 1 משרות חדשות
+
 # דוח משרות יומי - 02/10/2026
 
 ## Customer Success (1 משרות)
@@ -145,12 +157,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 1 משרות חדשות
-
-# דוח משרות יומי - 19/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות

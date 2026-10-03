@@ -1,49 +1,20 @@
 {
-  "run_date": "2026-10-02T11:20:59.846381",
-  "cs": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8835996",
-      "company": "",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "AllJobs",
-      "description": "מחפשים Customer Success Manager להצטרף לצוות בישראל.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_afcc8a0077d51a18",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-10-03T10:36:32.838903",
+  "cs": [],
   "operations": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833918",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8820619",
       "company": "",
-      "title": "Account Manager - EDA - Israel",
-      "location": "תל אביב יפו",
+      "title": "Sales Account Manager - Europe",
+      "location": "",
       "source": "AllJobs",
-      "description": "דרוש/ה Account Manager בתחום ה-EDA בישראל.",
+      "description": "ניהול מכירות ללקוחות SMB בשוק הישראלי.",
       "german": false,
       "physical_product": false,
       "europe_customers": true,
       "stable_growth": false,
-      "id": "alljobs_9cfe51f00cc1d53d",
+      "id": "alljobs_93f5489ec5769b1a",
       "score": 1
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8830372",
-      "company": "",
-      "title": "Major Account Manager Public Sector & Defense",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "דרוש/ה Major Account Manager למגזר הציבורי והביטחוני.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_986b42c701701ebe",
-      "score": 0
     }
   ]
 }
