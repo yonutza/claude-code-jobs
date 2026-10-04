@@ -1,20 +1,20 @@
 {
-  "run_date": "2026-10-03T10:36:32.838903",
-  "cs": [],
-  "operations": [
+  "run_date": "2026-10-04T11:17:25.079240",
+  "cs": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8820619",
-      "company": "",
-      "title": "Sales Account Manager - Europe",
-      "location": "",
-      "source": "AllJobs",
-      "description": "ניהול מכירות ללקוחות SMB בשוק הישראלי.",
+      "url": "https://jobs.secrettelaviv.com/list/category/account-manager",
+      "company": "DealHub",
+      "title": "Customer Success Manager",
+      "location": "Herzliya",
+      "source": "Secret Tel Aviv",
+      "description": "Customer Success Manager at DealHub.",
       "german": false,
       "physical_product": false,
-      "europe_customers": true,
+      "europe_customers": false,
       "stable_growth": false,
-      "id": "alljobs_93f5489ec5769b1a",
-      "score": 1
+      "id": "secret_tel_aviv_32114377d8ee85b6",
+      "score": 0
     }
-  ]
+  ],
+  "operations": []
 }
