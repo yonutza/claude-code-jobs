@@ -11,6 +11,33 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 05/10/2026
+
+## Customer Success (1 משרות)
+
+1. **Lazuz** – [Junior Customer Success & Operations](https://jobs.secrettelaviv.com/job/junior-customer-success-operations-2)
+   _Secret Tel Aviv_
+
+## Account Executive / Account Manager (5 משרות)
+
+1. **Check Point** – [Account Manager](https://www.gotfriends.co.il/jobslobby/area/cyber-companies/check-point-jobs)
+   _Gotfriends_
+
+2. **חברה לא ידועה** – [Account Executive](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833711)
+   _AllJobs_
+
+3. **חברה לא ידועה** – [Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8838958)
+   _תל אביב יפו | AllJobs_
+
+4. **Artlist** – [Account Manager](https://jobs.secrettelaviv.com/job/account-manager-145)
+   _Secret Tel Aviv_
+
+5. **Riskified** – [Enterprise Account Manager](https://jobs.secrettelaviv.com/job/enterprise-account-manager-30)
+   _Tel Aviv/ Ramat Gan | Secret Tel Aviv_
+
+---
+סה"כ: 6 משרות חדשות
+
 # דוח משרות יומי - 04/10/2026
 
 ## Customer Success (1 משרות)
@@ -141,15 +168,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 22/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 21/09/2026
 
 ## Customer Success (0 משרות)
 

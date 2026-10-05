@@ -1,20 +1,91 @@
 {
-  "run_date": "2026-10-04T11:17:25.079240",
+  "run_date": "2026-10-05T12:37:21.240143",
   "cs": [
     {
-      "url": "https://jobs.secrettelaviv.com/list/category/account-manager",
-      "company": "DealHub",
-      "title": "Customer Success Manager",
-      "location": "Herzliya",
+      "url": "https://jobs.secrettelaviv.com/job/junior-customer-success-operations-2",
+      "company": "Lazuz",
+      "title": "Junior Customer Success & Operations",
+      "location": "",
       "source": "Secret Tel Aviv",
-      "description": "Customer Success Manager at DealHub.",
+      "description": "Lazuz is Israel's leading app for booking courts for tennis, padel, squash, football and more.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "secret_tel_aviv_32114377d8ee85b6",
+      "id": "secret_tel_aviv_384a650f688afbd9",
       "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://www.gotfriends.co.il/jobslobby/area/cyber-companies/check-point-jobs",
+      "company": "Check Point",
+      "title": "Account Manager",
+      "location": "",
+      "source": "Gotfriends",
+      "description": "לעומת זאת, לסניף הישראלי של צ'ק פוינט דרושים עובדים לתפקידים טכנולוגיים מובהקים.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": true,
+      "id": "gotfriends_7e258f2b23e87a3c",
+      "score": 2
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8833711",
+      "company": "",
+      "title": "Account Executive",
+      "location": "",
+      "source": "AllJobs",
+      "description": "We are looking for an experienced Account Executive to join our fast growing sales team in Israel.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": true,
+      "id": "alljobs_1c7d76d2641d9541",
+      "score": 1
+    },
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8838958",
+      "company": "",
+      "title": "Account Manager",
+      "location": "תל אביב יפו",
+      "source": "AllJobs",
+      "description": "דרושים Account Manager בתל אביב יפו.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_819ce10984b3f942",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-manager-145",
+      "company": "Artlist",
+      "title": "Account Manager",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "We are looking for an exceptional Account Manager to join our growing team.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_9442b43100bf46ef",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/enterprise-account-manager-30",
+      "company": "Riskified",
+      "title": "Enterprise Account Manager",
+      "location": "Tel Aviv/ Ramat Gan",
+      "source": "Secret Tel Aviv",
+      "description": "Enterprise Account Manager at Riskified.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_c0910239bff83891",
+      "score": 0
+    }
+  ]
 }
