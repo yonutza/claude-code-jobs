@@ -1,49 +1,5 @@
 {
-  "run_date": "2026-10-06T00:01:58.471956",
-  "cs": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/customer-success-manager-654",
-      "company": "",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "Customer Success Manager",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_8a3255c8e911a8d6",
-      "score": 0
-    }
-  ],
-  "operations": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/account-executive-398",
-      "company": "AllCloud",
-      "title": "Account Executive",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "Join AllCloud as an Account Executive focused on the Startup Sector.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_e9103f12ca330082",
-      "score": 1
-    },
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8841787",
-      "company": "",
-      "title": "Sales & Account Manager",
-      "location": "תל אביב יפו",
-      "source": "AllJobs",
-      "description": "דרושים » תוכנה » Sales & Account Manager",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_beceddeadd279c0c",
-      "score": 0
-    }
-  ]
+  "run_date": "2026-10-07T12:00:21.215442",
+  "cs": [],
+  "operations": []
 }
