@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 08/10/2026
+
+## Customer Success (1 משרות)
+
+1. **Techdin** – [Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8806708)
+   _בני ברק | AllJobs_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **BMC Helix** – [Account Manager - Israel](https://www.linkedin.com/jobs/view/account-manager-israel-at-bmc-helix-4474065047)
+   _LinkedIn_
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 07/10/2026
 
 ## Customer Success (0 משרות)
@@ -168,15 +183,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 25/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 24/09/2026
 
 ## Customer Success (0 משרות)
 
