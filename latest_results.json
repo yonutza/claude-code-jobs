@@ -1,34 +1,48 @@
 {
-  "run_date": "2026-10-08T12:14:52.968184",
+  "run_date": "2026-10-09T12:06:18.416283",
   "cs": [
     {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8806708",
-      "company": "Techdin",
+      "url": "https://boards.greenhouse.io/6sense/jobs/8244849",
+      "company": "6sense",
       "title": "Customer Success Manager",
-      "location": "בני ברק",
-      "source": "AllJobs",
-      "description": "חברת טכדין מחפשת מנהל הצלחת לקוחות להצטרף למחלקת המכירות.",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "6sense's mission is to multiply what matters: growth, retention, and efficiency.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": true,
-      "id": "alljobs_75b8e5c8e33edbb0",
+      "id": "greenhouse_lever_82bfd8c6faf83bca",
       "score": 1
-    }
-  ],
-  "operations": [
+    },
     {
-      "url": "https://www.linkedin.com/jobs/view/account-manager-israel-at-bmc-helix-4474065047",
-      "company": "BMC Helix",
-      "title": "Account Manager - Israel",
-      "location": "",
-      "source": "LinkedIn",
-      "description": "BMC Helix hiring Account Manager - Israel.",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8834513",
+      "company": "",
+      "title": "Customer Success Manager",
+      "location": "Tel Aviv-Yafo",
+      "source": "AllJobs",
+      "description": "Were looking for a Customer Success Manager (CSM) to own the strategic ...",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "linkedin_2b5dd5e919d72942",
+      "id": "alljobs_951ee94889728fb7",
+      "score": 0
+    }
+  ],
+  "operations": [
+    {
+      "url": "https://jobs.lever.co/panopto/e81402cb-aafa-4b27-bede-4712c06dd84e",
+      "company": "Panopto",
+      "title": "Account Manager",
+      "location": "",
+      "source": "Lever",
+      "description": "Bachelor's degree in business, marketing, or a related field (preferred).",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_2aeccd9e4e1a1900",
       "score": 0
     }
   ]

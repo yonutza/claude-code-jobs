@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 09/10/2026
+
+## Customer Success (2 משרות)
+
+1. **6sense** – [Customer Success Manager](https://boards.greenhouse.io/6sense/jobs/8244849)
+   _Greenhouse_
+
+2. **חברה לא ידועה** – [Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8834513)
+   _Tel Aviv-Yafo | AllJobs_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **Panopto** – [Account Manager](https://jobs.lever.co/panopto/e81402cb-aafa-4b27-bede-4712c06dd84e)
+   _Lever_
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 08/10/2026
 
 ## Customer Success (1 משרות)
@@ -174,15 +192,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 26/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 25/09/2026
 
 ## Customer Success (0 משרות)
 
