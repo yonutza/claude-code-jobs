@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 10/10/2026
+
+## Customer Success (3 משרות)
+
+1. **NetDocuments** – [Customer Success Manager - eDOCS](https://boards.greenhouse.io/netdocuments/jobs/5078164008)
+   _Greenhouse_
+
+2. **Accela** – [Enterprise Customer Success Manager](https://boards.greenhouse.io/accela/jobs/7985739)
+   _Greenhouse_
+
+3. **GreyNoise Intelligence** – [Customer Success Manager - Federal](https://boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005)
+   _Greenhouse_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 09/10/2026
 
 ## Customer Success (2 משרות)
@@ -183,15 +201,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 27/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 26/09/2026
 
 ## Customer Success (0 משרות)
 
