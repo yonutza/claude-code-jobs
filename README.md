@@ -11,6 +11,30 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 11/10/2026
+
+## Customer Success (2 משרות)
+
+1. **Connecteam** – [Strategic Customer Success Manager](https://boards.greenhouse.io/connecteam/jobs/6220864004)
+   _Greenhouse_
+
+2. **Similarweb** – [Customer Success Manager](https://boards.greenhouse.io/similarweb/jobs/5548294)
+   _Tel Aviv | Greenhouse_
+
+## Account Executive / Account Manager (3 משרות)
+
+1. **חברה לא ידועה** – [Account Executive](https://jobs.secrettelaviv.com/job/account-executive-399)
+   _Secret Tel Aviv_
+
+2. **Pigment** – [Enterprise Account Executive - Israel](https://jobs.lever.co/pigment/72f612fb-238d-4932-ba20-2870f1612cc8)
+   _Lever_
+
+3. **WorkWave** – [Mid Market Account Manager](https://jobs.lever.co/workwave/a3ac91e5-2ea7-4bec-bcf3-c9a8058415c4)
+   _Lever_
+
+---
+סה"כ: 5 משרות חדשות
+
 # דוח משרות יומי - 10/10/2026
 
 ## Customer Success (3 משרות)
@@ -192,15 +216,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 28/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 27/09/2026
 
 ## Customer Success (0 משרות)
 

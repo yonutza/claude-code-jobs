@@ -1,48 +1,77 @@
 {
-  "run_date": "2026-10-10T11:22:26.798546",
+  "run_date": "2026-10-11T11:36:17.023651",
   "cs": [
     {
-      "url": "https://boards.greenhouse.io/netdocuments/jobs/5078164008",
-      "company": "NetDocuments",
-      "title": "Customer Success Manager - eDOCS",
+      "url": "https://boards.greenhouse.io/connecteam/jobs/6220864004",
+      "company": "Connecteam",
+      "title": "Strategic Customer Success Manager",
       "location": "",
       "source": "Greenhouse",
-      "description": "NetDocuments is committed to providing an excellent candidate experience.",
+      "description": "ניהול הצלחת לקוחות אסטרטגיים.",
       "german": false,
       "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_2ee2cf1be5f25e65",
-      "score": 0
+      "europe_customers": true,
+      "stable_growth": true,
+      "id": "greenhouse_lever_33d37fcd3ca026d6",
+      "score": 2
     },
     {
-      "url": "https://boards.greenhouse.io/accela/jobs/7985739",
-      "company": "Accela",
-      "title": "Enterprise Customer Success Manager",
-      "location": "",
+      "url": "https://boards.greenhouse.io/similarweb/jobs/5548294",
+      "company": "Similarweb",
+      "title": "Customer Success Manager",
+      "location": "Tel Aviv",
       "source": "Greenhouse",
-      "description": "Our Enterprise Customer Success Managers are essential to building lasting, high-impact relationships.",
+      "description": "ניהול הצלחת לקוחות בחברת Similarweb.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "greenhouse_lever_ad489670a6535a84",
-      "score": 0
-    },
-    {
-      "url": "https://boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005",
-      "company": "GreyNoise Intelligence",
-      "title": "Customer Success Manager - Federal",
-      "location": "",
-      "source": "Greenhouse",
-      "description": "The GreyNoise Customer Success Manager - Federal (CSM) is a part of the GreyNoise Customer Experience (CX) team.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_3745595aa43d2bf8",
+      "id": "greenhouse_lever_bc1d47407a898b35",
       "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-executive-399",
+      "company": "",
+      "title": "Account Executive",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "ניהול חשבונות לקוחות ושיפור חווית הלקוח.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_ed36f4b096b74a25",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.lever.co/pigment/72f612fb-238d-4932-ba20-2870f1612cc8",
+      "company": "Pigment",
+      "title": "Enterprise Account Executive - Israel",
+      "location": "",
+      "source": "Lever",
+      "description": "ניהול חשבונות לקוחות אסטרטגיים בישראל.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_d6e7d57f09aee093",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.lever.co/workwave/a3ac91e5-2ea7-4bec-bcf3-c9a8058415c4",
+      "company": "WorkWave",
+      "title": "Mid Market Account Manager",
+      "location": "",
+      "source": "Lever",
+      "description": "ניהול חשבונות לקוחות בשוק הביניים.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_a763168ebd5bc76d",
+      "score": 0
+    }
+  ]
 }
