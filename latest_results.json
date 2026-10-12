@@ -1,77 +1,48 @@
 {
-  "run_date": "2026-10-11T11:36:17.023651",
+  "run_date": "2026-10-12T13:30:47.328125",
   "cs": [
     {
-      "url": "https://boards.greenhouse.io/connecteam/jobs/6220864004",
-      "company": "Connecteam",
-      "title": "Strategic Customer Success Manager",
+      "url": "https://boards.greenhouse.io/hspgroup/jobs/5447765008",
+      "company": "HSP Group",
+      "title": "Customer Success Manager (CSM)",
       "location": "",
       "source": "Greenhouse",
-      "description": "ניהול הצלחת לקוחות אסטרטגיים.",
+      "description": "As a Customer Success Manager at HSP Group, you will own the relationship with a portfolio of customers after they move over from Sales.",
       "german": false,
       "physical_product": false,
       "europe_customers": true,
-      "stable_growth": true,
-      "id": "greenhouse_lever_33d37fcd3ca026d6",
-      "score": 2
+      "stable_growth": false,
+      "id": "greenhouse_lever_dce2f59322f94254",
+      "score": 1
     },
     {
-      "url": "https://boards.greenhouse.io/similarweb/jobs/5548294",
-      "company": "Similarweb",
-      "title": "Customer Success Manager",
-      "location": "Tel Aviv",
+      "url": "https://boards.greenhouse.io/gomotive/jobs/8056629002",
+      "company": "Motive",
+      "title": "Strategic Accounts Customer Success Manager (CSM IC)",
+      "location": "",
       "source": "Greenhouse",
-      "description": "ניהול הצלחת לקוחות בחברת Similarweb.",
+      "description": "Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable.",
+      "german": false,
+      "physical_product": true,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_33c0aa64e3210fa2",
+      "score": 1
+    },
+    {
+      "url": "https://boards.greenhouse.io/renaissancelearning-nam/jobs/5428871008",
+      "company": "Renaissance Learning",
+      "title": "Customer Success Manager III",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "As a Customer Success Manager (CSM) at Renaissance, you are a part of the teacher and administrator journey through onboarding, nurturing, and renewal.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "greenhouse_lever_bc1d47407a898b35",
+      "id": "greenhouse_lever_b71205989a3f893a",
       "score": 0
     }
   ],
-  "operations": [
-    {
-      "url": "https://jobs.secrettelaviv.com/job/account-executive-399",
-      "company": "",
-      "title": "Account Executive",
-      "location": "",
-      "source": "Secret Tel Aviv",
-      "description": "ניהול חשבונות לקוחות ושיפור חווית הלקוח.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "secret_tel_aviv_ed36f4b096b74a25",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.lever.co/pigment/72f612fb-238d-4932-ba20-2870f1612cc8",
-      "company": "Pigment",
-      "title": "Enterprise Account Executive - Israel",
-      "location": "",
-      "source": "Lever",
-      "description": "ניהול חשבונות לקוחות אסטרטגיים בישראל.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_d6e7d57f09aee093",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.lever.co/workwave/a3ac91e5-2ea7-4bec-bcf3-c9a8058415c4",
-      "company": "WorkWave",
-      "title": "Mid Market Account Manager",
-      "location": "",
-      "source": "Lever",
-      "description": "ניהול חשבונות לקוחות בשוק הביניים.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_a763168ebd5bc76d",
-      "score": 0
-    }
-  ]
+  "operations": []
 }

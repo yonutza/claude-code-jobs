@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 12/10/2026
+
+## Customer Success (3 משרות)
+
+1. **HSP Group** – [Customer Success Manager (CSM)](https://boards.greenhouse.io/hspgroup/jobs/5447765008)
+   _Greenhouse_
+
+2. **Motive** – [Strategic Accounts Customer Success Manager (CSM IC)](https://boards.greenhouse.io/gomotive/jobs/8056629002)
+   _Greenhouse_
+
+3. **Renaissance Learning** – [Customer Success Manager III](https://boards.greenhouse.io/renaissancelearning-nam/jobs/5428871008)
+   _Greenhouse_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 11/10/2026
 
 ## Customer Success (2 משרות)
@@ -207,15 +225,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 29/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 28/09/2026
 
 ## Customer Success (0 משרות)
 
