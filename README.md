@@ -11,6 +11,36 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 14/10/2026
+
+## Customer Success (2 משרות)
+
+1. **D2L** – [Manager, Customer Success](https://boards.greenhouse.io/d2l/jobs/8247495)
+   _Greenhouse_
+
+2. **Lively** – [Customer Success Manager](https://boards.greenhouse.io/lively43/jobs/6188504004)
+   _Greenhouse_
+
+## Account Executive / Account Manager (5 משרות)
+
+1. 🇩🇪 **חברה לא ידועה** – [Account Executive- German Speaker- Israel](https://jobs.secrettelaviv.com/job/account-executive-smb-mid-market-german-speaker)
+   _Secret Tel Aviv_
+
+2. **Cato Networks** – [Commercial Account Executive UKI](https://boards.greenhouse.io/catonetworks/jobs/4988930101)
+   _Greenhouse_
+
+3. **Trivago** – [Account Manager – Business Partners](https://jobs.secrettelaviv.com/job/account-manager-business-partners)
+   _Rishon LeZion | Secret Tel Aviv_
+
+4. **Affirm** – [Key Account Manager](https://boards.greenhouse.io/affirm/jobs/7712703003?gh_src=TheVentureCity+job+board)
+   _Greenhouse_
+
+5. 🇩🇪 **חברה לא ידועה** – [Account Executive – German-Speaking](https://jobs.secrettelaviv.com/job/account-executive-german-speaking)
+   _Secret Tel Aviv_
+
+---
+סה"כ: 7 משרות חדשות | 2 עם יתרון גרמנית 🇩🇪
+
 # דוח משרות יומי - 13/10/2026
 
 ## Customer Success (0 משרות)
@@ -223,12 +253,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 30/09/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות

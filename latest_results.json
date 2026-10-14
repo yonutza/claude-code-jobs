@@ -1,5 +1,105 @@
 {
-  "run_date": "2026-10-13T00:36:06.051126",
-  "cs": [],
-  "operations": []
+  "run_date": "2026-10-14T10:36:19.660844",
+  "cs": [
+    {
+      "url": "https://boards.greenhouse.io/d2l/jobs/8247495",
+      "company": "D2L",
+      "title": "Manager, Customer Success",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "The Manager, Customer Success is responsible for leading a high performing team in the Higher Education segment.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_471f195c5286cccf",
+      "score": 0
+    },
+    {
+      "url": "https://boards.greenhouse.io/lively43/jobs/6188504004",
+      "company": "Lively",
+      "title": "Customer Success Manager",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "We are looking for an experienced, tech-forward Customer Success Manager to join our quickly growing team.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_0aaaacf7bf903c80",
+      "score": 0
+    }
+  ],
+  "operations": [
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-executive-smb-mid-market-german-speaker",
+      "company": "",
+      "title": "Account Executive- German Speaker- Israel",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Account Executive- German Speaker- Israel.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_24f6701fa780090b",
+      "score": 2
+    },
+    {
+      "url": "https://boards.greenhouse.io/catonetworks/jobs/4988930101",
+      "company": "Cato Networks",
+      "title": "Commercial Account Executive UKI",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "Own the Sales Cycle: Manage the entire sales process for SMB and mid-market accounts.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "greenhouse_lever_095896215ee9b4d7",
+      "score": 1
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-manager-business-partners",
+      "company": "Trivago",
+      "title": "Account Manager – Business Partners",
+      "location": "Rishon LeZion",
+      "source": "Secret Tel Aviv",
+      "description": "Account Manager – Business Partners at Trivago.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_61e8364265de410d",
+      "score": 0
+    },
+    {
+      "url": "https://boards.greenhouse.io/affirm/jobs/7712703003?gh_src=TheVentureCity+job+board",
+      "company": "Affirm",
+      "title": "Key Account Manager",
+      "location": "",
+      "source": "Greenhouse",
+      "description": "The Revenue team drives Affirm’s top-line growth through strategic partnerships.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_9f682d81628e005e",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.secrettelaviv.com/job/account-executive-german-speaking",
+      "company": "",
+      "title": "Account Executive – German-Speaking",
+      "location": "",
+      "source": "Secret Tel Aviv",
+      "description": "Account Executive – German-Speaking.",
+      "german": true,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "secret_tel_aviv_22a6d17e9d05a966",
+      "score": 0
+    }
+  ]
 }
