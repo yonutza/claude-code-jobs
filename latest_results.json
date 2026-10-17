@@ -1,18 +1,46 @@
 {
-  "run_date": "2026-10-16T10:06:30.625302",
+  "run_date": "2026-10-17T09:40:22.716899",
   "cs": [
     {
-      "url": "https://www.linkedin.com/jobs/view/strategic-customer-success-manager-25823-at-yael-group-4477051989",
-      "company": "Yael Group",
-      "title": "Strategic Customer Success Manager",
+      "url": "https://www.nisha.co.il/positions/customer-success",
+      "company": "נישה השמה להייטק",
+      "title": "Customer Success",
       "location": "",
-      "source": "LinkedIn",
-      "description": "דרוש/ה Strategic Customer Success Manager ב-Yael Group.",
+      "source": "Nisha",
+      "description": "דרושים Customer Success למגוון משרות - נישה השמה להייטק",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "linkedin_75686d484cf44b68",
+      "id": "nisha_cd98a1d421652506",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.lever.co/agiloft/f16dba4e-425c-40fb-b5d8-50df399b5e4d",
+      "company": "Agiloft",
+      "title": "Strategic Customer Success Manager",
+      "location": "",
+      "source": "Lever",
+      "description": "As a Strategic Customer Success Manager (CSM) at Agiloft, you will manage a portfolio of high-value and strategically important customers",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_287c8e0305912f3e",
+      "score": 0
+    },
+    {
+      "url": "https://jobs.lever.co/momsmeals/4ad2ad2b-c12d-4760-90ae-1f09ee4a44bf",
+      "company": "Mom's Meals",
+      "title": "Customer Success Manager",
+      "location": "",
+      "source": "Lever",
+      "description": "The Customer Success Manager (CSM) is responsible for building strong client relationships",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "greenhouse_lever_bf21e90811fa91ce",
       "score": 0
     }
   ],

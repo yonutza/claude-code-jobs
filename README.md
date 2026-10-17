@@ -11,6 +11,24 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 17/10/2026
+
+## Customer Success (3 משרות)
+
+1. **נישה השמה להייטק** – [Customer Success](https://www.nisha.co.il/positions/customer-success)
+   _Nisha_
+
+2. **Agiloft** – [Strategic Customer Success Manager](https://jobs.lever.co/agiloft/f16dba4e-425c-40fb-b5d8-50df399b5e4d)
+   _Lever_
+
+3. **Mom's Meals** – [Customer Success Manager](https://jobs.lever.co/momsmeals/4ad2ad2b-c12d-4760-90ae-1f09ee4a44bf)
+   _Lever_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 3 משרות חדשות
+
 # דוח משרות יומי - 16/10/2026
 
 ## Customer Success (1 משרות)
@@ -235,18 +253,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
    _Herzliya | Secret Tel Aviv_
 
 ## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 1 משרות חדשות
-
-# דוח משרות יומי - 03/10/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (1 משרות)
-
-1. **חברה לא ידועה** – [Sales Account Manager - Europe](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8820619)
-   _AllJobs_
 
 ---
 סה"כ: 1 משרות חדשות
