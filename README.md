@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 18/10/2026
+
+## Customer Success (1 משרות)
+
+1. **Fleetworthy** – [Customer Success Manager - SMB](https://boards.greenhouse.io/bestpass/jobs/4702381006)
+   _Greenhouse_
+
+## Account Executive / Account Manager (1 משרות)
+
+1. **Kpler** – [Account Executive - Maritime - Greece](https://jobs.lever.co/kpler/3c351162-0b2f-4670-b03f-5954b50a02c1)
+   _Lever_
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 17/10/2026
 
 ## Customer Success (3 משרות)
@@ -244,15 +259,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 6 משרות חדשות
-
-# דוח משרות יומי - 04/10/2026
-
-## Customer Success (1 משרות)
-
-1. **DealHub** – [Customer Success Manager](https://jobs.secrettelaviv.com/list/category/account-manager)
-   _Herzliya | Secret Tel Aviv_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 1 משרות חדשות

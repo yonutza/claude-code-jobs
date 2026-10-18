@@ -1,48 +1,35 @@
 {
-  "run_date": "2026-10-17T09:40:22.716899",
+  "run_date": "2026-10-18T09:53:37.583367",
   "cs": [
     {
-      "url": "https://www.nisha.co.il/positions/customer-success",
-      "company": "נישה השמה להייטק",
-      "title": "Customer Success",
+      "url": "https://boards.greenhouse.io/bestpass/jobs/4702381006",
+      "company": "Fleetworthy",
+      "title": "Customer Success Manager - SMB",
       "location": "",
-      "source": "Nisha",
-      "description": "דרושים Customer Success למגוון משרות - נישה השמה להייטק",
+      "source": "Greenhouse",
+      "description": "משרה בתחום ניהול הצלחת לקוחות SMB.",
       "german": false,
       "physical_product": false,
       "europe_customers": false,
       "stable_growth": false,
-      "id": "nisha_cd98a1d421652506",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.lever.co/agiloft/f16dba4e-425c-40fb-b5d8-50df399b5e4d",
-      "company": "Agiloft",
-      "title": "Strategic Customer Success Manager",
-      "location": "",
-      "source": "Lever",
-      "description": "As a Strategic Customer Success Manager (CSM) at Agiloft, you will manage a portfolio of high-value and strategically important customers",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_287c8e0305912f3e",
-      "score": 0
-    },
-    {
-      "url": "https://jobs.lever.co/momsmeals/4ad2ad2b-c12d-4760-90ae-1f09ee4a44bf",
-      "company": "Mom's Meals",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "Lever",
-      "description": "The Customer Success Manager (CSM) is responsible for building strong client relationships",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_bf21e90811fa91ce",
+      "id": "greenhouse_lever_030563b638f91681",
       "score": 0
     }
   ],
-  "operations": []
+  "operations": [
+    {
+      "url": "https://jobs.lever.co/kpler/3c351162-0b2f-4670-b03f-5954b50a02c1",
+      "company": "Kpler",
+      "title": "Account Executive - Maritime - Greece",
+      "location": "",
+      "source": "Lever",
+      "description": "משרה בתחום ניהול חשבונות ימי ביוון.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": true,
+      "stable_growth": false,
+      "id": "greenhouse_lever_62d18f42c64385c3",
+      "score": 1
+    }
+  ]
 }
