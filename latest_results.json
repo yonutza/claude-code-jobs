@@ -1,35 +1,5 @@
 {
-  "run_date": "2026-10-18T09:53:37.583367",
-  "cs": [
-    {
-      "url": "https://boards.greenhouse.io/bestpass/jobs/4702381006",
-      "company": "Fleetworthy",
-      "title": "Customer Success Manager - SMB",
-      "location": "",
-      "source": "Greenhouse",
-      "description": "משרה בתחום ניהול הצלחת לקוחות SMB.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_030563b638f91681",
-      "score": 0
-    }
-  ],
-  "operations": [
-    {
-      "url": "https://jobs.lever.co/kpler/3c351162-0b2f-4670-b03f-5954b50a02c1",
-      "company": "Kpler",
-      "title": "Account Executive - Maritime - Greece",
-      "location": "",
-      "source": "Lever",
-      "description": "משרה בתחום ניהול חשבונות ימי ביוון.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": true,
-      "stable_growth": false,
-      "id": "greenhouse_lever_62d18f42c64385c3",
-      "score": 1
-    }
-  ]
+  "run_date": "2026-10-19T11:14:58.799406",
+  "cs": [],
+  "operations": []
 }
