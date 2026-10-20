@@ -1,5 +1,34 @@
 {
-  "run_date": "2026-10-19T11:14:58.799406",
-  "cs": [],
+  "run_date": "2026-10-20T10:24:58.788325",
+  "cs": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8852693",
+      "company": "",
+      "title": "CSM",
+      "location": "Tel Aviv-Yafo",
+      "source": "AllJobs",
+      "description": "משרות מתאימות נוספות. Customer Success Manager",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_081027e40b112d4c",
+      "score": 0
+    },
+    {
+      "url": "https://linkedin.com/jobs/view/3450783095?alternateChannel=search&refId=EUH4PBSfZNJLk9RGjVDRlA%3D%3D&trackingId=3f6Kjxz0mkLnZh054DyzAA%3D%3D",
+      "company": "OrCam",
+      "title": "Customer Success Specialist French& English",
+      "location": "",
+      "source": "LinkedIn",
+      "description": "We are looking for a high-level Support Professional/Specialist",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "linkedin_83ff838ff9e5905f",
+      "score": 0
+    }
+  ],
   "operations": []
 }

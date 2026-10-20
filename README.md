@@ -11,6 +11,21 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 20/10/2026
+
+## Customer Success (2 משרות)
+
+1. **חברה לא ידועה** – [CSM](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8852693)
+   _Tel Aviv-Yafo | AllJobs_
+
+2. **OrCam** – [Customer Success Specialist French& English](https://linkedin.com/jobs/view/3450783095?alternateChannel=search&refId=EUH4PBSfZNJLk9RGjVDRlA%3D%3D&trackingId=3f6Kjxz0mkLnZh054DyzAA%3D%3D)
+   _LinkedIn_
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 2 משרות חדשות
+
 # דוח משרות יומי - 19/10/2026
 
 ## Customer Success (0 משרות)
@@ -223,21 +238,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 06/10/2026
-
-## Customer Success (1 משרות)
-
-1. **חברה לא ידועה** – [Customer Success Manager](https://jobs.secrettelaviv.com/job/customer-success-manager-654)
-   _Secret Tel Aviv_
-
-## Account Executive / Account Manager (2 משרות)
-
-1. **AllCloud** – [Account Executive](https://jobs.secrettelaviv.com/job/account-executive-398)
-   _Secret Tel Aviv_
-
-2. **חברה לא ידועה** – [Sales & Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8841787)
-   _תל אביב יפו | AllJobs_
-
----
-סה"כ: 3 משרות חדשות
