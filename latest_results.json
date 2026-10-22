@@ -1,34 +1,5 @@
 {
-  "run_date": "2026-10-21T10:34:35.549139",
-  "cs": [
-    {
-      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8857325",
-      "company": "",
-      "title": "Customer Success Manager",
-      "location": "",
-      "source": "AllJobs",
-      "description": "As a Customer Success Manager, you will be responsible for building and maintaining relationships with our key clients. You will ensure customer satisfaction,",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "alljobs_414c0f7328fbace6",
-      "score": 0
-    },
-    {
-      "url": "https://boards.greenhouse.io/dexory/jobs/4984145101",
-      "company": "Dexory",
-      "title": "Customer Success Manager - US (South West)",
-      "location": "",
-      "source": "Greenhouse",
-      "description": "As an experienced Customer Success Manager (CSM), you will be instrumental in ensuring our customers derive maximum value from our platform, DexoryView.",
-      "german": false,
-      "physical_product": false,
-      "europe_customers": false,
-      "stable_growth": false,
-      "id": "greenhouse_lever_c4757cc22e52c1ab",
-      "score": 0
-    }
-  ],
+  "run_date": "2026-10-22T10:37:34.082480",
+  "cs": [],
   "operations": []
 }
