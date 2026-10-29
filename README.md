@@ -11,6 +11,15 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 29/10/2026
+
+## Customer Success (0 משרות)
+
+## Account Executive / Account Manager (0 משרות)
+
+---
+סה"כ: 0 משרות חדשות
+
 # דוח משרות יומי - 28/10/2026
 
 ## Customer Success (0 משרות)
@@ -157,21 +166,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 1 משרות חדשות
-
-# דוח משרות יומי - 15/10/2026
-
-## Customer Success (1 משרות)
-
-1. **Promenade** – [Customer Success Manager (CSM)](https://jobs.lever.co/promenade/11abec14-6a4c-4e6f-b9fc-2713ae92f95a/apply)
-   _Lever_
-
-## Account Executive / Account Manager (2 משרות)
-
-1. **חברה לא ידועה** – [Account Executive, SME & Growth](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8829102)
-   _AllJobs_
-
-2. **חברה לא ידועה** – [Account Executive & Channels- Israel](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8847523)
-   _AllJobs_
-
----
-סה"כ: 3 משרות חדשות
