@@ -64,6 +64,9 @@ OPS_TERMS = [
     "account executive", "account manager", "sales account manager",
     "key account manager", "strategic account manager", "senior account executive",
     "מנהל לקוחות", "מנהל תיקי לקוחות", "אקאונט",
+    # Added 2026-11-02: Pre-Sales roles share this second bucket.
+    "pre-sales", "presales", "pre sales", "solutions engineer",
+    "sales engineer", "solution consultant", "פרה סייל",
 ]
 
 
@@ -217,7 +220,7 @@ def format_report(results: dict[str, list[dict]]) -> str:
     for i, job in enumerate(results["cs"], 1):
         lines += _format_job_line(i, job)
 
-    lines += [f"## Account Executive / Account Manager ({len(results['operations'])} משרות)", ""]
+    lines += [f"## Account Executive / Account Manager / Pre-Sales ({len(results['operations'])} משרות)", ""]
     for i, job in enumerate(results["operations"], 1):
         lines += _format_job_line(i, job)
 

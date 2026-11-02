@@ -197,3 +197,9 @@ credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סוד
 - **Repo:** `yonutza/claude-code-jobs`
 - **Branch:** `claude/job-scraper-agent-adj5hh` (זהו למעשה הענף הראשי היחיד בשימוש)
 - **Environment:** `env_014CNg8FsZwTr5U93c8tBH4x`
+
+## עדכון 2026-11-02 — Pre-Sales
+
+הקטגוריה השנייה (מפתח `"operations"`) כוללת עכשיו גם Pre-Sales / Solutions Engineer / Sales
+Engineer (נוסף ל-`config.json` → `search_terms.operations` ול-`job_scraper.OPS_TERMS`), בנוסף ל-
+Account Executive/Manager. כותרת הדוח: "Account Executive / Account Manager / Pre-Sales".
