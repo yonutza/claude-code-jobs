@@ -1,5 +1,20 @@
 {
-  "run_date": "2026-11-01T12:02:17.298840",
-  "cs": [],
+  "run_date": "2026-11-02T13:50:02.630796",
+  "cs": [
+    {
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8807319",
+      "company": "",
+      "title": "Customer Experience Representative",
+      "location": "",
+      "source": "AllJobs",
+      "description": "Joining our team in Israel, helping our customers have a unique customer experience.",
+      "german": false,
+      "physical_product": false,
+      "europe_customers": false,
+      "stable_growth": false,
+      "id": "alljobs_cd62592a736aa76a",
+      "score": 0
+    }
+  ],
   "operations": []
 }
