@@ -26,6 +26,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
@@ -69,8 +70,12 @@ def build_queries(config):
             continue
         domains = SOURCE_DOMAINS[source]
         for category, terms in search_terms.items():
-            term_clause = " OR ".join(f'"{t}"' for t in terms[:4])
-            queries.append((category, f"{term_clause} job Israel", domains))
+            # All terms are searched (the old terms[:4] silently dropped the
+            # Hebrew ones), in groups of 3 so each query stays focused and
+            # returns different top results than a single giant OR query.
+            for i in range(0, len(terms), 3):
+                term_clause = " OR ".join(f'"{t}"' for t in terms[i:i + 3])
+                queries.append((category, f"{term_clause} job Israel", domains))
 
     german_cfg = config.get("german_preference", {})
     if german_cfg.get("enabled"):
@@ -117,8 +122,9 @@ def search_jobs(tavily, queries):
             resp = tavily.search(
                 query=query,
                 include_domains=domains,
-                max_results=8,
+                max_results=12,
                 search_depth="advanced",
+                time_range="month",  # only recent postings; old ones are mostly closed/seen
             )
         except Exception as e:
             log(f"Tavily search failed for query {query!r}: {e}")
@@ -183,7 +189,21 @@ Items (JSON array):
 """
 
 
+EXTRACT_BATCH_SIZE = 25
+
+
 def extract_with_gpt(openai_client, hits):
+    # More queries means more hits; one giant prompt previously blew OpenAI's
+    # 30k tokens-per-minute limit (429), so go in batches with a pause.
+    jobs = []
+    for i in range(0, len(hits), EXTRACT_BATCH_SIZE):
+        if i:
+            time.sleep(20)
+        jobs.extend(_extract_batch(openai_client, hits[i:i + EXTRACT_BATCH_SIZE]))
+    return jobs
+
+
+def _extract_batch(openai_client, hits):
     if not hits:
         return []
 
