@@ -11,6 +11,72 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 03/11/2026
+
+## Customer Success (9 משרות)
+
+1. **חברה לא ידועה** – [French Speaking Customer Success Manager](https://jobs.secrettelaviv.com/job/french-speaking-customer-success-manager)
+   _Secret Tel Aviv_
+
+2. **חברה לא ידועה** – [דרושים Customer Success Manager בתל אביב יפו](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8811091)
+   _תל אביב יפו | AllJobs_
+
+3. **חברה לא ידועה** – [Customer Success Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8812548)
+   _AllJobs_
+
+4. **אורטל משאבי אנוש** – [דרושים רפרנט /ית לקוחות אסטרטגיים - ממוצע שכר כ12K בתל אביב יפו](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8845523)
+   _תל אביב יפו | AllJobs_
+
+5. **חברה לא ידועה** – [דרושים מנהל שירות לקוחות וצרכנות](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8847884)
+   _AllJobs_
+
+6. **Heidi** – [Customer Success Manager, Mid-Market](https://www.linkedin.com/jobs/view/customer-success-manager-mid-market-expression-of-interest-at-heidi-4482165380)
+   _LinkedIn_
+
+7. **חברה לא ידועה** – [Enterprise Customer Success Manager](https://jobs.secrettelaviv.com/job/enterprise-customer-success-manager-39)
+   _Secret Tel Aviv_
+
+8. **BlueCat** – [Customer Success Manager](https://jobs.lever.co/bluecatnetworks/c877087a-52e5-4509-a952-0a98c568b50b/apply)
+   _Toronto Office / Canada - Remote | Lever_
+
+9. **Long View Systems** – [Manager, Client Success](https://jobs.lever.co/lvs1/0b4128ea-3f63-4ff4-8d9b-9e6a4b245e59/apply)
+   _Lever_
+
+## Account Executive / Account Manager / Pre-Sales (10 משרות)
+
+1. **AllCloud** – [Enterprise Account Executive](https://jobs.secrettelaviv.com/job/enterprise-account-executive-138)
+   _Secret Tel Aviv_
+
+2. **ABB** – [Sales Engineer – Instrumentation & Analytics](https://www.linkedin.com/jobs/view/sales-engineer-%E2%80%93-instrumentation-analytics-at-abb-4477410769)
+   _Caesarea, Haifa District, Israel | LinkedIn_
+
+3. **Mitsogo Inc** – [Presales Consultant](https://boards.greenhouse.io/mitsogoinc/jobs/5073525008)
+   _Greenhouse_
+
+4. **Cato Networks** – [Channel Sales Engineer](https://boards.greenhouse.io/catonetworks/jobs/5015227101)
+   _Greenhouse_
+
+5. **Apollo.io** – [GTM Solutions Consultant II (Presales)](https://boards.greenhouse.io/apolloio/jobs/6223780004)
+   _Greenhouse_
+
+6. **חברה לא ידועה** – [Account Manager - Business Partners](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8823657)
+   _AllJobs_
+
+7. **Novee Security** – [Sales Engineer- Channel](https://www.linkedin.com/jobs/view/sales-engineer-channel-at-novee-security-4477590235)
+   _LinkedIn_
+
+8. **חברה לא ידועה** – [SMB Account Executive - Israel Market](https://jobs.secrettelaviv.com/job/enterprise-account-manager-israel-market)
+   _Secret Tel Aviv_
+
+9. **Taboola** – [Programmatic Account Manager- Maternity Leave Cover](https://jobs.secrettelaviv.com/job/programatic-account-manager-maternity-leave-cover)
+   _Secret Tel Aviv_
+
+10. **חברה לא ידועה** – [Ad Operations Account Manager](https://jobs.secrettelaviv.com/job/ad-operations-account-manager-2)
+   _Secret Tel Aviv_
+
+---
+סה"כ: 19 משרות חדשות
+
 # דוח משרות יומי - 02/11/2026
 
 ## Customer Success (1 משרות)
@@ -131,21 +197,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 2. **Dexory** – [Customer Success Manager - US (South West)](https://boards.greenhouse.io/dexory/jobs/4984145101)
    _Greenhouse_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 2 משרות חדשות
-
-# דוח משרות יומי - 20/10/2026
-
-## Customer Success (2 משרות)
-
-1. **חברה לא ידועה** – [CSM](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8852693)
-   _Tel Aviv-Yafo | AllJobs_
-
-2. **OrCam** – [Customer Success Specialist French& English](https://linkedin.com/jobs/view/3450783095?alternateChannel=search&refId=EUH4PBSfZNJLk9RGjVDRlA%3D%3D&trackingId=3f6Kjxz0mkLnZh054DyzAA%3D%3D)
-   _LinkedIn_
 
 ## Account Executive / Account Manager (0 משרות)
 
