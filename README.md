@@ -11,6 +11,36 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 04/11/2026
+
+## Customer Success (2 משרות)
+
+1. **BlueCat** – [Customer Success Manager](https://jobs.lever.co/bluecatnetworks/1a7027d0-d42a-48d3-a7bc-fddec5b9f635/apply)
+   _Lever_
+
+2. **Heidi** – [Customer Success Manager, Mid-Market](https://www.linkedin.com/jobs/view/customer-success-manager-mid-market-expression-of-interest-at-heidi-4482164326)
+   _LinkedIn_
+
+## Account Executive / Account Manager / Pre-Sales (5 משרות)
+
+1. **Kpler** – [Account Manager (Financial) - EMEA](https://jobs.lever.co/kpler/ec047856-55e1-4f01-b882-7f609c11fb3d)
+   _Lever_
+
+2. **Dendreon Pharmaceuticals LLC** – [Key Account Manager - Upstate New York](https://boards.greenhouse.io/dendreon/jobs/4450636009)
+   _Greenhouse_
+
+3. **Integrated Production Solutions (IPS)** – [Integration Account Manager](https://www.linkedin.com/jobs/view/integration-account-manager-at-integrated-production-solutions-ips-4485731309)
+   _LinkedIn_
+
+4. **Workato** – [Account Executive](https://boards.greenhouse.io/workato/jobs/8921187002)
+   _Greenhouse_
+
+5. **Zadara** – [Account Manager](https://jobs.lever.co/Zadara/0d55223e-e479-4b2f-9d45-ae7d3a7e103e)
+   _Lever_
+
+---
+סה"כ: 7 משרות חדשות
+
 # דוח משרות יומי - 03/11/2026
 
 ## Customer Success (9 משרות)
@@ -187,18 +217,3 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 
 ---
 סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 21/10/2026
-
-## Customer Success (2 משרות)
-
-1. **חברה לא ידועה** – [Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8857325)
-   _AllJobs_
-
-2. **Dexory** – [Customer Success Manager - US (South West)](https://boards.greenhouse.io/dexory/jobs/4984145101)
-   _Greenhouse_
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 2 משרות חדשות
