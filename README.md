@@ -11,6 +11,54 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 05/11/2026
+
+## Customer Success (6 משרות)
+
+1. **Xsolla** – [Customer Success Manager](https://jobs.lever.co/xsolla/f84f5fea-c0d4-4127-9e43-2eb15c409eb0)
+   _Lever_
+
+2. **Pigment** – [Customer Success Manager](https://jobs.lever.co/pigment/d464e390-99e5-4ba3-8c0e-5af6731ac578)
+   _Lever_
+
+3. **Gridware** – [Customer Success Manager](https://jobs.lever.co/gridware/00572483-8262-47cd-8b42-2f9879832827?lever-source%5B%5D=jobs.fiftyyears.com)
+   _Lever_
+
+4. **BlueCat** – [Customer Success Manager](https://jobs.lever.co/bluecatnetworks/8725ecf1-b9d2-447e-b699-907ff7717f81)
+   _Lever_
+
+5. **Shield AI** – [Instructor & Customer Success Manager](https://jobs.lever.co/shieldai/94b09fd5-2e83-496d-9194-b8d9e8b28dfd)
+   _Lever_
+
+6. **Blinq** – [Customer Success Manager](https://jobs.lever.co/blinq/ea7bdc65-62e3-4a45-8956-678788d884f0)
+   _Lever_
+
+## Account Executive / Account Manager / Pre-Sales (7 משרות)
+
+1. **ARC'TERYX** – [Account Manager, PRO - USA](https://jobs.lever.co/arcteryx.com/dff6a75a-bebf-44ad-a4b7-263b61bc2261)
+   _Lever_
+
+2. **ARC'TERYX** – [Account Manager, South Central – USA](https://jobs.lever.co/arcteryx.com/20535091-31d6-4cfe-b6bd-acdc6ca88ead)
+   _Lever_
+
+3. **LG Electronics** – [Component Solutions Sales Engineer](https://boards.greenhouse.io/lgelectronics/jobs/5442851008)
+   _Greenhouse_
+
+4. **חברה לא ידועה** – [דרושים Account Executive](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8838951)
+   _תל אביב יפו | AllJobs_
+
+5. **חברה לא ידועה** – [דרושים Major Account Manager - Telco/Service Providers](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8834408)
+   _תל אביב יפו | AllJobs_
+
+6. **חברה לא ידועה** – [דרושים Technical Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8847685)
+   _תל אביב יפו | AllJobs_
+
+7. **חברה לא ידועה** – [דרושים Account Manager - Professional Services](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8847607)
+   _בני ברק | AllJobs_
+
+---
+סה"כ: 13 משרות חדשות
+
 # דוח משרות יומי - 04/11/2026
 
 ## Customer Success (2 משרות)
@@ -201,15 +249,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 23/10/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 22/10/2026
 
 ## Customer Success (0 משרות)
 
