@@ -11,6 +11,27 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 06/11/2026
+
+## Customer Success (1 משרות)
+
+1. **BlueCat** – [Customer Success Manager](https://jobs.lever.co/bluecatnetworks/9d90378c-bf99-4a30-b2b0-28cde1e38114/apply)
+   _Lever_
+
+## Account Executive / Account Manager / Pre-Sales (3 משרות)
+
+1. **חברה לא ידועה** – [Account Executive - Enterprise Sector](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8887946)
+   _AllJobs_
+
+2. **Novee Security** – [Sales Engineer (US Southeast / Mid-Atlantic / LATAM)](https://www.linkedin.com/jobs/view/sales-engineer-us-southeast-mid-atlantic-latam-at-novee-security-4452944150)
+   _LinkedIn_
+
+3. **Block** – [SMB Account Executive](https://boards.greenhouse.io/block/jobs/5428440008)
+   _Greenhouse_
+
+---
+סה"כ: 4 משרות חדשות
+
 # דוח משרות יומי - 05/11/2026
 
 ## Customer Success (6 משרות)
@@ -240,15 +261,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 24/10/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 23/10/2026
 
 ## Customer Success (0 משרות)
 
