@@ -11,6 +11,27 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 07/11/2026
+
+## Customer Success (1 משרות)
+
+1. **BlueCat** – [Manager, Customer Success Management](https://jobs.lever.co/bluecatnetworks/b354bb52-8199-4123-ad64-bb776528832c/apply)
+   _Lever_
+
+## Account Executive / Account Manager / Pre-Sales (3 משרות)
+
+1. **EliseAI** – [Mid Market Account Executive | Healthcare](https://www.linkedin.com/jobs/view/mid-market-account-executive-healthcare-at-eliseai-4485824252?gh_src=Israel+VC+Forum+job+board)
+   _LinkedIn_
+
+2. **General Dynamics Information Technology** – [EHR Training Solution Consultant](https://www.linkedin.com/jobs/view/ehr-training-solution-consultant-at-general-dynamics-information-technology-4482460165)
+   _LinkedIn_
+
+3. **Jobgether** – [Solutions Engineer](https://jobs.lever.co/jobgether/1d426885-e366-40eb-894e-291c56ac0fd9)
+   _Lever_
+
+---
+סה"כ: 4 משרות חדשות
+
 # דוח משרות יומי - 06/11/2026
 
 ## Customer Success (1 משרות)
@@ -252,15 +273,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 25/10/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 24/10/2026
 
 ## Customer Success (0 משרות)
 
