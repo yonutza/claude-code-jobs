@@ -11,6 +11,33 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 08/11/2026
+
+## Customer Success (1 משרות)
+
+1. **AllJobs** – [Technical Customer Success Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8859776)
+   _תל אביב יפו | AllJobs_
+
+## Account Executive / Account Manager / Pre-Sales (5 משרות)
+
+1. **BillionToOne** – [Strategic Account Manager](https://boards.greenhouse.io/billiontoone/jobs/4747912005)
+   _Greenhouse_
+
+2. 🇩🇪 **AllJobs** – [Sales Account Manager](https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8835446)
+   _הרצליה | AllJobs_
+
+3. **OPSWAT** – [Account Executive (Utilities)](https://boards.greenhouse.io/opswat/jobs/4625435005)
+   _Greenhouse_
+
+4. **Whereby** – [Strategic Account Manager](https://jobs.lever.co/whereby/b86f09d5-cafe-4030-9426-7344c8c1854a)
+   _Lever_
+
+5. **Jobgether** – [Solutions Engineer](https://jobs.lever.co/jobgether/1d426885-e366-40eb-894e-291c56ac0fd9/apply)
+   _Lever_
+
+---
+סה"כ: 6 משרות חדשות | 1 עם יתרון גרמנית 🇩🇪
+
 # דוח משרות יומי - 07/11/2026
 
 ## Customer Success (1 משרות)
@@ -264,15 +291,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 26/10/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 25/10/2026
 
 ## Customer Success (0 משרות)
 
