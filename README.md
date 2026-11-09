@@ -11,6 +11,39 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
   applications are dropped before the report is written.
 - Keeps the last 14 days of reports below, so a missed day is still visible.
 
+# דוח משרות יומי - 09/11/2026
+
+## Customer Success (5 משרות)
+
+1. **Kenko AI** – [Customer Success Manager](https://jobs.lever.co/kenko/970b5c5f-ef8f-4b1a-b968-a49bd2baeb7d)
+   _Lever_
+
+2. **Gridware** – [Customer Success Manager](https://jobs.lever.co/gridware/00572483-8262-47cd-8b42-2f9879832827)
+   _Lever_
+
+3. **Tusker** – [Manager of Customer Success](https://jobs.lever.co/tusker/f1cf012f-c0b4-4038-affa-9633d1620a86)
+   _Lever_
+
+4. **Magnet Forensics** – [Manager, Customer Success](https://jobs.lever.co/magnetforensics/79dd6472-d26d-411a-b5d5-9015ed3408d0)
+   _Lever_
+
+5. **Fours** – [Customer Success Manager - Enterprise](https://jobs.lever.co/fours/de8f81f7-f16d-4449-b668-a3a54a1288bc)
+   _Lever_
+
+## Account Executive / Account Manager / Pre-Sales (3 משרות)
+
+1. **Ambi Robotics** – [Solutions Engineer](https://jobs.lever.co/ambirobotics/0b3bbc91-6cfa-4718-b3c1-1da6055ff57e)
+   _Lever_
+
+2. **CI Azumano** – [Strategic Account Manager](https://boards.greenhouse.io/ciazumano/jobs/4747600005)
+   _Greenhouse_
+
+3. **Lightcast** – [Sales Solutions Engineer - 1079](https://jobs.lever.co/economicmodeling/937c703c-975e-441e-8a50-c453138edf16)
+   _Lever_
+
+---
+סה"כ: 8 משרות חדשות
+
 # דוח משרות יומי - 08/11/2026
 
 ## Customer Success (1 משרות)
@@ -282,15 +315,6 @@ scored by GPT-4o, filtered/deduplicated by job_scraper.py.
 סה"כ: 0 משרות חדשות
 
 # דוח משרות יומי - 27/10/2026
-
-## Customer Success (0 משרות)
-
-## Account Executive / Account Manager (0 משרות)
-
----
-סה"כ: 0 משרות חדשות
-
-# דוח משרות יומי - 26/10/2026
 
 ## Customer Success (0 משרות)
 
