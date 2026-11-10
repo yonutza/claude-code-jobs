@@ -117,6 +117,7 @@ def source_for_url(url: str) -> str:
 def search_jobs(tavily, queries):
     raw_hits = {}
     skipped_listing = 0
+    failed_queries = 0
     for category, query, domains in queries:
         try:
             resp = tavily.search(
@@ -128,6 +129,7 @@ def search_jobs(tavily, queries):
             )
         except Exception as e:
             log(f"Tavily search failed for query {query!r}: {e}")
+            failed_queries += 1
             continue
         for r in resp.get("results", []):
             url = r.get("url")
@@ -150,7 +152,7 @@ def search_jobs(tavily, queries):
         domain_counts[domain] = domain_counts.get(domain, 0) + 1
     log(f"Skipped {skipped_listing} listing/search-result pages.")
     log(f"Remaining hits by domain: {domain_counts}")
-    return hits
+    return hits, failed_queries
 
 
 EXTRACTION_PROMPT = """\
@@ -317,8 +319,14 @@ def main():
 
     queries = build_queries(config)
     log(f"Running {len(queries)} Tavily queries...")
-    hits = search_jobs(tavily, queries)
+    hits, failed_queries = search_jobs(tavily, queries)
     log(f"Found {len(hits)} raw search hits.")
+    if queries and failed_queries == len(queries):
+        # Every search failed (e.g. Tavily usage limit hit). Fail loudly and do
+        # NOT write today's run_date - otherwise the day looks "scanned" with 0
+        # results and the later retry attempts skip instead of trying again.
+        log("All Tavily queries failed - aborting without recording a scan.")
+        sys.exit(1)
 
     # Dedup against already-reported URLs BEFORE spending GPT tokens on them -
     # the dedup ID only depends on the URL (via source_for_url + hash), so

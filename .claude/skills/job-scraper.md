@@ -203,3 +203,10 @@ credential מוטמע (בקרת אבטחה מכוונת נגד הדלפת סוד
 הקטגוריה השנייה (מפתח `"operations"`) כוללת עכשיו גם Pre-Sales / Solutions Engineer / Sales
 Engineer (נוסף ל-`config.json` → `search_terms.operations` ול-`job_scraper.OPS_TERMS`), בנוסף ל-
 Account Executive/Manager. כותרת הדוח: "Account Executive / Account Manager / Pre-Sales".
+
+## עדכון 2026-11-10 — כישלון שקט ב-Tavily
+
+מכסת Tavily נגמרה (אחרי הכפלת מספר השאילתות ב-2.11) וכל החיפושים נכשלו, אבל הריצה סומנה
+"הצלחה" וכתבה `run_date` של היום עם תוצאות ריקות — כך שניסיונות החוזרים דילגו וההתראה דיווחה
+"0 חדשות". תוקן: אם **כל** השאילתות נכשלות, `scan.py` יוצא עם `sys.exit(1)` לפני כתיבת
+`run_date` (ריצה אדומה, והניסיונות הבאים באותו יום ינסו שוב). קודם נגמר גם קרדיט OpenAI (429).
