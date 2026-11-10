@@ -66,7 +66,7 @@ OPS_TERMS = [
     "מנהל לקוחות", "מנהל תיקי לקוחות", "אקאונט",
     # Added 2026-11-02: Pre-Sales roles share this second bucket.
     "pre-sales", "presales", "pre sales", "solutions engineer",
-    "sales engineer", "solution consultant", "פרה סייל",
+    "solution consultant", "פרה סייל",
 ]
 
 

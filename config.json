@@ -1,7 +1,7 @@
 {
   "search_terms": {
     "cs": ["customer success", "customer success manager", "CSM"],
-    "operations": ["account executive", "account manager", "sales account manager", "key account manager", "strategic account manager", "pre-sales", "presales", "solutions engineer", "sales engineer"]
+    "operations": ["account executive", "account manager", "sales account manager", "key account manager", "strategic account manager", "pre-sales", "presales", "solutions engineer"]
   },
   "filters": {
     "exclude_seniority": ["senior", "sr.", "lead", "head of", "director", "vp", "principal", "staff", "בכיר"],

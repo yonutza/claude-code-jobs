@@ -216,3 +216,5 @@ Account Executive/Manager. כותרת הדוח: "Account Executive / Account Man
 עלות Tavily). שאילתות נשארו בקבוצות של 3: 6 אתרים × 4 קבוצות + 4 שאילתות גרמנית = 28 ביום
 (~56 קרדיטים, ~1,700 בחודש; התוכנית החינמית היא 1,000). מילות הסיווג העבריות ב-`job_scraper.py`
 נשארו (אין להן עלות).
+
+- 2026-11-10: הוסר גם `sales engineer` (מ-`config.json` ומ-`job_scraper.OPS_TERMS`) לבקשת המשתמש; `solutions engineer` נשאר.
