@@ -302,7 +302,14 @@ def already_scanned_today() -> bool:
     return run_date[:10] == today
 
 
+PAUSE_UNTIL = "2026-12-01"  # scans are paused (no-op) before this UTC date; set "" to disable
+
+
 def main():
+    if PAUSE_UNTIL and datetime.now(timezone.utc).date().isoformat() < PAUSE_UNTIL:
+        log(f"Scanning paused until {PAUSE_UNTIL} - skipping.")
+        return
+
     if already_scanned_today():
         log("Already scanned successfully today - skipping this retry attempt.")
         return

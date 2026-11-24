@@ -218,3 +218,6 @@ Account Executive/Manager. כותרת הדוח: "Account Executive / Account Man
 נשארו (אין להן עלות).
 
 - 2026-11-10: הוסר גם `sales engineer` (מ-`config.json` ומ-`job_scraper.OPS_TERMS`) לבקשת המשתמש; `solutions engineer` נשאר.
+
+## השהיה עד 2026-12-01 (נקבעה 2026-11-24)
+לבקשת המשתמש: `PAUSE_UNTIL = "2026-12-01"` ב-`scan.py` (no-op לפני התאריך, חוזר לבד אחריו; "" לביטול מוקדם) וה-prompt של ה-RemoteTrigger מורה לא לעשות כלום לפני 1.12. אחרי החידוש אפשר להסיר את שני ההגבלות.
