@@ -58,6 +58,13 @@ def load_config():
     return config
 
 
+# Tavily free plan = 1,000 credits/month; advanced search costs 2. One query per
+# source+category (all terms OR-ed) + 2 German queries = 14 queries/day ~ 840
+# credits/month. Lower TERMS_PER_QUERY for more, narrower queries (costs more).
+TERMS_PER_QUERY = 10
+GERMAN_QUERIES = 2
+
+
 def build_queries(config):
     # Tavily is a semantic search API, not a literal search-operator engine -
     # domain scoping must go through include_domains, not a "site:" token in
@@ -73,14 +80,14 @@ def build_queries(config):
             # All terms are searched (the old terms[:4] silently dropped the
             # Hebrew ones), in groups of 3 so each query stays focused and
             # returns different top results than a single giant OR query.
-            for i in range(0, len(terms), 3):
-                term_clause = " OR ".join(f'"{t}"' for t in terms[i:i + 3])
+            for i in range(0, len(terms), TERMS_PER_QUERY):
+                term_clause = " OR ".join(f'"{t}"' for t in terms[i:i + TERMS_PER_QUERY])
                 queries.append((category, f"{term_clause} job Israel", domains))
 
     german_cfg = config.get("german_preference", {})
     if german_cfg.get("enabled"):
         all_domains = sorted({d for domains in SOURCE_DOMAINS.values() for d in domains})
-        for term in german_cfg.get("search_terms", [])[:4]:
+        for term in german_cfg.get("search_terms", [])[:GERMAN_QUERIES]:
             queries.append(("cs", f'"{term}" customer success OR account executive OR account manager Israel jobs', all_domains))
 
     return queries
